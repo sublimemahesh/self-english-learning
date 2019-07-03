@@ -21,44 +21,55 @@
                             <span class="sidenav-label">Writting</span>
                         </a>
                         <ul class="sidenav level-2 collapse"> 
-                            <li><a href="#"> Leassion 01</a></li>                             
-                            <li><a href="#"> Leassion 02</a></li>                             
-                            <li><a href="#"> Leassion 03</a></li>                             
-                            <li><a href="#"> Leassion 04</a></li>                             
-                            <li><a href="#"> Leassion 05</a></li>                             
+                            <li><a href="#"> Essay writing</a></li>                             
+                            <li><a href="#"> Formal Letters</a></li>                             
+                            <li><a href="#"> Informal Letters</a></li>                             
+                            <li><a href="#"> Grammar</a></li>                             
+                            <li><a href="#"> Picture Description</a></li>                             
                         </ul>
                     </li>
 
                     <li class="sidenav-item  has-subnav ">
                         <a href="#" aria-haspopup="true">
-                            <span class="sidenav-icon icon icon-works">&#110;</span>
-                            <span class="sidenav-label">listening</span>
+                            <span class="sidenav-icon icon icon-works">&#122;</span>
+                            <span class="sidenav-label">Speaking</span>
                         </a>
                         <ul class="sidenav level-2 collapse"> 
-                            <li><a href="#"> Leassion 01</a></li>                             
-                            <li><a href="#"> Leassion 02</a></li>                             
-                            <li><a href="#"> Leassion 03</a></li>                             
-                            <li><a href="#"> Leassion 04</a></li>                             
-                            <li><a href="#"> Leassion 05</a></li>                             
+                            <li><a href="#"> Telephone Conversation</a></li>                             
+                            <li><a href="#"> Interviews</a></li>                             
+                            <li><a href="#"> Short Talk</a></li>                             
+                            <li><a href="#"> Questionnaire </a></li>                            
                         </ul>
                     </li>
                     <li class="sidenav-item  has-subnav ">
                         <a href="#" aria-haspopup="true">
                             <span class="sidenav-icon icon icon-works">&#97;</span>
-                            <span class="sidenav-label">Grammar</span>
+                            <span class="sidenav-label">Reading</span>
                         </a>
                         <ul class="sidenav level-2 collapse"> 
-                            <li><a href="#"> Leassion 01</a></li>                             
-                            <li><a href="#"> Leassion 02</a></li>                             
-                            <li><a href="#"> Leassion 03</a></li>                             
-                            <li><a href="#"> Leassion 04</a></li>                             
-                            <li><a href="#"> Leassion 05</a></li>                             
+                            <li><a href="#"> Vocabulary</a></li>                             
+                            <li><a href="#"> Fluency 02</a></li>                             
+                            <li><a href="#"> Short stories</a></li>                             
+                            <li><a href="#"> Article</a></li>                             
+                            <li><a href="#"> Notice</a></li>                             
+                        </ul>
+                    </li>
+                    <li class="sidenav-item  has-subnav ">
+                        <a href="#" aria-haspopup="true">  
+                            <span class="sidenav-icon icon icon-works">&#82;</span>
+                            <span class="sidenav-label">Listening</span>
+                        </a>
+                        <ul class="sidenav level-2 collapse"> 
+                            <li><a href="#"> Audio Clips </a></li>                             
+                            <li><a href="#"> Video Clips</a></li>                             
+                            <li><a href="#"> Listening Dialogues</a></li>                             
                         </ul>
                     </li>
                     <li class="sidenav-heading">Questionary</li>
                     <li class="sidenav-item  has-subnav ">
                         <a href="#" aria-haspopup="true">
-                            <span class="sidenav-icon icon icon-works">&#73;</span>
+                        
+                            <span class="sidenav-icon icon icon-works">&#105;</span>
                             <span class="sidenav-label">Test Questions</span>
                         </a>
                         <ul class="sidenav level-2 collapse"> 
