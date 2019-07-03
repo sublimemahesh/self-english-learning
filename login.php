@@ -19,11 +19,11 @@
         <link rel="stylesheet" href="css/login-2.min.css">
         <link href="css/jquery.formValid.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body class="log-bck">
         <div class="login">
             <div class="login-body">
                 <a class="login-brand" href="index-2.html">
-                    <img class="img-responsive" src="img/logo.svg" alt="Elephant">
+                    <img class="img-responsive" src="img/logo.png" alt="self english learning">
                 </a>
                 <div class="login-form">
                     <form   id="form">
@@ -38,11 +38,11 @@
                             <div class="valid-message"></div>
                         </div>
                         <div class="form-group">
-                            <label class="custom-control custom-control-primary custom-checkbox">
+<!--                            <label class="custom-control custom-control-primary custom-checkbox">
                                 <input class="custom-control-input" type="checkbox" checked="checked">
                                 <span class="custom-control-indicator"></span>
                                 <span class="custom-control-label">Keep me signed in</span>
-                            </label>
+                            </label>-->
                             <span aria-hidden="true"> · </span>
                             <a href="#">Forgot password?</a>
 
@@ -54,10 +54,11 @@
                         <button class="btn btn-primary btn-block" type="submit"  >Sign in</button>
                     </form>
                 </div>
-            </div>
-            <div class="login-footer">
+                 <div class="login-footer">
                 Don't have an account? <a href="registration.php">Sign Up</a>
             </div>
+            </div>
+           
         </div>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/jquery.formValid.js" type="text/javascript"></script>
