@@ -16,9 +16,9 @@ class Student {
     public $id;
     public $full_name;
     public $student_id;
-    public $email;
-    public $address;
+    public $email; 
     public $batch;
+    public $birth_date;
     public $age;
     public $password;
 
@@ -26,7 +26,7 @@ class Student {
 
         if ($id) {
 
-            $query = "SELECT *FROM `student` WHERE `id`=" . $id;
+            $query = "SELECT * FROM `student` WHERE `id`=" . $id;
 
             $db = new Database();
 
@@ -35,9 +35,9 @@ class Student {
             $this->id = $result['id'];
             $this->full_name = $result['full_name'];
             $this->student_id = $result['student_id'];
-            $this->email = $result['email'];
-            $this->address = $result['address'];
+            $this->email = $result['email']; 
             $this->batch = $result['batch'];
+            $this->birth_date = $result['birth_date'];
             $this->age = $result['age'];
             $this->password = $result['password'];
 
@@ -47,12 +47,12 @@ class Student {
 
     public function create() {
 
-        $query = "INSERT INTO `student` (`full_name`, `student_id`, `email`,`address`,`batch`,`age`,`password`) VALUES  ('"
+        $query = "INSERT INTO `student` (`full_name`, `student_id`, `email`, `batch`,`birth_date`,`age`,`password`) VALUES  ('"
                 . $this->full_name . "','"
                 . $this->student_id . "', '"
-                . $this->email . "', '"
-                . $this->address . "', '"
+                . $this->email . "', '" 
                 . $this->batch . "', '"
+                . $this->birth_date . "', '"
                 . $this->age . "', '"
                 . $this->password . "')";
 
@@ -73,7 +73,7 @@ class Student {
 
         $enPass = md5($password);
 
-        $query = "SELECT `id`,`full_name`,`student_id`,`email`,`address`,`batch`,`age` FROM `student` WHERE `student_id`= '" . $student_id . "' AND `password`= '" . $enPass . "'";
+        $query = "SELECT `id`,`full_name`,`student_id`,`email`, `batch`,`age` FROM `student` WHERE `student_id`= '" . $student_id . "' AND `password`= '" . $enPass . "'";
 
         $db = new Database();
 
@@ -168,8 +168,7 @@ class Student {
         unset($_SESSION["id"]);
         unset($_SESSION["full_name"]);
         unset($_SESSION["email"]);
-        unset($_SESSION["student_id"]);
-        unset($_SESSION["address"]);
+        unset($_SESSION["student_id"]); 
         unset($_SESSION["batch"]);
         unset($_SESSION["username"]);
 

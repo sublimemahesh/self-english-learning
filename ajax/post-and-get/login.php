@@ -7,15 +7,17 @@ $STUDENT = new Student(NULL);
 $student_id = filter_var($_POST['student_id'], FILTER_SANITIZE_STRING);
 $password = $_POST['password'];
 
-if ($STUDENT->login($student_id, $password)) {
 
-    $result = ["status" => 'success',];
-    echo json_encode($result);
+if ($STUDENT->login($student_id, $password)) {
+    $response['status'] = 'success';
+    echo json_encode($response);
     exit();
 } else {
-    $result = ["status" => 'error'];
-    echo json_encode($result);
+    $response['status'] = 'error';
+    $response['message'] = "Student ID or Password went wrong.";
+    echo json_encode($response);
     exit();
+     
 }
 ?>
  
