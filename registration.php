@@ -17,14 +17,14 @@
         <link href="css/jquery.formValid.css" rel="stylesheet" type="text/css"/>
     </head>
 
-    <body>
+    <body class="reg-bck">
         <div class="signup">
             <div class="signup-body">
-                <a class="signup-brand" href="index-2.html">
-                    <img class="img-responsive" src="img/logo.svg" alt="Elephant">
+                <a class="signup-brand" href="#">
+                    <img class="img-responsive" src="img/logo.png" alt="Elephant">
                 </a>
                 <p class="signup-heading">
-                    <em>Get started with a free account. 30 day free trial, unlimited users, no credit card required.</em>
+                    <em>Student Registration</em>
                 </p>  
                 <div class="signup-form">
                     <form  method="POST" id="form"  >
@@ -138,10 +138,12 @@
                         <button class="btn btn-primary btn-block" type="submit"  >Sign up</button> 
                     </form> 
                 </div>
-            </div>
-            <div class="signup-footer">
+                
+                 <div class="signup-footer">
                 Already have an account? <a href="login.php">Log in</a>
             </div>
+            </div>
+           
         </div>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/vendor.min.js"></script>
