@@ -24,6 +24,7 @@ class Student {
     public $authToken;
     public $lastLogin;
     public $status;
+    public $level;
 
     public function __construct($id) {
 
@@ -46,6 +47,7 @@ class Student {
             $this->authToken = $result['authToken'];
             $this->lastLogin = $result['lastLogin'];
             $this->status = $result['status'];
+            $this->level = $result['level'];
 
             return $result;
         }
@@ -182,6 +184,7 @@ class Student {
         unset($_SESSION["student_id"]);
         unset($_SESSION["batch"]);
         unset($_SESSION["authToken"]);
+        unset($_SESSION["level"]);
 
         return TRUE;
     }
@@ -189,7 +192,7 @@ class Student {
     public function checkLogin($id) {
 
         $query = "SELECT * FROM `student` WHERE `id` ='" . $id . "'  AND `status` = 0 ";
-       
+
         $db = new Database();
         $result = $db->readQuery($query);
         $array_res = array();
@@ -201,10 +204,29 @@ class Student {
 
     public function updateStatus() {
 
-        $query = "UPDATE  `student` SET " 
+        $query = "UPDATE  `student` SET "
                 . "`status` ='" . $this->status . "' "
                 . "WHERE `id` = '" . $this->id . "'";
-         
+
+        $db = new Database();
+
+        $result = $db->readQuery($query);
+
+        if ($result) {
+
+            return $this->__construct($this->id);
+        } else {
+
+            return FALSE;
+        }
+    }
+
+    public function updateLevel() {
+
+        $query = "UPDATE  `student` SET "
+                . "`level` ='" . $this->level . "' "
+                . "WHERE `id` = '" . $this->id . "'";
+
         $db = new Database();
 
         $result = $db->readQuery($query);
@@ -232,6 +254,7 @@ class Student {
         $_SESSION["authToken"] = $student['authToken'];
         $_SESSION["lastLogin"] = $student['lastLogin'];
         $_SESSION['login_time'] = time();
+        $_SESSION['level'] = $student['level'];
     }
 
     private function setAuthToken($id) {
