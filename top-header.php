@@ -1,8 +1,8 @@
 <div class="layout-header">
     <div class="navbar navbar-default">
         <div class="navbar-header">
-            <a class="navbar-brand navbar-brand-center" href="index-2.html">
-                <img class="navbar-brand-logo" src="img/logo-inverse.svg" alt="Elephant">
+            <a class="navbar-brand navbar-brand-center" href="#">
+                <img class="navbar-brand-logo" src="img/logo.png" alt="Self-English-Learning">
             </a>
             <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#sidenav">
                 <span class="sr-only">Toggle navigation</span>
@@ -335,17 +335,65 @@
                     </li>
                 </ul>
                 <div class="title-bar">
-                    <h1 class="title-bar-title">
-                        <span class="d-ib">Dashboard <small>Header and sidebar fixed</small></span>
-                        <span class="d-ib">
-                            <a class="title-bar-shortcut" href="#" title="Add to shortcut list" data-container="body" data-toggle-text="Remove from shortcut list" data-trigger="hover" data-placement="right" data-toggle="tooltip">
-                                <span class="sr-only">Add to shortcut list</span>
-                            </a>
-                        </span>
-                    </h1>
-                    <p class="title-bar-description">
-                        <small>You can personalize your dashboard by using <a href="widgets.html">widgets</a>.</small>
-                    </p>
+                    <div class="row gutter-xs">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="media-middle media-left">
+                                            <div class="media-chart">
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="media-middle media-body">
+                                            <h3 class="media-heading">
+                                                <span class="fw-l">BEGINNER</span>
+                                            </h3>
+                                            <small>30% Completed</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="media-middle media-left">
+                                            <div class="media-chart">
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="media-middle media-body">
+                                            <h3 class="media-heading">
+                                                <span class="fw-l">INTERMEDIATE</span>
+                                            </h3>
+                                            <small>70% Completed</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="media-middle media-left">
+                                            <div class="media-chart">
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="media-middle media-body">
+                                            <h3 class="media-heading">
+                                                <span class="fw-l">ADVANCED</span>
+                                            </h3>
+                                            <small>30% Completed</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>

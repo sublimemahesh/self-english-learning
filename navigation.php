@@ -8,8 +8,7 @@
                         <form class="sidenav-form" action="http://demo.madebytilde.com/">
                             <div class="form-group form-group-sm">
                                 <div class="input-with-icon">
-                                    <input class="form-control" type="text" placeholder="Search…">
-                                    <span class="icon icon-search input-icon"></span>
+                                  
                                 </div>
                             </div>
                         </form>
