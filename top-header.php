@@ -42,7 +42,7 @@
                         <h4 class="navbar-text text-center">Hi, Teddy Wilson</h4>
                     </li>
                     <li class="dropdown">
-                       
+
                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
                             <div class="dropdown-header">
                                 <a class="dropdown-link" href="compose.html">New Message</a>
@@ -351,3 +351,5 @@
         </div>
     </div>
 </div>
+
+<input type="hidden" name="id" id="id" value="<?php echo $_SESSION['id'] ?>"/>

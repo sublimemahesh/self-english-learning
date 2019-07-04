@@ -12,8 +12,7 @@ window.onload = function () {
         dataType: "JSON",
         success: function (jsonStr) {
             
-            if (jsonStr.status == 'true') {
-
+            if (jsonStr.status == 'true') { 
 
                 swal({
                     title: "Are you sure?",
