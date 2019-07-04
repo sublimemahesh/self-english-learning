@@ -38,15 +38,12 @@ $(document).ready(function () {
                 contentType: false,
                 processData: false,
                 dataType: "JSON",
-                success: function (result) {
-                    alert(result.status)
+                success: function (result) { 
                     if (result.status == 'success') {
                         window.location.replace("index.php");
                     } else   {
                         $('#message').text(result.message);
-                    }
-
-
+                    } 
                 }
             });
         }

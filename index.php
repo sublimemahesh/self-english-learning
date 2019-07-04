@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+include_once(dirname(__FILE__) . '/class/include.php');
+include_once(dirname(__FILE__) . '/auth.php');
+ 
+?>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -29,7 +34,7 @@
             <!-- Navigation -->
             <?php include './navigation.php'; ?>
             <!--End Navigation -->
-            
+
             <div class="layout-content">
                 <div class="layout-content-body">
                     <div class="row gutter-xs">

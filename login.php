@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+ 
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -22,7 +23,7 @@
     <body class="log-bck">
         <div class="login">
             <div class="login-body">
-                <a class="login-brand" href="index-2.html">
+                <a class="login-brand" href="#">
                     <img class="img-responsive" src="img/logo.png" alt="self english learning">
                 </a>
                 <div class="login-form">
@@ -36,29 +37,18 @@
                             <label for="password">Password</label>
                             <input id="password" class="form-control" type="password"  name="password" minlength="6"  data-field="password">
                             <div class="valid-message"></div>
-                        </div>
-                        <div class="form-group">
-<!--                            <label class="custom-control custom-control-primary custom-checkbox">
-                                <input class="custom-control-input" type="checkbox" checked="checked">
-                                <span class="custom-control-indicator"></span>
-                                <span class="custom-control-label">Keep me signed in</span>
-                            </label>-->
-                            <span aria-hidden="true"> · </span>
-                            <a href="#">Forgot password?</a>
-
-                        </div>
-
+                        </div> 
                         <div class="form-group">
                             <div class="pull-left text-danger btn-padding font-size-new" id="message"></div>
                         </div>
                         <button class="btn btn-primary btn-block" type="submit"  >Sign in</button>
                     </form>
                 </div>
-                 <div class="login-footer">
-                Don't have an account? <a href="registration.php">Sign Up</a>
+                <div class="login-footer">
+                    Don't have an account? <a href="registration.php">Sign Up</a>
+                </div>
             </div>
-            </div>
-           
+
         </div>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/jquery.formValid.js" type="text/javascript"></script>

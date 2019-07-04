@@ -16,11 +16,13 @@ class Student {
     public $id;
     public $full_name;
     public $student_id;
-    public $email; 
+    public $email;
     public $batch;
     public $birth_date;
     public $age;
     public $password;
+    public $authToken;
+    public $lastLogin;
 
     public function __construct($id) {
 
@@ -35,11 +37,13 @@ class Student {
             $this->id = $result['id'];
             $this->full_name = $result['full_name'];
             $this->student_id = $result['student_id'];
-            $this->email = $result['email']; 
+            $this->email = $result['email'];
             $this->batch = $result['batch'];
             $this->birth_date = $result['birth_date'];
             $this->age = $result['age'];
             $this->password = $result['password'];
+            $this->authToken = $result['authToken'];
+            $this->lastLogin = $result['lastLogin'];
 
             return $result;
         }
@@ -50,7 +54,7 @@ class Student {
         $query = "INSERT INTO `student` (`full_name`, `student_id`, `email`, `batch`,`birth_date`,`age`,`password`) VALUES  ('"
                 . $this->full_name . "','"
                 . $this->student_id . "', '"
-                . $this->email . "', '" 
+                . $this->email . "', '"
                 . $this->batch . "', '"
                 . $this->birth_date . "', '"
                 . $this->age . "', '"
@@ -83,9 +87,14 @@ class Student {
 
             return FALSE;
         } else {
+
             $this->id = $result['id'];
-            $user = $this->__construct($this->id);
-            return $user;
+            $this->setAuthToken($result['id']);
+            $this->setLastLogin($this->id);
+            $student = $this->__construct($this->id);
+            $this->setUserSession($student);
+
+            return $student;
         }
     }
 
@@ -168,16 +177,16 @@ class Student {
         unset($_SESSION["id"]);
         unset($_SESSION["full_name"]);
         unset($_SESSION["email"]);
-        unset($_SESSION["student_id"]); 
+        unset($_SESSION["student_id"]);
         unset($_SESSION["batch"]);
-        unset($_SESSION["username"]);
+        unset($_SESSION["authToken"]);
 
         return TRUE;
     }
 
     public function update() {
 
-        $query = "UPDATE  `user` SET "
+        $query = "UPDATE  `student` SET "
                 . "`name` ='" . $this->name . "', "
                 . "`username` ='" . $this->username . "', "
                 . "`email` ='" . $this->email . "', "
@@ -197,26 +206,27 @@ class Student {
         }
     }
 
-    private function setUserSession($user) {
- 
+    private function setUserSession($student) {
+
         if (!isset($_SESSION)) {
 
             session_start();
-        } 
-        $_SESSION["id"] = $user['id'];
-        $_SESSION["name"] = $user['name'];
-        $_SESSION["email"] = $user['email'];
-        $_SESSION["isActive"] = $user['isActive'];
-        $_SESSION["authToken"] = $user['authToken'];
-        $_SESSION["lastLogin"] = $user['lastLogin'];
-        $_SESSION["username"] = $user['username'];
+        }
+        $_SESSION["id"] = $student['id'];
+        $_SESSION["student_id"] = $student['student_id'];
+        $_SESSION["email"] = $student['email'];
+        $_SESSION["batch"] = $student['batch'];
+        $_SESSION["full_name"] = $student['full_name'];
+        $_SESSION["authToken"] = $student['authToken'];
+        $_SESSION["lastLogin"] = $student['lastLogin'];
+        $_SESSION['login_time'] = time();
     }
 
     private function setAuthToken($id) {
 
         $authToken = md5(uniqid(rand(), true));
 
-        $query = "UPDATE `user` SET `authToken` ='" . $authToken . "' WHERE `id`='" . $id . "'";
+        $query = "UPDATE `student` SET `authToken` ='" . $authToken . "' WHERE `id`='" . $id . "'";
 
         $db = new Database();
 
@@ -234,7 +244,7 @@ class Student {
 
         $now = date('Y-m-d H:i:s');
 
-        $query = "UPDATE `user` SET `lastLogin` ='" . $now . "' WHERE `id`='" . $id . "'";
+        $query = "UPDATE `student` SET `lastLogin` ='" . $now . "' WHERE `id`='" . $id . "'";
 
         $db = new Database();
 
@@ -294,7 +304,7 @@ class Student {
 
             $this->username = $result['username'];
             $this->email = $result['email'];
-            $this->restCode = $result['resetcode'];            
+            $this->restCode = $result['resetcode'];
             return $result;
         }
     }
@@ -317,13 +327,13 @@ class Student {
     public function updatePassword($password, $code) {
 
         $enPass = md5($password);
-        
+
         $query = "UPDATE  `user` SET "
                 . "`password` ='" . $enPass . "' "
                 . "WHERE `resetcode` = '" . $code . "'";
 
         $db = new Database();
-        
+
         $result = $db->readQuery($query);
 
         if ($result) {
