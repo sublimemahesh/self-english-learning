@@ -5,23 +5,22 @@
             <nav id="sidenav" class="sidenav-collapse collapse">
                 <ul class="sidenav level-1">
                     <li class="sidenav-search">
-                        <form class="sidenav-form" action="http://demo.madebytilde.com/">
+                        <form class="sidenav-form" action="">
                             <div class="form-group form-group-sm">
                                 <div class="input-with-icon">
-                                  
                                 </div>
                             </div>
                         </form>
                     </li>
-                    <?php 
-                    
-                    if ($_SESSION['level'] == 1) { ?>
+                    <?php if ($_SESSION['level'] == 1) { ?>
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-actions">
                                     <button type="button" class="card-action card-toggler" title="Collapse"></button> 
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
                                 <strong>Beginner</strong>
+                                <span class="sidenav-icon icon icon-works">&#103;</span>
                                 <h3 class="media-heading">
                                     <span class="fw-l">70%</span>
                                 </h3> 
@@ -82,11 +81,14 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-actions">
-                                    <button type="button" class="card-action card-toggler" title="Collapse"></button> 
+                                    <button type="button" class="card-action card-toggler" title="Collapse"></button>
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
-                                <strong>Intermediate</strong>
+                                <strong></strong>
+                                   <span class="sidenav-icon icon icon-works">&#103;</span>
+                                   <span class="sidenav-icon icon icon-works"></span>
                                 <h3 class="media-heading">
-                                    <span class="fw-l">40%</span>
+                                    <span class="fw-l">40%</span>&#103;
                                 </h3>
                             </div>
                             <div class="card-body" data-toggle="match-height" style="display: none">
@@ -144,9 +146,11 @@
                             <div class="card-header">
                                 <div class="card-actions">
                                     <button type="button" class="card-action card-toggler" title="Collapse"></button>
-                                    
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
-                                <strong>Advanced</strong>
+                                
+                                   <span class="sidenav-icon icon icon-works">&#103;</span>
+                                     <span class="sidenav-icon icon icon-works">Advanced</span>
                                 <h3 class="media-heading">
                                     <span class="fw-l">80%</span>
                                 </h3>
@@ -208,9 +212,12 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-actions">
-                                    <button type="button" class="card-action card-toggler" title="Collapse"></button> 
+                                    <button type="button" class="card-action card-toggler" title="Collapse"></button>
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
-                                <strong>Beginner</strong>
+                                
+                                   <span class="sidenav-icon icon icon-works">&#103;</span>
+                                   <span class="sidenav-icon icon icon-works">Beginner</span>
                                 <h3 class="media-heading">
                                     <span class="fw-l">70%</span>
                                 </h3> 
@@ -272,6 +279,7 @@
                             <div class="card-header">
                                 <div class="card-actions">
                                     <button type="button" class="card-action card-toggler" title="Collapse"></button> 
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
                                 <strong>Intermediate</strong>
                                 <h3 class="media-heading">
@@ -333,7 +341,7 @@
                             <div class="card-header">
                                 <div class="card-actions">
                                     <button type="button" class="card-action card-toggler" title="Collapse"></button>
-                                    <button type="button" class="card-action card-remove" title="Remove"></button>
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
                                 <strong>Advanced</strong>
                                 <h3 class="media-heading">
@@ -399,6 +407,7 @@
                             <div class="card-header">
                                 <div class="card-actions">
                                     <button type="button" class="card-action card-toggler" title="Collapse"></button> 
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
                                 <strong>Beginner</strong>
                                 <h3 class="media-heading">
@@ -461,11 +470,13 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-actions">
-                                    <button type="button" class="card-action card-toggler" title="Collapse"></button> 
+                                    <button type="button" class="card-action card-toggler" title="Collapse"></button>
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
                                 <strong>Intermediate</strong>
                                 <h3 class="media-heading">
                                     <span class="fw-l">40%</span>
+
                                 </h3>
                             </div>
                             <div class="card-body" data-toggle="match-height" style="display: none">
@@ -523,7 +534,7 @@
                             <div class="card-header">
                                 <div class="card-actions">
                                     <button type="button" class="card-action card-toggler" title="Collapse"></button>
-                                    <button type="button" class="card-action card-remove" title="Remove"></button>
+                                    <span class="sidenav-icon icon icon-works">&#95;</span>
                                 </div>
                                 <strong>Advanced</strong>
                                 <h3 class="media-heading">

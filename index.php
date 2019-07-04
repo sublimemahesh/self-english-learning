@@ -37,8 +37,6 @@ include_once(dirname(__FILE__) . '/auth.php');
 
             <div class="layout-content">
                 <div class="layout-content-body">
-                    
-
                     <div class="row gutter-xs">
                         <div class="col-md-6">
                             <div class="card">

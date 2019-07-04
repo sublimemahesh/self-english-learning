@@ -4169,7 +4169,7 @@ tbody.collapse.in {
         float: left
     }
     .navbar-nav>li>a {
-        padding-top: 20px;
+        padding-top: 34px;
         padding-bottom: 20px
     }
 }
@@ -12569,7 +12569,7 @@ select.md-form-control option {
     font-size: 18px;
     height: 18px;
     line-height: 18px;
-    margin-left: -28px;
+    margin-left: -40px;
     text-align: center;
     width: 18px
 }
