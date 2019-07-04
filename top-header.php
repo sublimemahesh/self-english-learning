@@ -320,9 +320,9 @@
                             <li class="divider"></li>
                             <li class="navbar-upgrade-version">Version: 1.0.0</li>
                             <li class="divider"></li>
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="profile.html">Profile</a></li>
-                            <li><a href="login-1.html">Sign out</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="log-out.php">Sign out</a></li>
                         </ul>
                     </li>
                     <li class="visible-xs-block">
