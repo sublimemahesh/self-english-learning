@@ -2,7 +2,6 @@
 <?php
 include_once(dirname(__FILE__) . '/class/include.php');
 include_once(dirname(__FILE__) . '/auth.php');
- 
 ?>
 <html lang="en">
     <head>
@@ -33,42 +32,210 @@ include_once(dirname(__FILE__) . '/auth.php');
 
             <div class="layout-content">
                 <div class="layout-content-body">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <form id="form-data" method="POST"> 
-                                <div class="tab-content"> 
-                                    <div class="payment">
+                    <div class="row gutter-xs">
+                        <div class="col-md-12">
+                            <div class="card"> 
+                                <form id="form-data" method="POST"> 
+                                    <div class="card-body">
                                         <div class="row">
-                                            <div class="col-md-6 col-md-offset-3"> 
-                                                <div class="row">
-                                                    <div class="col-sm-12">
-                                                        <div class="form-group">
-                                                            <label for="student_level" class="form-label">Student level</label>
-                                                            <select id="student_level" class="custom-select" name="student_level">
-                                                                <option value="" selected="selected">Select a Student level</option>
-                                                                <option value="1">Beginner</option>
-                                                                <option value="2">Intermediate</option>
-                                                                <option value="3">Advanced</option> 
-                                                            </select>
+                                            <div class="col-md-12 m-y" style="padding: 50px 0px 0px 50px;">
+                                                <p>
+                                                    1).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
+                                                </p>
+                                                <div class="form-group">
+
+                                                    <div class="col-sm-9">
+                                                        <div class="custom-controls-stacked m-t">
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox" name="que_1" value="1" >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-12 m-y" style="    padding: 15px 0px 0px 50px;">
+                                                <p>
+                                                    2).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
+                                                </p>
+                                                <div class="form-group">
+
+                                                    <div class="col-sm-9">
+                                                        <div class="custom-controls-stacked m-t">
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox" >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="1"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"  >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+
                                                         </div>
                                                     </div>
                                                 </div> 
+                                            </div> 
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
+                                                <p>
+                                                    3).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
+                                                </p>
+                                                <div class="form-group">
+
+                                                    <div class="col-sm-9">
+                                                        <div class="custom-controls-stacked m-t">
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox" name="que_3" value="1"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label> 
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
+                                                <p>
+                                                    4).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
+                                                </p>
+                                                <div class="form-group">
+
+                                                    <div class="col-sm-9">
+                                                        <div class="custom-controls-stacked m-t">
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"  >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox" name="que_4" value="1"  >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label> 
+
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div> 
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
+                                                <p>
+                                                    5).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
+                                                </p>
+                                                <div class="form-group"> 
+                                                    <div class="col-sm-9">
+                                                        <div class="custom-controls-stacked m-t">
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox" name="que_5" value="1"  >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label>
+                                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <span class="custom-control-indicator"></span>
+                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                            </label> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div> 
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-md-2  pull-left "  style="padding: 0px 0px 15px 55px;"> 
+
                                                 <input type="hidden" name="action" value="UPDATESTUDENTLEVEL"/> 
                                                 <input type="hidden" name="id" id="id" value="<?php echo $_SESSION['id'] ?>"/>
                                                 <button type="submit" class="btn btn-primary btn-block" id="create">Submit</button>
                                             </div>
                                         </div>
-                                    </div> 
-                                </div> 
-                            </form>
-                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> 
                     </div>
+
                 </div>
             </div>
             <div class="layout-footer">
                 <div class="layout-footer-body">
                     <small class="version">Version 1.4.0</small>
-                    <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
+                    <small class="copyright">2017 &copy; Elephant <a href=" ">test</a></small>
                 </div>
             </div>
         </div>

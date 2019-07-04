@@ -310,25 +310,25 @@
                             <li class="divider"></li>
                             <li class="navbar-upgrade-version">Version: 1.0.0</li>
                             <li class="divider"></li>
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="profile.html">Profile</a></li>
-                            <li><a href="login-1.html">Sign out</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="log-out.php">Sign out</a></li>
                         </ul>
                     </li>
                     <li class="visible-xs-block">
-                        <a href="contacts.html">
+                        <a href="#">
                             <span class="icon icon-users icon-lg icon-fw"></span>
                             Contacts
                         </a>
                     </li>
                     <li class="visible-xs-block">
-                        <a href="profile.html">
+                        <a href="#">
                             <span class="icon icon-user icon-lg icon-fw"></span>
                             Profile
                         </a>
                     </li>
                     <li class="visible-xs-block">
-                        <a href="login-1.html">
+                        <a href="#">
                             <span class="icon icon-power-off icon-lg icon-fw"></span>
                             Sign out
                         </a>
@@ -349,7 +349,7 @@
                                             <h3 class="media-heading">
                                                 <span class="fw-l">BEGINNER</span>
                                             </h3>
-                                            <small>30% Completed</small>
+                                            <small>0% Completed</small>
                                         </div>
                                     </div>
                                 </div>
@@ -368,7 +368,7 @@
                                             <h3 class="media-heading">
                                                 <span class="fw-l">INTERMEDIATE</span>
                                             </h3>
-                                            <small>70% Completed</small>
+                                            <small>0% Completed</small>
                                         </div>
                                     </div>
                                 </div>
@@ -387,7 +387,7 @@
                                             <h3 class="media-heading">
                                                 <span class="fw-l">ADVANCED</span>
                                             </h3>
-                                            <small>30% Completed</small>
+                                            <small>0% Completed</small>
                                         </div>
                                     </div>
                                 </div>
