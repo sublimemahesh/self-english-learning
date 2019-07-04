@@ -1,3 +1,9 @@
+<style>
+    .disabled {
+        pointer-events:none;  
+        opacity:0.6;          
+    }
+</style>
 <div class="layout-sidebar">
     <div class="layout-sidebar-backdrop"></div>
     <div class="layout-sidebar-body">
@@ -15,10 +21,10 @@
                         </form>
                     </li>
                     <li class="sidenav-heading">Tutorials</li>
-                    <li class="sidenav-item has-subnav   " >
+                    <li class="sidenav-item has-subnav  disabled " >
                         <a href="#" aria-haspopup="true">
                             <span class="sidenav-icon icon icon-works">&#110;</span>
-                            <span class="sidenav-label">Writting</span>
+                            <span class="sidenav-label">Writting</span> 
                         </a>
                         <ul class="sidenav level-2 collapse  "> 
                             <li><a href="#"> Essay writing</a></li>                             
@@ -29,7 +35,7 @@
                         </ul>
                     </li>
 
-                    <li class="sidenav-item  has-subnav ">
+                    <li class="sidenav-item  has-subnav disabled">
                         <a href="#" aria-haspopup="true">
                             <span class="sidenav-icon icon icon-works">&#122;</span>
                             <span class="sidenav-label">Speaking</span>
@@ -41,7 +47,7 @@
                             <li><a href="#"> Questionnaire </a></li>                            
                         </ul>
                     </li>
-                    <li class="sidenav-item  has-subnav ">
+                    <li class="sidenav-item  has-subnav disabled">
                         <a href="#" aria-haspopup="true">
                             <span class="sidenav-icon icon icon-works">&#97;</span>
                             <span class="sidenav-label">Reading</span>
@@ -54,7 +60,7 @@
                             <li><a href="#"> Notice</a></li>                             
                         </ul>
                     </li>
-                    <li class="sidenav-item  has-subnav ">
+                    <li class="sidenav-item  has-subnav disabled">
                         <a href="#" aria-haspopup="true">  
                             <span class="sidenav-icon icon icon-works">&#82;</span>
                             <span class="sidenav-label">Listening</span>
@@ -66,7 +72,7 @@
                         </ul>
                     </li>
                     <li class="sidenav-heading">Questionary</li>
-                    <li class="sidenav-item  has-subnav ">
+                    <li class="sidenav-item  has-subnav disabled">
                         <a href="#" aria-haspopup="true">
 
                             <span class="sidenav-icon icon icon-works">&#105;</span>
@@ -85,4 +91,4 @@
         </div>
     </div>
 </div>
-<input type="hidden" name="id" id="id" value="<?php echo $_SESSION['id'] ?>"/>
+<input type="hidden" name="student_id" id="student_id" value="<?php echo $_SESSION['student_id'] ?>"/>

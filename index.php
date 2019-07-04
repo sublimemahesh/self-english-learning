@@ -22,6 +22,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <link rel="stylesheet" href="css/vendor.min.css">
         <link rel="stylesheet" href="css/elephant.min.css">
         <link rel="stylesheet" href="css/application.min.css">
+        <link href="css/sweetalert.css" rel="stylesheet" type="text/css"/>
     </head>
     <body class="layout layout-header-fixed layout-sidebar-fixed">
 
@@ -680,9 +681,11 @@ include_once(dirname(__FILE__) . '/auth.php');
                 </div>
             </div>
         </div>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/vendor.min.js"></script>
         <script src="js/elephant.min.js"></script>
         <script src="js/application.min.js"></script>
-
+        <script src="js/sweetalert.min.js" type="text/javascript"></script>
+        <script src="ajax/js/check-login.js" type="text/javascript"></script>
     </body>
 </html>

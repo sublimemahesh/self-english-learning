@@ -23,6 +23,7 @@ class Student {
     public $password;
     public $authToken;
     public $lastLogin;
+    public $status;
 
     public function __construct($id) {
 
@@ -44,6 +45,7 @@ class Student {
             $this->password = $result['password'];
             $this->authToken = $result['authToken'];
             $this->lastLogin = $result['lastLogin'];
+            $this->status = $result['status'];
 
             return $result;
         }
@@ -184,15 +186,25 @@ class Student {
         return TRUE;
     }
 
-    public function update() {
+    public function checkLogin($id) {
 
-        $query = "UPDATE  `student` SET "
-                . "`name` ='" . $this->name . "', "
-                . "`username` ='" . $this->username . "', "
-                . "`email` ='" . $this->email . "', "
-                . "`isActive` ='" . $this->isActive . "' "
+        $query = "SELECT * FROM `student` WHERE `id` ='" . $id . "'  AND `status` = 0 ";
+       
+        $db = new Database();
+        $result = $db->readQuery($query);
+        $array_res = array();
+        while ($row = mysql_fetch_array($result)) {
+            array_push($array_res, $row);
+        }
+        return $array_res;
+    }
+
+    public function updateStatus() {
+
+        $query = "UPDATE  `student` SET " 
+                . "`status` ='" . $this->status . "' "
                 . "WHERE `id` = '" . $this->id . "'";
-
+         
         $db = new Database();
 
         $result = $db->readQuery($query);

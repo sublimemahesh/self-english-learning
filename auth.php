@@ -5,7 +5,7 @@ if (!isset($_SESSION)) {
 } 
 
 if (isset($_SESSION['id'])) {
-    if (time() - $_SESSION['login_time'] > 10) {
+    if (time() - $_SESSION['login_time'] > 900) {
         redirect('login.php');
     }
 }
