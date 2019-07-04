@@ -1,5 +1,8 @@
 /*! Custom styles for this template */
-
+.disabled {
+    pointer-events:none;  
+    opacity:0.6;          
+}
 html {
     height: 100%;
     -ms-overflow-style: scrollbar
@@ -757,7 +760,7 @@ html {
     -o-transform: translateX(282px);
     transform: translateX(282px)
 }
- 
+
 
 .theme-panel-body {
     bottom: 57px;
