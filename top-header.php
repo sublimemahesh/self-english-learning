@@ -342,7 +342,7 @@
                                     <div class="media">
                                         <div class="media-middle media-left">
                                             <div class="media-chart">
-                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                             </div>
                                         </div>
                                         <div class="media-middle media-body">
@@ -361,7 +361,7 @@
                                     <div class="media">
                                         <div class="media-middle media-left">
                                             <div class="media-chart">
-                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                             </div>
                                         </div>
                                         <div class="media-middle media-body">
@@ -380,7 +380,7 @@
                                     <div class="media">
                                         <div class="media-middle media-left">
                                             <div class="media-chart">
-                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                             </div>
                                         </div>
                                         <div class="media-middle media-body">
