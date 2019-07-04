@@ -1,4 +1,3 @@
-
 <div class="layout-header">
     <div class="navbar navbar-default">
         <div class="navbar-header">
@@ -43,7 +42,8 @@
                         <h4 class="navbar-text text-center">Hi, Teddy Wilson</h4>
                     </li>
                     <li class="dropdown">
-                       <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                       
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
                             <div class="dropdown-header">
                                 <a class="dropdown-link" href="compose.html">New Message</a>
                                 <h5 class="dropdown-heading">Recent messages</h5>
@@ -310,9 +310,9 @@
                             <li class="divider"></li>
                             <li class="navbar-upgrade-version">Version: 1.0.0</li>
                             <li class="divider"></li>
-                            <li><a href="#">Contacts</a></li>
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="log-out.php">Sign out</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="login-1.html">Sign out</a></li>
                         </ul>
                     </li>
                     <li class="visible-xs-block">
@@ -335,66 +335,17 @@
                     </li>
                 </ul>
                 <div class="title-bar">
-                       <div class="row gutter-xs">
-            <div class="col-md-6 col-lg-4 col-lg-push-0">
-              <div class="card bg-primary">
-                <div class="card-body">
-                  <div class="media">
-                    <div class="media-middle media-left">
-                      <span class="bg-primary-inverse circle sq-48">
-                        <span class="icon icon-works">&#80;</span>
-                      </span>
-                    </div>
-                    <div class="media-middle media-body">
-                     
-                        <h4 class="media-heading">
-                        <span class="fw-l">BEGINNER</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-lg-push-4">
-              <div class="card bg-danger">
-                <div class="card-body">
-                  <div class="media">
-                    <div class="media-middle media-left">
-                      <span class="bg-danger-inverse circle sq-48">
-                        <span class="icon icon-works">&#93;</span>
-                      </span>
-                    </div>
-                    <div class="media-middle media-body">
-                    
-                      <h4 class="media-heading">
-                        <span class="fw-l">ADVANCED</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-lg-pull-4">
-              <div class="card bg-primary">
-                <div class="card-body">
-                  <div class="media">
-                    <div class="media-middle media-left">
-                      <span class="bg-primary-inverse circle sq-48">
-                        <span class="icon icon-works">&#105;</span>
-                      </span>
-                    </div>
-                    <div class="media-middle media-body">
-                     
-                      <h4 class="media-heading">
-                        <span class="fw-l">INTERMEDIATE</span>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-          </div>
+                    <h1 class="title-bar-title">
+                        <span class="d-ib">Dashboard <small>Header and sidebar fixed</small></span>
+                        <span class="d-ib">
+                            <a class="title-bar-shortcut" href="#" title="Add to shortcut list" data-container="body" data-toggle-text="Remove from shortcut list" data-trigger="hover" data-placement="right" data-toggle="tooltip">
+                                <span class="sr-only">Add to shortcut list</span>
+                            </a>
+                        </span>
+                    </h1>
+                    <p class="title-bar-description">
+                        <small>You can personalize your dashboard by using <a href="widgets.html">widgets</a>.</small>
+                    </p>
                 </div>
             </nav>
         </div>
