@@ -4380,7 +4380,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
-/*    background-color: #e7e7ec;*/
+    /*    background-color: #e7e7ec;*/
     color: #343439
 }
 
@@ -5232,7 +5232,7 @@ a.thumbnail:hover {
 .list-group-item {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 5px 15px;
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid #e7e7ec
@@ -11753,7 +11753,7 @@ button.collapsed .ellipsis-object {
         box-shadow: 1px 0 0 #f1f1f1;
         left: 0;
         position: fixed;
-        top: 60px
+        top: 85px;
     }
     .layout-sidebar-collapsed .layout-sidebar {
         width: 60px
@@ -12518,7 +12518,7 @@ select.md-form-control option {
     display: block;
     font-size: 13px;
     line-height: 18px;
-    padding: 10px 15px;
+    padding: 18px 15px;
     position: relative;
     text-decoration: none;
     -webkit-transition: all .3s;
@@ -12567,14 +12567,40 @@ select.md-form-control option {
 .sidenav .icon {
     display: block;
     float: left;
-    font-size: 18px;
+    font-size: 21px;
     height: 18px;
     line-height: 18px;
-    margin-left: -40px;
+    margin-left: -35px;
     text-align: center;
-    width: 18px
+    width: 20px;
+    margin-top: 10px;
+    font-weight: 600;
 }
+.sidenav .icon1 {
 
+    display: block;
+    float: right;
+    font-size: 15px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: -35px;
+    text-align: center;
+    width: 20px;
+    font-weight: 600;
+
+}
+.icon1{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .sidenav .badge {
     float: right
 }
@@ -12616,11 +12642,12 @@ select.md-form-control option {
 }
 
 .sidenav.level-1>li>a {
-    padding-left: 43px
+    padding-left: 43px;
+    background-color: #fbfbfb;
 }
 
 .sidenav.level-2>li>a {
-    padding-left: 61px
+    padding-left: 20px;
 }
 
 .sidenav.level-3>li>a {
