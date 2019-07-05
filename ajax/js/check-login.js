@@ -11,8 +11,8 @@ window.onload = function () {
         },
         dataType: "JSON",
         success: function (jsonStr) {
-            
-            if (jsonStr.status == 'true') { 
+
+            if (jsonStr.status == 'true') {
 
                 swal({
                     title: "Are you sure?",
@@ -36,7 +36,19 @@ window.onload = function () {
                             },
                             dataType: "JSON",
                             success: function (jsonStr) {
-                                
+                               if(jsonStr.status == 'success'){
+                                    swal({
+                                        title: "Congratulation.!",
+                                        text: "Now you selected beginner level.",
+                                        type: 'warning',
+                                        showCancelButton: false,
+                                        confirmButtonColor: "rgb(240, 169, 0)",
+                                        confirmButtonText: "Continue.",
+                                    }, function () {
+                                        window.location = "index.php";
+                                    });
+                               }
+                              
                             }
                         });
                     }

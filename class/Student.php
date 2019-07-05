@@ -205,9 +205,10 @@ class Student {
     public function updateStatus() {
 
         $query = "UPDATE  `student` SET "
-                . "`status` ='" . $this->status . "' "
+                . "`status` ='" . $this->status . "', "
+                . "`level` ='" . $this->level . "' "
                 . "WHERE `id` = '" . $this->id . "'";
-
+        
         $db = new Database();
 
         $result = $db->readQuery($query);

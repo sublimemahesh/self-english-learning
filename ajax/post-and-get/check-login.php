@@ -25,15 +25,16 @@ if ($_POST['action'] == 'CHECKLOGIN') {
 if ($_POST['action'] == 'UPDATESTATUS') {
 
     $STUDENT = new Student($_POST['id']);
-    $STUDENT->status = '1';
+    $STUDENT->status = 1;
+    $STUDENT->level = 1;
     $result = $STUDENT->updateStatus();
     if ($result) {
-        $result['status'] = 'true';
+        $result['status'] = 'success';
         echo json_encode($result);
         header('Content-type: application/json');
         exit();
     } else {
-        $result['status'] = 'false';
+        $result['status'] = 'error';
         echo json_encode($result);
         header('Content-type: application/json');
         exit();
