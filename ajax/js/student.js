@@ -18,7 +18,7 @@ $(document).ready(function () {
                     if (result.status == 'beginner') {
                         swal({
                             title: "Congratulation.!",
-                            text: "Now you selected beginner level.",
+                            text: "Now you have selected to beginner level.",
                             type: 'warning',
                             showCancelButton: false,
                             confirmButtonColor: "rgb(240, 169, 0)",
@@ -40,7 +40,7 @@ $(document).ready(function () {
                     } else if (result.status == 'advance') {
                         swal({
                             title: "Congratulation.!",
-                            text: "Now you selected advance level.",
+                            text: "Now you selected advanced level.",
                             type: 'warning',
                             showCancelButton: false,
                             confirmButtonColor: "rgb(240, 169, 0)",

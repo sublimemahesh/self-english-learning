@@ -15,13 +15,13 @@ window.onload = function () {
             if (jsonStr.status == 'true') {
 
                 swal({
-                    title: "Are you sure?",
-                    text: "You will not be able to recover this imaginary file!",
+                    title: "Would you like to start from Beginner Level or Placement Test?",
+//                    text: "You will not be able to recover this imaginary file!",
                     type: "warning",
-                    cancelButtonText: "Start Begginer",
+                    cancelButtonText: "Begginer",
                     showCancelButton: true,
                     confirmButtonColor: "rgb(240, 169, 0)",
-                    confirmButtonText: "Test Paper",
+                    confirmButtonText: "Placement Test",
 
                 }, function (isConfirm) {
                     if (isConfirm) {
