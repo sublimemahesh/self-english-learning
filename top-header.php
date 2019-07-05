@@ -1,3 +1,6 @@
+<?php
+$STUDENT = new Student($_SESSION['id']);
+?>
 <div class="layout-header">
     <div class="navbar navbar-default">
         <div class="navbar-header">
@@ -26,8 +29,10 @@
         </div>
         <div class="navbar-toggleable">
             <nav id="navbar" class="navbar-collapse collapse">
-                
+
                 <ul class="nav navbar-nav navbar-right">
+
+
                     <li class="visible-xs-block">
                         <h4 class="navbar-text text-center">Hi, Teddy Wilson</h4>
                     </li>
@@ -158,7 +163,6 @@
                                 <a class="dropdown-btn" href="#">See All</a>
                             </div>
                         </div>
-                    </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true">
                             <span class="icon-with-child hidden-xs">
@@ -285,22 +289,11 @@
                     </li>
                     <li class="dropdown hidden-xs">
                         <button class="navbar-account-btn" data-toggle="dropdown" aria-haspopup="true">
-                            <img class="circle" width="36" height="36" src="img/0180441436.jpg" alt="Teddy Wilson"> Teddy Wilson
+                            <img class="circle" width="36" height="36" src="img/0180441436.jpg" alt=""> <?php echo $STUDENT->full_name ?>
                             <span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <li>
-                                <a href="upgrade.html">
-                                    <h5 class="navbar-upgrade-heading">
-                                        Upgrade Now
-                                        <small class="navbar-upgrade-notification">You have 15 days left in your trial.</small>
-                                    </h5>
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li class="navbar-upgrade-version">Version: 1.0.0</li>
-                            <li class="divider"></li>
-                            <li><a href="#">Contacts</a></li>
+                        <ul class="dropdown-menu dropdown-menu-right"> 
+
                             <li><a href="#">Profile</a></li>
                             <li><a href="log-out.php">Sign out</a></li>
                         </ul>
@@ -329,11 +322,11 @@
                 <div class="title-bar">
                     <div class="row gutter-xs">
                         <?php
-                        $STUDENT = new Student($_SESSION['id']);
                         if ($STUDENT->level == 1) {
                             ?> 
+
                             <div class="col-md-4">
-                                <div class="card back-color"   >
+                                <div class="card  "   >
                                     <div class="card-body">
                                         <div class="media">
                                             <div class="media-middle media-left">
@@ -343,9 +336,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">BEGINNER</span>
+                                                    <span class="fw-l black-color">BEGINNER</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -362,9 +355,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">INTERMEDIATE</span>
+                                                    <span class="fw-l black-color">INTERMEDIATE</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -381,9 +374,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">ADVANCED</span>
+                                                    <span class="fw-l black-color">ADVANCED</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -402,16 +395,16 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">BEGINNER</span>
+                                                    <span class="fw-l black-color">BEGINNER</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4" >
-                                <div class="card back-color"   >
+                                <div class="card  "   >
                                     <div class="card-body">
                                         <div class="media">
                                             <div class="media-middle media-left">
@@ -421,9 +414,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">INTERMEDIATE</span>
+                                                    <span class="fw-l black-color">INTERMEDIATE</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -440,9 +433,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">ADVANCED</span>
+                                                    <span class="fw-l black-color">ADVANCED</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -462,9 +455,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">BEGINNER</span>
+                                                    <span class="fw-l black-color">BEGINNER</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -481,16 +474,16 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">INTERMEDIATE</span>
+                                                    <span class="fw-l black-color">INTERMEDIATE</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="card back-color">
+                                <div class="card  ">
                                     <div class="card-body">
                                         <div class="media">
                                             <div class="media-middle media-left">
@@ -500,9 +493,9 @@
                                             </div>
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
-                                                    <span class="fw-l">ADVANCED</span>
+                                                    <span class="fw-l black-color">ADVANCED</span>
                                                 </h3>
-                                                <small>0% Completed</small>
+                                                <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>

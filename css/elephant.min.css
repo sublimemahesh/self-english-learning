@@ -4380,7 +4380,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
-    background-color: #e7e7ec;
+/*    background-color: #e7e7ec;*/
     color: #343439
 }
 
@@ -15585,5 +15585,8 @@ a.bg-dribbble:hover {
     font-weight: 600
 }
 .back-color{
-    background-color: #f8c491;
+    background-color: #f6a04b;
+}
+.black-color{
+    color: black;
 }
