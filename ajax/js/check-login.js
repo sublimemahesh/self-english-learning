@@ -40,7 +40,7 @@ window.onload = function () {
                                     swal({
                                         title: "Congratulation.!",
                                         text: "Now you selected beginner level.",
-                                        type: 'warning',
+                                        type: 'success',
                                         showCancelButton: false,
                                         confirmButtonColor: "rgb(240, 169, 0)",
                                         confirmButtonText: "Continue.",

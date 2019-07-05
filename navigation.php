@@ -20,7 +20,7 @@
                                                     <button type="button" class="card-action card-toggler" title="Collapse"></button> 
                     
                                                 </div>
-                                                <strong>Writing</strong>
+                                                <strong>Lesson 01</strong>
                                                 <span class="sidenav-icon icon icon-works">&#103;</span>
                                                 <div class="" style="margin-right: 50px;">
                                                     <div class="progress">
@@ -40,7 +40,7 @@
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
 <!--                                <span class="sidenav-icon icon icon-works">&#95;</span>-->
                             </div>
-                            <strong>Writing</strong>
+                            <strong>Lesson 01</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
                             <div class="" style="margin-right: 50px;">
                                 <div class="progress">
@@ -58,7 +58,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Writing</a>
+                                                <a href="#"> Lesson 01 </a>
                                             </h6>
                                         </div>
 
@@ -69,7 +69,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Reading</a>
+                                                <a href="#"> Lesson 02 </a>
                                             </h6>
                                         </div>
 
@@ -79,7 +79,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Listening</a>
+                                                <a href="#"> Lesson 03 </a>
                                             </h6>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Speaking</a>
+                                                <a href="#"> Lesson 04</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Grammar & Vocabulary</a>
+                                                <a href="#"> Lesson 05</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -105,84 +105,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="card disabled">
-                        <div class="card-header">
-                            <div class="card-actions">
-                                <button type="button" class="card-action card-toggler" title="Collapse"></button> 
-                                <span class="sidenav-icon icon icon-works">&#95;</span>
-                            </div>
-                            <strong>Writing</strong>
-                            <span class="sidenav-icon icon icon-works">&#103;</span>
-                            <div class="" style="margin-right: 50px;">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
-                                        <span class="sr-only">0% Complete (success)</span>
-                                        0%
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body " data-toggle="match-height" style="display: none;" >
-                            <ul class="list-group list-group-divided">
-                                <li class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-middle media-body">
-                                            <h6 class="media-heading">
-                                                <a href="#"> Writing</a>
-                                            </h6>
-                                        </div>
-
-                                    </div>
-
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-middle media-body">
-                                            <h6 class="media-heading">
-                                                <a href="#"> Reading</a>
-                                            </h6>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-middle media-body">
-                                            <h6 class="media-heading">
-                                                <a href="#"> Listening</a>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-middle media-body">
-                                            <h6 class="media-heading">
-                                                <a href="#"> Speaking</a>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="media">
-                                        <div class="media-middle media-body">
-                                            <h6 class="media-heading">
-                                                <a href="#"> Grammar & Vocabulary</a>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                  
                     <div class="card disabled">
                         <div class="card-header">
                             <div class="card-actions">
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
                                 <span class="sidenav-icon icon icon-works ">&#95;</span>
                             </div>
-                            <strong>Reading</strong>
+                            <strong>Lesson 02</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
                             <div class="" style="margin-right: 50px;">
                                 <div class="progress">
@@ -200,7 +130,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Writing</a>
+                                                <a href="#"> Lesson 01</a>
                                             </h6>
                                         </div>
 
@@ -211,7 +141,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Reading</a>
+                                                <a href="#"> Lesson 02</a>
                                             </h6>
                                         </div>
 
@@ -221,7 +151,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Listening</a>
+                                                <a href="#"> Lesson 03</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -230,7 +160,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Speaking</a>
+                                                <a href="#"> Lesson 04</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -239,7 +169,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Grammar & Vocabulary</a>
+                                                <a href="#"> Lesson 05</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -253,7 +183,7 @@
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
                                 <span class="sidenav-icon icon icon-works">&#95;</span>
                             </div>
-                            <strong>Listening</strong>
+                            <strong>Lesson 03</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
                            <div class="" style="margin-right: 50px;">
                                 <div class="progress">
@@ -271,7 +201,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Writing</a>
+                                                <a href="#"> Lesson 01</a>
                                             </h6>
                                         </div>
 
@@ -282,7 +212,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Reading</a>
+                                                <a href="#"> Lesson 02</a>
                                             </h6>
                                         </div>
 
@@ -292,7 +222,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Listening</a>
+                                                <a href="#"> Lesson 03</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -301,7 +231,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Speaking</a>
+                                                <a href="#"> Lesson 04</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -310,7 +240,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Grammar & Vocabulary</a>
+                                                <a href="#"> Lesson 05</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -324,7 +254,7 @@
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
                                 <span class="sidenav-icon icon icon-works">&#95;</span>
                             </div>
-                            <strong>Speaking</strong>
+                            <strong>Lesson 04</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
                             <div class="" style="margin-right: 50px;">
                                 <div class="progress">
@@ -342,7 +272,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Writing</a>
+                                                <a href="#"> Lesson 01</a>
                                             </h6>
                                         </div>
 
@@ -353,7 +283,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Reading</a>
+                                                <a href="#"> Lesson 02</a>
                                             </h6>
                                         </div>
 
@@ -363,7 +293,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Listening</a>
+                                                <a href="#"> Lesson 03</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -372,7 +302,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Speaking</a>
+                                                <a href="#"> Lesson 04</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -381,7 +311,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Grammar & Vocabulary</a>
+                                                <a href="#"> Lesson 05</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -395,7 +325,7 @@
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
                                 <span class="sidenav-icon icon icon-works">&#95;</span>
                             </div>
-                            <strong>Grammar & Vocabulary</strong>
+                            <strong>Lesson 01</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
                             <div class="" style="margin-right: 50px;">
                                 <div class="progress">
@@ -413,7 +343,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Writing</a>
+                                                <a href="#"> Lesson 01</a>
                                             </h6>
                                         </div>
 
@@ -424,7 +354,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Reading</a>
+                                                <a href="#"> Lesson 02</a>
                                             </h6>
                                         </div>
 
@@ -434,7 +364,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Listening</a>
+                                                <a href="#"> Lesson 03</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -443,7 +373,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Speaking</a>
+                                                <a href="#"> Lesson 04</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -452,7 +382,7 @@
                                     <div class="media">
                                         <div class="media-middle media-body">
                                             <h6 class="media-heading">
-                                                <a href="#"> Grammar & Vocabulary</a>
+                                                <a href="#"> Lesson 05</a>
                                             </h6>
                                         </div>
                                     </div>
