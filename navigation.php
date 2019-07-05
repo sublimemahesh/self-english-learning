@@ -90,7 +90,7 @@
                   <li class="sidenav-item has-subnav">
 
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
-                        <span class="sidenav-icon icon icon-microphone"></span>
+                        <span class="sidenav-icon icon fa fa-l"></span>
                         <span class="sidenav-label"><strong>Listening</strong></span>
                         <div class="">
                            <div class="progress">
@@ -117,7 +117,7 @@
                   <li class="sidenav-item has-subnav">
 
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
-                        <span class="sidenav-icon icon icon-users"></span>
+                        <span class="sidenav-icon icon icon-microphone"></span>
                         <span class="sidenav-label"><strong>Speaking</strong></span>
                         <div class="">
                             <div class="progress">

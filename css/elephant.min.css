@@ -12577,7 +12577,6 @@ select.md-form-control option {
     font-weight: 600;
 }
 .sidenav .icon1 {
-
     display: block;
     float: right;
     font-size: 15px;
@@ -12585,8 +12584,9 @@ select.md-form-control option {
     line-height: 18px;
     margin-left: -35px;
     text-align: center;
-    width: 20px;
+    width: 0px;
     font-weight: 600;
+    color: #3d9b5b;
 
 }
 .icon1{
@@ -13286,7 +13286,7 @@ button.spinner:active:hover {
 
 .tabs-right .nav-tabs {
     border-radius: 0 4px 4px 0;
-    
+
 }
 
 .tabs-right .nav-tabs>li:first-child>a {
