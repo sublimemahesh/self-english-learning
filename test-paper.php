@@ -18,6 +18,16 @@ include_once(dirname(__FILE__) . '/auth.php');
         <link rel="stylesheet" href="css/application.min.css">
         <link rel="stylesheet" href="css/shopping-cart.min.css">
         <link href="css/sweetalert.css" rel="stylesheet" type="text/css"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#f7a033">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700">
+        <link href="css/dashboard-3.min.css" rel="stylesheet" type="text/css"/>
+
+
 
     </head>
     <body class="layout layout-header-fixed">
@@ -39,36 +49,39 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-md-12 m-y" style="padding: 50px 0px 0px 50px;">
-                                                <p>
-                                                    1).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
-                                                </p>
+                                                <li class="ticket-list-separator">
+                                                    <div class="ticket-list-count">
+                                                    </div>
+                                                    <div class="ticket-list-heading"><h4>1). What are you looking ______ ?</h4> </div>
+                                                </li>
                                                 <div class="form-group">
 
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_1" value="1" >
+                                                           <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_1" type="radio" value="1">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">for</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_1" value="0" >
+                                                           <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_1" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">on</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_1" value="0" >
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_1" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">against</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_1" value="0" >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_1" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">in</span>
                                                             </label>
-
+                                                           
                                                         </div>
                                                     </div>
+
                                                 </div>
 
                                             </div>
@@ -77,34 +90,36 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <hr>
                                         <div class="row">
                                             <div class="col-md-12 m-y" style="    padding: 15px 0px 0px 50px;">
-                                                <p>
-                                                    2).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
-                                                </p>
+
+                                                <li class="ticket-list-separator">
+                                                    <div class="ticket-list-count">
+                                                    </div>
+                                                    <div class="ticket-list-heading"><h4>2). Whom are you talking ____?</h4> </div>
+                                                </li>
                                                 <div class="form-group">
 
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="0"/>
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_2" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">too</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="1"   />
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_2" type="radio" value="1">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">to</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="0" />
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_2" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">by</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"  name="que_2" value="0"  />
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_2" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">over</span>
                                                             </label>
-
                                                         </div>
                                                     </div>
                                                 </div> 
@@ -113,33 +128,35 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <hr>
                                         <div class="row">
                                             <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
-                                                <p>
-                                                    3).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
-                                                </p>
+                                                <li class="ticket-list-separator">
+                                                    <div class="ticket-list-count">
+                                                    </div>
+                                                    <div class="ticket-list-heading"><h4>3).  I am angry _____ my sister.</h4> </div>
+                                                </li>
                                                 <div class="form-group">
 
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"  name="que_3" value="0" >
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_3" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">for</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_3" value="0"  >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_3" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">to</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    name="que_3" value="1" >
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_3" type="radio" value="1">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">with</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_3" value="0" >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_3" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
-                                                            </label> 
+                                                                <span class="custom-control-label">at</span>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>  
@@ -148,33 +165,35 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <hr>
                                         <div class="row">
                                             <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
-                                                <p>
-                                                    4).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
-                                                </p>
+                                                <li class="ticket-list-separator">
+                                                    <div class="ticket-list-count">
+                                                    </div>
+                                                    <div class="ticket-list-heading"><h4>4). Can you agree ______ my proposal.</h4> </div>
+                                                </li>
                                                 <div class="form-group">
 
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"  name="que_4" value="0" >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_4" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">into</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_4" value="0" >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_4" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">with</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_4" value="0" >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_4" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">to</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_4" value="1"  >
+                                                           <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_4" type="radio" value="1">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
-                                                            </label> 
+                                                                <span class="custom-control-label">too</span>
+                                                            </label>
 
                                                         </div>
                                                     </div>
@@ -184,32 +203,34 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <hr>
                                         <div class="row">
                                             <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
-                                                <p>
-                                                    5).   To change the appearance   of this element you can use variables. Depending on the changes in these values, the element can take a completely different view.
-                                                </p>
+                                                <li class="ticket-list-separator">
+                                                    <div class="ticket-list-count">
+                                                    </div>
+                                                    <div class="ticket-list-heading"><h4>5). Don’t look _____ on him.</h4> </div>
+                                                </li>
                                                 <div class="form-group"> 
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_5" value="0"  >
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_5" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">by</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   name="que_5" value="0" >
+                                                             <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_5" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">on</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_5" value="0"  >
+                                                           <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_5" type="radio" value="0">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
+                                                                <span class="custom-control-label">for</span>
                                                             </label>
-                                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"  name="que_5" value="1"  >
+                                                            <label class="custom-control custom-control-default custom-radio">
+                                                                <input class="custom-control-input" name="que_5" type="radio" value="1">
                                                                 <span class="custom-control-indicator"></span>
-                                                                <span class="custom-control-label">Put site into maintenance mode</span>
-                                                            </label> 
+                                                                <span class="custom-control-label">down</span>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div> 

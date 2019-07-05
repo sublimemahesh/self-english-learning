@@ -110,7 +110,7 @@
                         <div class="card-header">
                             <div class="card-actions">
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
-                                <span class="sidenav-icon icon icon-works ">&#95;</span>
+<!--                                <span class="sidenav-icon icon icon-works ">&#95;</span>-->
                             </div>
                             <strong>Reading</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
@@ -180,7 +180,7 @@
                         <div class="card-header">
                             <div class="card-actions">
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
-                                <span class="sidenav-icon icon icon-works">&#95;</span>
+<!--                                <span class="sidenav-icon icon icon-works">&#95;</span>-->
                             </div>
                             <strong>Listening</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
@@ -251,7 +251,7 @@
                         <div class="card-header">
                             <div class="card-actions">
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
-                                <span class="sidenav-icon icon icon-works">&#95;</span>
+<!--                                <span class="sidenav-icon icon icon-works">&#95;</span>-->
                             </div>
                             <strong>Speaking</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
@@ -320,7 +320,7 @@
                         <div class="card-header">
                             <div class="card-actions">
                                 <button type="button" class="card-action card-toggler" title="Collapse"></button> 
-                                <span class="sidenav-icon icon icon-works">&#95;</span>
+<!--                                <span class="sidenav-icon icon icon-works">&#95;</span>-->
                             </div>
                             <strong>Grammar &  Vocabulary</strong>
                             <span class="sidenav-icon icon icon-works">&#103;</span>
