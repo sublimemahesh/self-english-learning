@@ -331,7 +331,7 @@
                         <?php
                         $STUDENT = new Student($_SESSION['id']);
                         if ($STUDENT->level == 1) {
-                            ?> ?>
+                            ?> 
                             <div class="col-md-4">
                                 <div class="card back-color"   >
                                     <div class="card-body">
