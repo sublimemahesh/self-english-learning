@@ -5097,7 +5097,7 @@ a.thumbnail:hover {
     height: 100%;
     font-size: 12px;
     line-height: 20px;
-    color: #fff;
+    color: #000;
     text-align: center;
     background-color: #f7a033;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
@@ -5124,7 +5124,7 @@ a.thumbnail:hover {
 }
 
 .progress-bar-success {
-    background-color: #ed4882
+    background-color: #f7a033;
 }
 
 .progress-striped .progress-bar-success {
@@ -5476,7 +5476,7 @@ button.list-group-item-danger.active:hover {
 }
 
 .panel-body {
-    padding: 15px
+    padding: 3px
 }
 
 .panel-body:after,
@@ -12436,7 +12436,8 @@ select.md-form-control option {
     -webkit-box-shadow: none;
     box-shadow: none;
     height: 15px;
-    margin-bottom: 15px
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .progress-bar {
