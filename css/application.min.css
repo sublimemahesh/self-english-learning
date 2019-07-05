@@ -177,7 +177,7 @@ html {
 }
 
 .dropdown-body {
-    height: 304px;
+    height: 70px;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative

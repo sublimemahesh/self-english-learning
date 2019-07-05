@@ -59,90 +59,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             </div>
                                         </div>
                                     </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">2 hr</small>
-                                                <h5 class="notification-heading">Daniel Taylor</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Teddy Boyyyy, label text isn't vertically aligned with value text in grid forms when using .form-control... DT</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0460697039.jpg" alt="Charlotte Harrison">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">Sep 20</small>
-                                                <h5 class="notification-heading">Charlotte Harrison</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Dear Teddy, Can we discuss the benefits of this approach during our Monday meeting? Best regards Charlotte Harrison</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0531871454.jpg" alt="Ethan Walker">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">Sep 19</small>
-                                                <h5 class="notification-heading">Ethan Walker</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">If you need any further assistance, please feel free to contact us. We are always happy to assist you. Regards, Ethan</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0601274412.jpg" alt="Sophia Evans">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">Sep 18</small>
-                                                <h5 class="notification-heading">Sophia Evans</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Teddy, Please call me when you finish your work! I have many things to discuss. Don't forget call me !! Sophia</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0777931269.jpg" alt="Harry Walker">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">Sep 17</small>
-                                                <h5 class="notification-heading">Harry Walker</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Thank you for your message. I am currently out of the office, with no email access. I will be returning on 20 Jun.</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0872116906.jpg" alt="Emma Lewis">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">Sep 15</small>
-                                                <h5 class="notification-heading">Emma Lewis</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Teddy, Please find the attached report. I am truly sorry and very embarrassed about not finishing the report by the deadline.</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
+
                                     <a class="list-group-item" href="#">
                                         <div class="notification">
                                             <div class="notification-media">
@@ -167,17 +84,16 @@ $STUDENT = new Student($_SESSION['id']);
                         <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true">
                             <span class="icon-with-child hidden-xs">
                                 <span class="icon icon-bell-o icon-lg"></span>
-                                <span class="badge badge-primary badge-above right">7</span>
+                                <span class="badge badge-primary badge-above right">1</span>
                             </span>
                             <span class="visible-xs-block">
                                 <span class="icon icon-bell icon-lg icon-fw"></span>
-                                <span class="badge badge-primary pull-right">7</span>
+                                <span class="badge badge-primary pull-right">1</span>
                                 Notifications
                             </span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
                             <div class="dropdown-header">
-                                <a class="dropdown-link" href="#">Mark all as read</a>
                                 <h5 class="dropdown-heading">Recent Notifications</h5>
                             </div>
                             <div class="dropdown-body">
@@ -185,97 +101,13 @@ $STUDENT = new Student($_SESSION['id']);
                                     <a class="list-group-item" href="#">
                                         <div class="notification">
                                             <div class="notification-media">
-                                                <span class="icon icon-exclamation-triangle bg-warning circle sq-40"></span>
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">35 min</small>
-                                                <h5 class="notification-heading">Update Status</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Failed to get available update data. To ensure the proper functioning of your application, update now.</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
                                                 <span class="icon icon-flag bg-success circle sq-40"></span>
                                             </div>
                                             <div class="notification-content">
                                                 <small class="notification-timestamp">43 min</small>
-                                                <h5 class="notification-heading">Account Contact Change</h5>
+                                                <h5 class="notification-heading">Student login</h5>
                                                 <p class="notification-text">
-                                                    <small class="truncate">A contact detail associated with your account teddy.wilson, has recently changed.</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <span class="icon icon-exclamation-triangle bg-warning circle sq-40"></span>
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">1 hr</small>
-                                                <h5 class="notification-heading">Failed Login Warning</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">There was a failed login attempt from "192.98.19.164" into the account teddy.wilson.</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">4 hr</small>
-                                                <h5 class="notification-heading">Daniel Taylor</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0872116906.jpg" alt="Emma Lewis">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">8 hr</small>
-                                                <h5 class="notification-heading">Emma Lewis</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0601274412.jpg" alt="Sophia Evans">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">8 hr</small>
-                                                <h5 class="notification-heading">Sophia Evans</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="list-group-item" href="#">
-                                        <div class="notification">
-                                            <div class="notification-media">
-                                                <img class="circle" width="40" height="40" src="img/0180441436.jpg" alt="Teddy Wilson">
-                                            </div>
-                                            <div class="notification-content">
-                                                <small class="notification-timestamp">9 hr</small>
-                                                <h5 class="notification-heading">Teddy Wilson</h5>
-                                                <p class="notification-text">
-                                                    <small class="truncate">Published a new post: "Everything you know about Bootstrap is wrong".</small>
+                                                    <small class="truncate">Successfully login as student.</small>
                                                 </p>
                                             </div>
                                         </div>
@@ -337,9 +169,10 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">BEGINNER</span>
-                                                    <span class="icon icon-unlock pull-right black-color"></span>
-                                                </h3>
 
+                                                    <span class="icon icon-unlock-alt pull-right black-color"></span>
+
+                                                </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
@@ -358,7 +191,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">INTERMEDIATE</span>
-                                                    <span class="sidenav-icon icon icon-works pull-right black-color">&#95;</span>
+                                                    <span class="icon icon-lock pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
@@ -378,7 +211,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">ADVANCED</span>
-                                                    <span class="sidenav-icon icon icon-works pull-right black-color">&#95;</span>
+                                                    <span class="icon icon-lock pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
@@ -400,7 +233,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">BEGINNER</span>
-                                                    <span class="icon icon-unlock pull-right black-color"></span>
+                                                    <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
@@ -420,7 +253,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">INTERMEDIATE</span>
-                                                    <span class="icon icon-unlock pull-right black-color"></span>
+                                                    <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
@@ -440,8 +273,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">ADVANCED</span>
-                                                    <span class="sidenav-icon icon icon-works pull-right black-color">&#95;</span>
-
+                                                    <span class="icon icon-lock pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
@@ -464,7 +296,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">BEGINNER</span>
-                                                    <span class="icon icon-unlock pull-right black-color"></span>
+                                                    <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
 
                                                 <small class="black-color">0% Completed</small>
@@ -485,7 +317,7 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">INTERMEDIATE</span>
-                                                    <span class="icon icon-unlock pull-right black-color"></span>
+                                                    <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
@@ -505,13 +337,13 @@ $STUDENT = new Student($_SESSION['id']);
                                             <div class="media-middle media-body">
                                                 <h3 class="media-heading">
                                                     <span class="fw-l black-color">ADVANCED</span>
-                                                    <span class="icon icon-unlock pull-right black-color"></span>
+                                                    <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
                                                 <small class="black-color">0% Completed</small>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>                                        
                             </div>
                         <?php } else { ?>
 
