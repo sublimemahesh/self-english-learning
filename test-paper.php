@@ -52,17 +52,17 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_1" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_1" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_1" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
@@ -85,22 +85,22 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" >
+                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="0"/>
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="1"   >
+                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="1"   />
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"  >
+                                                                <input class="custom-control-input" type="checkbox" name="que_2" value="0" />
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"  name="que_2" value="0"  />
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
@@ -121,22 +121,22 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <input class="custom-control-input" type="checkbox"  name="que_3" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_3" value="1"   >
+                                                                <input class="custom-control-input" type="checkbox" name="que_3" value="0"  >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"    name="que_3" value="1" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_3" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label> 
@@ -156,17 +156,17 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"  >
+                                                                <input class="custom-control-input" type="checkbox"  name="que_4" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_4" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_4" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
@@ -191,22 +191,22 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <div class="col-sm-9">
                                                         <div class="custom-controls-stacked m-t">
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox" name="que_5" value="1"  >
+                                                                <input class="custom-control-input" type="checkbox" name="que_5" value="0"  >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"   name="que_5" value="0" >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"   >
+                                                                <input class="custom-control-input" type="checkbox" name="que_5" value="0"  >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label>
                                                             <label class="custom-control custom-control-primary custom-checkbox">
-                                                                <input class="custom-control-input" type="checkbox"    >
+                                                                <input class="custom-control-input" type="checkbox"  name="que_5" value="1"  >
                                                                 <span class="custom-control-indicator"></span>
                                                                 <span class="custom-control-label">Put site into maintenance mode</span>
                                                             </label> 

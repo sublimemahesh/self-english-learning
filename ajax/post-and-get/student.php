@@ -20,32 +20,48 @@ if ($_POST['action'] == 'UPDATESTUDENTLEVEL') {
     if (isset($_POST['que_5'])) {
         $que_5 = $_POST['que_5'];
     }
- 
+
 
     $cal = $que_1 + $que_2 + $que_3 + $que_4 + $que_5;
 
     $STUDENT = new Student($_POST['id']);
 
     if ($cal <= 2) {
+        $STUDENT->level = 1;
         $STUDENT->status = 1;
+
+        $result = $STUDENT->updateStatus();
+
+        if ($result) {
+            $result['status'] = 'beginner';
+            echo json_encode($result);
+            header('Content-type: application/json');
+            exit();
+        }
     } elseif ($cal <= 3) {
-        $STUDENT->status = 2;
-    } else if ($cal <= 4) {
-        $STUDENT->status = 3;
-    }
 
+        $STUDENT->level = 2;
+        $STUDENT->status = 1;
+        $result = $STUDENT->updateStatus();
 
-    $result = $STUDENT->updateLevel();
-    if ($result) {
-        $result['status'] = 'success';
-        echo json_encode($result);
-        header('Content-type: application/json');
-        exit();
-    } else {
-        $result['status'] = 'error';
-        echo json_encode($result);
-        header('Content-type: application/json');
-        exit();
+        if ($result) {
+            $result['status'] = 'intermediate';
+            echo json_encode($result);
+            header('Content-type: application/json');
+            exit();
+        }
+    } else if ($cal <= 5) {
+
+        $STUDENT->level = 3;
+        $STUDENT->status = 1;
+        $result = $STUDENT->updateStatus();
+
+        if ($result) {
+            $result['status'] = 'advance';
+            echo json_encode($result);
+            header('Content-type: application/json');
+            exit();
+        }
     }
 }
 ?> 
