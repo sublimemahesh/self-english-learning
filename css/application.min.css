@@ -311,7 +311,7 @@ html {
 .navbar-default .open .navbar-account-btn,
 .navbar-default .open .user-account-btn:focus,
 .navbar-default .open .user-account-btn:hover {
-    background-color: #e7e7ec;
+/*    background-color: #e7e7ec;*/
     color: #343439
 }
 
