@@ -64,8 +64,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         </div>
                                         <div id="one" class="panel-collapse collapse">
                                             <div class="panel-body  " style="padding: 25px;">
-                                                A picture description is an ideal way of practicing your English vocabulary in all sorts of fields. Describing paintings or other art pictures is something for the advanced learner of English as you also have to talk about the artist’s intention and the impression on the viewer.
-                                                                     
+                                              Listning this videoand give the answers
                                             </div>
                                         </div> 
                                     </div>  
@@ -73,13 +72,13 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#" href="#four">
-                                                    Image
+                                                    Video
                                                 </a>
                                             </h4>
                                         </div>
                                         <div id="four" class="panel-collapse collapse in">
                                             <div class="panel-body" style="padding: 10px;">
-                                                <img src="img/people.jpg" class="img-responsive"/>
+                                                                <iframe width="810" height="500" src="https://www.youtube.com/embed/cC2vxmBDAG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                 
                                             </div>
                                         </div>
                                     </div>
@@ -87,97 +86,87 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <div class="panel">
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#" href="#two">
-                                                    Questions.
+                                                <a data-toggle="collapse" data-parent="#" href="#three">
+                                                    Check your understanding
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="two" class="panel-collapse collapse">
-                                            <div class="panel-body text-justify" style="padding: 25px;">
-                                                <p class="text-danger"><u><b>Write five sentences describing the given picture.</b></u></p>
-                            
-                                                <div class="compose-message">
-                                                    <div class="compose-editor">
-                                                        <ul style="list-style: none;padding-left: 0px;">
-                                                            <li> 1). </li>
-                                                            <li> 2). </li>
-                                                            <li> 3). </li>
-                                                            <li> 4). </li>
-                                                            <li> 5). </li>
+                                        <div id="three" class="panel-collapse collapse">
+                                            <div class="panel-body" style="padding: 10px;">
 
-                                                        </ul>
-                                                    </div>
-                                                    <div class="compose-toolbar">
-                                                        <div class="btn-toolbar" data-role="editor-toolbar">
-                                                            <div class="btn-group">
-                                                                <div class="btn-group dropup">
-                                                                    <button class="btn btn-link link-muted" title="Font Size" data-toggle="dropdown" type="button">
-                                                                        <span class="icon icon-text-height"></span>
-                                                                    </button>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li><a class="fs-Five" data-edit="fontSize 5">Huge</a></li>
-                                                                        <li><a class="fs-Three" data-edit="fontSize 3">Normal</a></li>
-                                                                        <li><a class="fs-One" data-edit="fontSize 1">Small</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div class="btn-group">
-                                                                    <button class="btn btn-link link-muted" title="Bold (Ctrl/Cmd+B)" data-edit="bold" type="button">
-                                                                        <span class="icon icon-bold"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Italic (Ctrl/Cmd+I)" data-edit="italic" type="button">
-                                                                        <span class="icon icon-italic"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Strikethrough" data-edit="strikethrough" type="button">
-                                                                        <span class="icon icon-strikethrough"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Underline (Ctrl/Cmd+U)" data-edit="underline" type="button">
-                                                                        <span class="icon icon-underline"></span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="btn-group">
-                                                                    <button class="btn btn-link link-muted" title="Bullet list" data-edit="insertunorderedlist" type="button">
-                                                                        <span class="icon icon-list-ul"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Number list" data-edit="insertorderedlist" type="button">
-                                                                        <span class="icon icon-list-ol"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Reduce indent (Shift+Tab)" data-edit="outdent" type="button">
-                                                                        <span class="icon icon-outdent"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Indent (Tab)" data-edit="indent" type="button">
-                                                                        <span class="icon icon-indent"></span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="btn-group">
-                                                                    <button class="btn btn-link link-muted" title="Align Left (Ctrl/Cmd+L)" data-edit="justifyleft" type="button">
-                                                                        <span class="icon icon-align-left"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Center (Ctrl/Cmd+E)" data-edit="justifycenter" type="button">
-                                                                        <span class="icon icon-align-center"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Align Right (Ctrl/Cmd+R)" data-edit="justifyright" type="button">
-                                                                        <span class="icon icon-align-right"></span>
-                                                                    </button>
-                                                                    <button class="btn btn-link link-muted" title="Justify (Ctrl/Cmd+J)" data-edit="justifyfull" type="button">
-                                                                        <span class="icon icon-align-justify"></span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="btn-group">
-                                                                    <label class="btn btn-link link-muted file-upload-btn" title="Insert picture">
-                                                                        <span class="icon icon-picture-o"></span>
-                                                                        <input class="file-upload-input" type="file" name="file" data-edit="insertImage">
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                <p class="text-danger"><u><b>Listening is the video and given the answers.</u></p>
+
+                                                <strong>  1. It ………………. Today.? </strong> <br>
+                                                <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="1">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label">Snowed</span>
+                                                    </label>
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label">Rained</span>
+                                                    </label>
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label">Didn’t snow</span>
+                                                    </label> 
+                                                </div> 
+
+
+                                                <p>
+                                                    <strong>  2.   I put on my …………………  </strong> <br> 
+                                                <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="1">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label"> Hat</span>
+                                                    </label>
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label">Hat and kittens</span>
+                                                    </label>
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label"> Hat and mittens</span>
+                                                    </label>
+                                                   
+
+                                                </div>  
+
+                                                </p>
+                                                <p>
+                                                    <strong>   3.   My mom tied my sister’s ………………………</strong>  <br>
+                                                <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="1">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label"> Tie.</span>
+                                                    </label>
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label"> Scarf</span>
+                                                    </label>
+                                                    <label class="custom-control custom-control-default custom-radio">
+                                                        <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-label"> Staff.</span>
+                                                    </label> 
+                                                </div>  
+                                                </p>
+                                                <div class="col-md-3  pull-left">
+                                                    <button type="submit" class="btn btn-primary btn-block" id="create">Submit</button>
                                                 </div>
-                                            </div> 
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!-- end of panel -->
+                                    </div>  
 
-                                     
+
                                 </div> 
                             </div>
                             <div class="col-md-3 col-sm-3">
