@@ -22,6 +22,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <link rel="stylesheet" href="css/elephant.min.css">
         <link rel="stylesheet" href="css/application.min.css">
         <link href="css/sweetalert.css" rel="stylesheet" type="text/css"/>
+     
     </head>
     <body class="layout layout-header-fixed layout-sidebar-fixed">
 
@@ -126,7 +127,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                         <div class="col-md-4 col-md-push-4">
                             <div class="card">
                                 <div class="card-header"> 
-                                    <strong>Welcome to Learn English Teens</strong> 
+                                    <strong>Welcome to Self English Learning</strong> 
                                 </div>
                                 <div class="card-body">
                                     <ul class="media-list">
@@ -193,9 +194,9 @@ include_once(dirname(__FILE__) . '/auth.php');
                 </div>
             </div>
             <div class="layout-footer">
-                <div class="layout-footer-body">
+               <div class="layout-footer-body">
                     <small class="version">Version 1.4.0</small>
-                    <small class="copyright"><?php echo date('Y') ?>&copy; Elephant <a href="#">Synotect Private Limited.</a></small>
+                  <small class="copyright"><?php echo date('Y') ?>&copy;  <a href="#">Synotect Private Limited.</a></small>
                 </div>
             </div>
         </div>
@@ -206,5 +207,31 @@ include_once(dirname(__FILE__) . '/auth.php');
         <script src="js/application.min.js"></script>
         <script src="js/sweetalert.min.js" type="text/javascript"></script>
         <script src="ajax/js/check-login.js" type="text/javascript"></script>
+        
+        <script>
+            var tabChange = function () {
+                var tabs = $('.nav-tabs > li');
+                var active = tabs.filter('.active');
+                var next = active.next('li').length ? active.next('li').find('a') : tabs.filter(':first-child').find('a');
+                // Bootsrap tab show, para ativar a tab
+                next.tab('show')
+            }
+            // Tab Cycle function
+            var tabCycle = setInterval(tabChange, 3000)
+            // Tab click event handler
+            $(function () {
+                $('.nav-tabs a').click(function (e) {
+                    e.preventDefault();
+                    // Parar o loop
+                    clearInterval(tabCycle);
+                    // mosta o tab clicado, default bootstrap
+                    $(this).tab('show')
+                    // Inicia o ciclo outra vez
+                    setTimeout(function () {
+                        tabCycle = setInterval(tabChange, 3000)//quando recomeça assume este timing
+                    }, 3000);
+                });
+            });
+        </script>
     </body>
 </html>

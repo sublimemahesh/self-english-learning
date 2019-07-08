@@ -32,7 +32,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <div class="layout-main">
 
             <!-- Navigation -->
-            <?php include './navigation.php'; ?>
+            <?php include './writing-navigation.php'; ?>
             <!--End Navigation -->
 
             <div id="lesson">
@@ -233,7 +233,7 @@ include_once(dirname(__FILE__) . '/auth.php');
             <div class="layout-footer">
                 <div class="layout-footer-body">
                     <small class="version">Version 1.4.0</small>
-                    <small class="copyright"><?php echo date('Y') ?>&copy; Elephant <a href="#">Synotect Private Limited.</a></small>
+                    <small class="copyright"><?php echo date('Y') ?>&copy;  <a href="#">Synotect Private Limited.</a></small>
                 </div>
             </div>
         </div>
