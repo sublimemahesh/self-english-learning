@@ -4,7 +4,7 @@ $STUDENT = new Student($_SESSION['id']);
 <div class="layout-header">
     <div class="navbar navbar-default">
         <div class="navbar-header">
-            <a class="navbar-brand navbar-brand-center" href="#">
+            <a class="navbar-brand navbar-brand-center" href="index.php">
                 <img class="navbar-brand-logo" src="img/logo.png" alt="Self-English-Learning">
             </a>
             <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#sidenav">

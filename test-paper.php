@@ -75,11 +75,8 @@ include_once(dirname(__FILE__) . '/auth.php');
 
                                                 </div>
                                             </div>
-
                                         </div>
-
                                     </div>
-
                                 </div>
                                 <hr>
                                 <div class="row">
