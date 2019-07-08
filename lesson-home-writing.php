@@ -32,7 +32,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <div class="layout-main">
 
             <!-- Navigation -->
-            <?php include './navigation.php'; ?>
+            <?php include './writing-navigation.php'; ?>
             <!--End Navigation -->
 
             <div id="lesson">
@@ -69,7 +69,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             <div class="row gutter-xs">
                                                 <div class="card">
                                                     <div class="col-md-5">
-                                                        <a class="card-img overlay overlay-hover" href="view-lession-2.php">
+                                                        <a class="card-img overlay overlay-hover" href="view-lesson-2.php">
                                                             <div class="overlay-gradient">
                                                                 <img class="card-img img-responsive" src="img/people.jpg" alt="Television">
                                                             </div>
@@ -90,13 +90,13 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <div class="col-md-7 inner-content ">
                                                         <div class="card-body">
                                                             <h4 class="card-title fw-l">
-                                                                <a class="link-muted" href="view-lession-2.php">Picture Description - Beach</a>
+                                                                <a class="link-muted" href="view-lesson-2.php">Picture Description - Beach</a>
                                                             </h4>
                                                             <small class="text-justify">Esse quibusdam voluptatibus quos, unde minima incidunt voluptatum hic pariatur vero sequi distinctio non eum qui soluta saepe…</small>
                                                         </div>
                                                         <div class="card-footer">
                                                             <small>
-                                                                <span class="inline odd first"><a href="view-lession-1.php">View</a></span> 
+                                                                <span class="inline odd first"><a href="view-lesson-1.php">View</a></span> 
                                                                 <span class="delimiter">»</span>
                                                             </small>
                                                         </div>

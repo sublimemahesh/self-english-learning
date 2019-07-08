@@ -70,7 +70,7 @@
 
                     <ul class="sidenav level-2 collapse" aria-expanded="true">
                         
-                        <li class="list-group-item active"><a href="lesson-home-writting.php">Lesson 01<span class="icon1 icon-unlock-alt" style="color: #f7a033;"></span></a></li>
+                        <li class="list-group-item active"><a href="lesson-home-writing.php">Lesson 01<span class="icon1 icon-unlock-alt" style="color: #f7a033;"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 02<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
