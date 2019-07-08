@@ -50,15 +50,12 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <span class="inline odd last"><a href="" title="">Lesson 1</a></span>
                                 </div>
                                 <div class="col-md-4"  >
-
                                     <div class="tab-content">
                                         <div class="tab-pane fade active in home-1"  >
                                             <h3 class="text-center" style="padding-bottom: 15px;">Reading</h3>
                                             <p class="text-justify">     Reading in English is useful in many ways. It is a great way to get an idea of the different styles of writing and see how to use words appropriately. This will help you improve your vocabulary, grammar, sentence structure, and show you there are many different ways to communicate ideas.</p>
                                         </div>
                                     </div>
-
-
                                 </div>
                                 <div class="col-md-8" style="padding-left: 0px;"> 
                                     <div class="tab-content" style="padding-left: 0px; padding-right: 0px;">
@@ -66,14 +63,13 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             <img src="img/img/reading.jpg" alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;"/>
                                         </div>
                                     </div> 
-
                                 </div>
                                 <div class="row gutter-xs">
                                     <div class="col-sm-6">
                                         <div class="row gutter-xs">
                                             <div class="card">
                                                 <div class="col-md-5">
-                                                    <a class="card-img overlay overlay-hover" href="#">
+                                                    <a class="card-img overlay overlay-hover" href="view-lession-1.php">
                                                         <div class="overlay-gradient">
                                                             <img class="card-img img-responsive" src="img/img/television.jpg" alt="Television">
                                                         </div>
@@ -91,16 +87,16 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                         </div>
                                                     </a>
                                                 </div>
-                                                <div class="col-md-7 inner-content">
+                                                <div class="col-md-7 inner-content ">
                                                     <div class="card-body">
                                                         <h4 class="card-title fw-l">
-                                                            <a class="link-muted" href="#">Television</a>
+                                                            <a class="link-muted" href="view-lession-1.php">Television</a>
                                                         </h4>
-                                                        <small>Esse quibusdam voluptatibus quos, unde minima incidunt voluptatum hic pariatur vero sequi distinctio non eum qui soluta saepe…</small>
+                                                        <small class="text-justify">Esse quibusdam voluptatibus quos, unde minima incidunt voluptatum hic pariatur vero sequi distinctio non eum qui soluta saepe…</small>
                                                     </div>
                                                     <div class="card-footer">
                                                         <small>
-                                                            <span class="inline odd first"><a href="/">View</a></span> 
+                                                            <span class="inline odd first"><a href="view-lession-1.php">View</a></span> 
                                                             <span class="delimiter">»</span>
                                                         </small>
                                                     </div>

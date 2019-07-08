@@ -50,7 +50,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                 <span class="inline odd last"><a href="" title="">Television</a></span>
                             </div>
                             <div class="col-md-9 col-sm-9"> 
-                                <h2>Default collapse with scaling icon</h2> 
+                                <h2> </h2> 
                                 <div class="panel-group wrap" id="bs-collapse"> 
                                     <div class="panel" >
                                         <div class="panel-heading">
@@ -61,8 +61,8 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             </h4>
                                         </div>
                                         <div id="one" class="panel-collapse collapse">
-                                            <div class="panel-body" style="padding: 25px;">
-                                                Read the given paragraph and answer the questions.                                            </div>
+                                            <div class="panel-body  " style="padding: 25px;">
+                                               Read the given paragraph and answer the questions.                                        </div>
                                         </div> 
                                     </div>  
                                     <div class="panel">
@@ -116,7 +116,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div id="three" class="panel-collapse collapse">
                                             <div class="panel-body" style="padding: 10px;">
 
-                                                <p>Read the given paragraph and given the answers.</p>
+                                                <p class="text-danger"><u><b>Read the given paragraph and given the answers.</u></p>
 
 
                                                 <strong>  1. When did TVs come out?  </strong> <br>
@@ -266,13 +266,13 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <div class="card-header"> 
                                         <strong> <h4>Other Lessons</h4></strong> 
                                     </div>
-                                    <div class="card-body">
-                                        <ul class="media-list">
+                                    <div class="card-body  ">
+                                        <ul class="media-list ">
                                             <li class="media"  style="padding: 6px;">
 
                                                 <div class="media-middle media-body">
                                                     <h5 class="media-heading">
-                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span>  Getting started</a><br> 
+                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span>  Lesson 01</a><span class="icon1 icon-unlock-alt pull-right"></span><br> 
                                                     </h5>
 
                                                 </div>
@@ -282,7 +282,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
                                                 <div class="media-middle media-body">
                                                     <h5 class="media-heading">
-                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span>  Find out your English level</a>
+                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span>  Lesson 02</a><span class="icon1 icon-lock pull-right  "></span>
                                                     </h5>
 
                                                 </div>
@@ -292,7 +292,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
                                                 <div class="media-middle media-body">
                                                     <h5 class="media-heading">
-                                                        <a class="link-muted" href="#">  <span class="sidenav-icon icon icon icon-leanpub"></span> The party</a>
+                                                        <a class="link-muted" href="#">  <span class="sidenav-icon icon icon icon-leanpub"></span> Lesson 03</a><span class="icon1 icon-lock pull-right  "></span>
                                                     </h5>
 
                                                 </div>
@@ -303,7 +303,17 @@ include_once(dirname(__FILE__) . '/auth.php');
 
                                                 <div class="media-middle media-body">
                                                     <h5 class="media-heading">
-                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span> The party</a>
+                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span> Lesson 04</a><span class="icon1 icon-lock pull-right   "></span>
+                                                    </h5>
+
+                                                </div>
+                                            </li>
+                                            <hr style="margin: 5px;">
+                                            <li class="media"  style="padding: 6px;">
+
+                                                <div class="media-middle media-body">
+                                                    <h5 class="media-heading">
+                                                        <a class="link-muted" href="#"> <span class="sidenav-icon icon icon icon-leanpub"></span> Lesson 05</a><span class="icon1 icon-lock pull-right  "></span>
                                                     </h5>
 
                                                 </div>
