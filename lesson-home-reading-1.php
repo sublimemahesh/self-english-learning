@@ -32,7 +32,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <div class="layout-main">
 
             <!-- Navigation -->
-            <?php include './navigation.php'; ?>
+            <?php include './reading-navigation.php'; ?>
             <!--End Navigation -->
 
             <div id="lesson">
@@ -52,8 +52,8 @@ include_once(dirname(__FILE__) . '/auth.php');
                                 <div class="col-md-4"  >
                                     <div class="tab-content">
                                         <div class="tab-pane fade active in home-1"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Reading</h3>
-                                            <p class="text-justify">     Reading in English is useful in many ways. It is a great way to get an idea of the different styles of writing and see how to use words appropriately. This will help you improve your vocabulary, grammar, sentence structure, and show you there are many different ways to communicate ideas.</p>
+                                            <h3 class="text-center" style="padding-bottom: 15px;">Lesson 01</h3>
+                                            <p class="text-justify">    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@ include_once(dirname(__FILE__) . '/auth.php');
             <div class="layout-footer">
                 <div class="layout-footer-body">
                     <small class="version">Version 1.4.0</small>
-                    <small class="copyright"><?php echo date('Y') ?>&copy; Elephant <a href="#">Synotect Private Limited.</a></small>
+                    <small class="copyright"><?php echo date('Y') ?>&copy;  <a href="#">Synotect Private Limited.</a></small>
                 </div>
             </div>
         </div>

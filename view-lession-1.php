@@ -33,7 +33,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
         <div class="layout-main">
             <!-- Navigation -->
-            <?php include './navigation.php'; ?>
+            <?php include './reading-navigation.php'; ?>
             <!--End Navigation -->
 
             <div class="layout-content">
@@ -109,7 +109,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#" href="#three">
-                                                    Check your understanding. 
+                                                    Check your understanding
                                                 </a>
                                             </h4>
                                         </div>
