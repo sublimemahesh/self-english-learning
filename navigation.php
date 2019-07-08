@@ -43,9 +43,8 @@
                     </a>
 
 
-                   <ul class="sidenav level-2 collapse" aria-expanded="false" style="height: 0px;">
-                        <li class="sidenav-heading">Reading</li>
-                        <li class="list-group-item"><a href="#">Lesson 01<span class="icon1 icon-unlock-alt"></span></a></li>
+                   <ul class="sidenav level-2 collapse" aria-expanded="false" style="height: 0px;"> 
+                        <li class="list-group-item"><a href="lesson-home-grammer.php">Lesson 01<span class="icon1 icon-unlock-alt"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 02<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
