@@ -35,7 +35,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
         <div class="layout-main">
             <!-- Navigation -->
-            <?php include './navigation.php'; ?>
+            <?php include './listening-navigation.php'; ?>
             <!--End Navigation -->
 
             <div class="layout-content">
@@ -49,7 +49,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                 <span class="delimiter">»</span>
                                 <span class="inline odd last"><a href="" title="">Lesson 1</a></span>
                                 <span class="delimiter">»</span>
-                                <span class="inline odd last"><a href="" title="">Picture Description</a></span>
+                                <span class="inline odd last"><a href="" title="">Listening English Practice Level 1</a></span>
                             </div>
                             <div class="col-md-9 col-sm-9"> 
                                 <h2> </h2> 
@@ -64,7 +64,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         </div>
                                         <div id="one" class="panel-collapse collapse">
                                             <div class="panel-body  " style="padding: 25px;">
-                                              Listning this videoand give the answers
+                                             Practise and improve your listening skills for your school studies and your English exams.
                                             </div>
                                         </div> 
                                     </div>  
@@ -94,7 +94,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div id="three" class="panel-collapse collapse">
                                             <div class="panel-body" style="padding: 10px;">
 
-                                                <p class="text-danger"><u><b>Listening is the video and given the answers.</u></p>
+                                                <p class="text-danger"><u><b>Listen to above video and provide the answers.</u></p>
 
                                                 <strong>  1. It ………………. Today.? </strong> <br>
                                                 <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
