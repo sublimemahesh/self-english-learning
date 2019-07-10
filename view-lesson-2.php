@@ -62,10 +62,11 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="one" class="panel-collapse collapse">
+                                        <div id="one" class="panel-collapse collapse in">
                                             <div class="panel-body  " style="padding: 25px;">
-                                                A picture description is an ideal way of practicing your English vocabulary in all sorts of fields. Describing paintings or other art pictures is something for the advanced learner of English as you also have to talk about the artist’s intention and the impression on the viewer.
-                                                                     
+                                                <p>A picture description is an ideal way of practicing your English vocabulary in all sorts of fields. Describing paintings or other art pictures is something for the advanced learner of English as you also have to talk about the artist’s intention and the impression on the viewer.</p>
+                                              
+                                                <p>Look at the picture carefully and do the exercise</p>
                                             </div>
                                         </div> 
                                     </div>  
@@ -73,11 +74,11 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#" href="#four">
-                                                    Image
+                                                    Picture
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="four" class="panel-collapse collapse in">
+                                        <div id="four" class="panel-collapse collapse">
                                             <div class="panel-body" style="padding: 10px;">
                                                 <img src="img/people.jpg" class="img-responsive"/>
                                             </div>
@@ -88,7 +89,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#" href="#two">
-                                                    Questions.
+                                                    Exercise
                                                 </a>
                                             </h4>
                                         </div>
@@ -176,7 +177,24 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         </div>
                                     </div>
                                     <!-- end of panel -->
-
+   <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#" href="#last">
+                                                    Check your understanding
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="last" class="panel-collapse collapse">
+                                            <div class="" style="padding: 17px;">
+                                                <p>
+                                                  You should complete the exam in order to unlock next lesson
+                                                </p>
+                                                 <button class="btn btn-outline-primary" type="button">Examination on this Lesson</button>
+                                            </div>
+                                         
+                                        </div>
+                                    </div>
                                      
                                 </div> 
                             </div>

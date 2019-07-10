@@ -32,7 +32,7 @@
                             <div class="col-sm-12">
 
                                 <div class="form-group">
-                                    <label for="first-name" >First name</label>
+                                    <label for="first-name" >Full Name</label>
                                     <input id="first_name" class="form-control" type="text" name="full_name"   class="form-control" data-field="full_name" >
                                     <div class="valid-message"></div>
                                 </div>
@@ -48,40 +48,29 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row gutter-xs">
+            
+ <div class="row gutter-xs">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label for="student_id">Student ID</label>
-                                    <input id="student_id" class="form-control" type="text" name="student_id"  data-field="student_id"  >
+                                    <label for="batch">Batch</label>
+                                    <input id="batch" class="form-control" type="text" name="batch"  data-field="batch"  >
                                     <div class="valid-message"></div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="">
+                                <div class="form-group hidden-lg hidden-md">
+                                    <label for="age">Age</label>
+                                    <input id="age" class="form-control" value="0" type="text" name="age"   >
 
-                        <div class="row gutter-xs"> 
-
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <label for="password" class="control-label">Password</label>
-                                    <!--<div class="input-group">-->
-                                    <input  id="password" class="form-control" type="password" name="password" id="labelPassword"   data-field="password" >
-                                    <div class="valid-message" ></div> 
-<!--                                        <span class="input-group-addon">
-                                            <label class="custom-control custom-control-primary custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox" name="password_toggler">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-label">Show</span>
-                                            </label>
-                                        </span> 
-                                    </div>-->
                                 </div>
-                            </div> 
-                        </div>
+                            </div>
+                        </div>  
+                      
 
                         <div class="row gutter-xs">
                             <div class="col-xs-12">
                                 <div class="form-group">
-                                    <label for="birth-month">Birthdate</label>
+                                    <label for="birth-month">Date of Birth</label>
                                     <div class="row gutter-xs">
                                         <div class="col-xs-6">
                                             <div class="form-group">
@@ -119,22 +108,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row gutter-xs">
-                            <div class="col-sm-6">
+                                    <div class="row gutter-xs">
+                            <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label for="batch">Batch</label>
-                                    <input id="batch" class="form-control" type="text" name="batch"  data-field="batch"  >
+                                    <label for="student_id">Student ID</label>
+                                    <input id="student_id" class="form-control" type="text" name="student_id"  data-field="student_id"  >
                                     <div class="valid-message"></div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="age">Age</label>
-                                    <input id="age" class="form-control" type="text" name="age"   >
+                        </div>
+                          <div class="row gutter-xs"> 
 
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="password" class="control-label">Password</label>
+                                    <!--<div class="input-group">-->
+                                    <input  id="password" class="form-control" type="password" name="password" id="labelPassword"   data-field="password" >
+                                    <div class="valid-message" ></div> 
+<!--                                        <span class="input-group-addon">
+                                            <label class="custom-control custom-control-primary custom-checkbox">
+                                                <input class="custom-control-input" type="checkbox" name="password_toggler">
+                                                <span class="custom-control-indicator"></span>
+                                                <span class="custom-control-label">Show</span>
+                                            </label>
+                                        </span> 
+                                    </div>-->
                                 </div>
-                            </div>
-                        </div>  
+                            </div> 
+                        </div>
+                       
                         <button class="btn btn-primary btn-block" type="submit"  >Sign up</button> 
                     </form> 
                 </div>

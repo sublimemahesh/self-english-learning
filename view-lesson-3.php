@@ -62,9 +62,10 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="one" class="panel-collapse collapse">
+                                        <div id="one" class="panel-collapse collapse in">
                                             <div class="panel-body  " style="padding: 25px;">
-                                             Practise and improve your listening skills for your school studies and your English exams.
+                                                <p> Practise and improve your listening skills for your school studies and your English exams.</p>
+                                                <p>Listen to the video and do the exercise</p>
                                             </div>
                                         </div> 
                                     </div>  
@@ -76,7 +77,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="four" class="panel-collapse collapse in">
+                                        <div id="four" class="panel-collapse collapse">
                                             <div class="panel-body" style="padding: 10px;">
                                                                 <iframe width="810" height="500" src="https://www.youtube.com/embed/cC2vxmBDAG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                 
                                             </div>
@@ -87,7 +88,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#" href="#three">
-                                                    Check your understanding
+                                                   Exercise
                                                 </a>
                                             </h4>
                                         </div>
@@ -165,7 +166,24 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             </div>
                                         </div>
                                     </div>  
-
+  <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#" href="#last">
+                                                    Check your understanding
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="last" class="panel-collapse collapse">
+                                            <div class="" style="padding: 17px;">
+                                                <p>
+                                                  You should complete the exam in order to unlock next lesson
+                                                </p>
+                                                 <button class="btn btn-outline-primary" type="button">Examination on this Lesson</button>
+                                            </div>
+                                         
+                                        </div>
+                                    </div>
 
                                 </div> 
                             </div>

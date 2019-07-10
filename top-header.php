@@ -183,7 +183,7 @@ $STUDENT = new Student($_SESSION['id']);
                                                     <span class="icon icon-unlock-alt pull-right black-color"></span>
 
                                                 </h3>
-                                                <small class="black-color">0% Completed</small>
+                                                <small class="black-color">70% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -194,8 +194,8 @@ $STUDENT = new Student($_SESSION['id']);
                                     <div class="card-body">
                                         <div class="media">
                                             <div class="media-middle media-left">
-                                                <div class="media-chart">
-                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
+                                                  <div class="media-chart">
+                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 1]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                                 </div>
                                             </div>
                                             <div class="media-middle media-body">
@@ -215,7 +215,7 @@ $STUDENT = new Student($_SESSION['id']);
                                         <div class="media">
                                             <div class="media-middle media-left">
                                                 <div class="media-chart">
-                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
+                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 1]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                                 </div>
                                             </div>
                                             <div class="media-middle media-body">
@@ -237,7 +237,7 @@ $STUDENT = new Student($_SESSION['id']);
                                         <div class="media">
                                             <div class="media-middle media-left">
                                                 <div class="media-chart">
-                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
+                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [100, 1]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                                 </div>
                                             </div>
                                             <div class="media-middle media-body">
@@ -245,7 +245,7 @@ $STUDENT = new Student($_SESSION['id']);
                                                     <span class="fw-l black-color">BEGINNER</span>
                                                     <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
-                                                <small class="black-color">0% Completed</small>
+                                                <small class="black-color">100% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -257,7 +257,7 @@ $STUDENT = new Student($_SESSION['id']);
                                         <div class="media">
                                             <div class="media-middle media-left">
                                                 <div class="media-chart">
-                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
+                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [60, 100]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                                 </div>
                                             </div>
                                             <div class="media-middle media-body">
@@ -265,7 +265,7 @@ $STUDENT = new Student($_SESSION['id']);
                                                     <span class="fw-l black-color">INTERMEDIATE</span>
                                                     <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
-                                                <small class="black-color">0% Completed</small>
+                                                <small class="black-color">40% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -277,7 +277,7 @@ $STUDENT = new Student($_SESSION['id']);
                                         <div class="media">
                                             <div class="media-middle media-left">
                                                 <div class="media-chart">
-                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
+                                                    <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 1]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="50" width="50"></canvas>
                                                 </div>
                                             </div>
                                             <div class="media-middle media-body">
@@ -309,7 +309,7 @@ $STUDENT = new Student($_SESSION['id']);
                                                     <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
 
-                                                <small class="black-color">0% Completed</small>
+                                                <small class="black-color">100% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -329,7 +329,7 @@ $STUDENT = new Student($_SESSION['id']);
                                                     <span class="fw-l black-color">INTERMEDIATE</span>
                                                     <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
-                                                <small class="black-color">0% Completed</small>
+                                                <small class="black-color">100% Completed</small>
                                             </div>
                                         </div>
                                     </div>
@@ -349,7 +349,7 @@ $STUDENT = new Student($_SESSION['id']);
                                                     <span class="fw-l black-color">ADVANCED</span>
                                                     <span class="icon icon-unlock-alt pull-right black-color"></span>
                                                 </h3>
-                                                <small class="black-color">0% Completed</small>
+                                                <small class="black-color">10% Completed</small>
                                             </div>
                                         </div>
                                     </div>

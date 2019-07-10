@@ -47,12 +47,12 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <span class="delimiter">»</span> 
                                     <span class="inline even"><a href="" title="">Reading</a></span> 
                                     <span class="delimiter">»</span> 
-                                    <span class="inline odd last"><a href="" title="">Lesson 1</a></span>
+                                    <span class="inline odd last"><a href="" title="">Beginner A1 reading</a></span>
                                 </div>
                                 <div class="col-md-4"  >
                                     <div class="tab-content">
                                         <div class="tab-pane fade active in home-1"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Lesson 01</h3>
+                                            <h3 class="text-center" style="padding-bottom: 15px;">Beginner A1 reading</h3>
                                             <p class="text-justify">    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                         </div>
                                     </div>

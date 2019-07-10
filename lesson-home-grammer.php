@@ -32,7 +32,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <div class="layout-main">
 
             <!-- Navigation -->
-            <?php include './navigation.php'; ?>
+            <?php include './grammer-navigation.php'; ?>
             <!--End Navigation -->
 
             <div id="lesson">
