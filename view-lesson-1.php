@@ -246,26 +246,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> 
-                                                                       
-                                    <div class="panel">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#" href="#two">
-                                                    Check your understanding
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="two" class="panel-collapse collapse">
-                                            <div class="" style="padding: 17px;">
-                                                <p>
-                                                  You should complete the exam in order to unlock next lesson
-                                                </p>
-                                                 <button class="btn btn-outline-primary" type="button">Examination on this Lesson</button>
-                                            </div>
-                                         
-                                        </div>
-                                    </div>
+                                    </div>  
                                 </div> 
                             </div>
                             <div class="col-md-3 col-sm-3">

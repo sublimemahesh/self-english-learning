@@ -134,8 +134,7 @@ $STUDENT = new Student($_SESSION['id']);
                             <img class="circle" width="36" height="36" src="img/0180441436.jpg" alt=""> <?php echo $STUDENT->full_name ?>
                             <span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu dropdown-menu-right"> 
-
+                        <ul class="dropdown-menu dropdown-menu-right">  
                             <li><a href="#">Profile</a></li>
                             <li><a href="log-out.php">Sign out</a></li>
                         </ul>

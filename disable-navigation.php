@@ -1,13 +1,9 @@
 <div class="layout-sidebar">
     <div class="layout-sidebar-backdrop"></div>
     <div class="layout-sidebar-body">
-
         <div class="custom-scrollbar">
             <ul class="sidenav level-1">
-
-
                 <li class="sidenav-item has-subnav disabled">
-
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
                         <span class="sidenav-icon icon icon icon-leanpub"></span>
                         <span class="sidenav-label"><strong>Reading</strong></span>
@@ -17,7 +13,6 @@
                                     <span class="sr-only">0% Complete (success)</span>
                                     0%
                                 </div>
-
                             </div>
                         </div>
                     </a>
@@ -30,11 +25,9 @@
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 05<span class="icon1 icon-lock"></span></a></li>
-
                     </ul>
                 </li>
                   <li class="sidenav-item has-subnav disabled">
-
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
                         <span class="sidenav-icon icon icon-language"></span>
                         <span class="sidenav-label"><strong>Grammer & Vocabulary</strong></span>
@@ -44,7 +37,6 @@
                                     <span class="sr-only">0% Complete (success)</span>
                                     0%
                                 </div>
-
                             </div>
                         </div>
                     </a>
@@ -57,11 +49,9 @@
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 05<span class="icon1 icon-lock"></span></a></li>
-
                     </ul>
                 </li>
                   <li class="sidenav-item has-subnav disabled">
-
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
                         <span class="sidenav-icon icon icon-pencil"></span>
                         <span class="sidenav-label"><strong>Writing</strong></span>
@@ -71,7 +61,6 @@
                                     <span class="sr-only">0% Complete (success)</span>
                                     0%
                                 </div>
-
                             </div>
                         </div>
                     </a>
@@ -84,11 +73,9 @@
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 05<span class="icon1 icon-lock"></span></a></li>
-
                     </ul>
                 </li>
                   <li class="sidenav-item has-subnav disabled">
-
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
                         <span class="sidenav-icon icon fa fa-l"></span>
                         <span class="sidenav-label"><strong>Listening</strong></span>
@@ -98,7 +85,6 @@
                                     <span class="sr-only">0% Complete (success)</span>
                                     0%
                                 </div>
-
                             </div>
                         </div>
                     </a>
@@ -111,11 +97,9 @@
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 05<span class="icon1 icon-lock"></span></a></li>
-
                     </ul>
                 </li>
                   <li class="sidenav-item has-subnav disabled">
-
                     <a href="#" aria-haspopup="true" aria-expanded="false" class="card">
                         <span class="sidenav-icon icon icon-microphone"></span>
                         <span class="sidenav-label"><strong>Speaking</strong></span>
@@ -125,11 +109,9 @@
                                     <span class="sr-only">0% Complete (success)</span>
                                     0%
                                 </div>
-
                             </div>
                         </div>
                     </a>
-
 
                       <ul class="sidenav level-2 collapse" aria-expanded="false" style="height: 0px;">
                         <li class="sidenav-heading">Reading</li>
@@ -138,12 +120,9 @@
                         <li class="list-group-item"><a href="#">Lesson 03<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 04<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Lesson 05<span class="icon1 icon-lock"></span></a></li>
-
                     </ul>
                 </li>
-
             </ul>
-                    
         </div>
     </div>
 </div>
