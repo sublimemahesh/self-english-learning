@@ -12646,10 +12646,10 @@ select.md-form-control option {
     padding-left: 43px;
     background-color: #fbfbfb;
 }
-
+/*
 .sidenav.level-2>li>a {
     padding-left: 20px;
-}
+}*/
 
 .sidenav.level-3>li>a {
     padding-left: 79px
