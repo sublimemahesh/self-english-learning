@@ -55,13 +55,10 @@ class Student {
 
     public function create() {
 
-        $query = "INSERT INTO `student` (`full_name`, `student_id`, `email`, `batch`,`birth_date`,`age`,`password`) VALUES  ('"
+        $query = "INSERT INTO `student` (`full_name`, `student_id`, `email`,`password`) VALUES  ('"
                 . $this->full_name . "','"
                 . $this->student_id . "', '"
-                . $this->email . "', '"
-                . $this->batch . "', '"
-                . $this->birth_date . "', '"
-                . $this->age . "', '"
+                . $this->email . "', '" 
                 . $this->password . "')";
 
         $db = new Database();
