@@ -49,65 +49,7 @@
                             </div>
                         </div>
 
-                        <div class="row gutter-xs">
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <label for="batch">Batch</label>
-                                    <input id="batch" class="form-control" type="text" name="batch"  data-field="batch"  >
-                                    <div class="valid-message"></div>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="form-group hidden-lg hidden-md">
-                                    <label for="age">Age</label>
-                                    <input id="age" class="form-control" value="0" type="text" name="age"   >
-
-                                </div>
-                            </div>
-                        </div>  
-
-
-                        <div class="row gutter-xs">
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <label for="birth-month">Date of Birth</label>
-                                    <div class="row gutter-xs">
-                                        <div class="col-xs-6">
-                                            <div class="form-group">
-                                                <select id="birth-month" class="custom-select" name="birth_month"  data-field="birth_month" >
-                                                    <option value="" disabled="disabled" selected="selected">Month</option>
-                                                    <option value="01">January</option>
-                                                    <option value="02">February</option>
-                                                    <option value="03">March</option>
-                                                    <option value="04">April</option>
-                                                    <option value="05">May</option>
-                                                    <option value="06">June</option>
-                                                    <option value="07">July</option>
-                                                    <option value="08">August</option>
-                                                    <option value="09">September</option>
-                                                    <option value="10">October</option>
-                                                    <option value="11">November</option>
-                                                    <option value="12">December</option>
-                                                </select>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-xs-3">
-                                            <div class="form-group">
-                                                <input id="birth-day" class="form-control" type="number" name="birth_day" placeholder="Day" min="1" max="31"   data-field="birth_day">
-                                            </div>
-
-                                        </div>
-                                        <div class="col-xs-3">
-                                            <div class="form-group">
-                                                <input id="birth-year" class="form-control" type="number" name="birth_year" placeholder="Year" min="1900" max="<?php echo date('Y') ?>" data-field="birth-year"  >
-                                            </div> 
-                                        </div>
-                                        <div class="valid-message" ></div> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                         
                         <div class="row gutter-xs">
                             <div class="col-sm-12">
                                 <div class="form-group">

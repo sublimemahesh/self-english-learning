@@ -41,50 +41,6 @@ $(document).ready(function () {
                         "message": "Please enter your password..!"
                     }
                 ]
-            },
-            "birth_month": {
-                "required": true,
-                "tests": [
-                    {
-                        "type": "null",
-                        "message": "Please enter your birth month..!"
-                    }
-                ]
-            },
-            "birth_day": {
-                "required": true,
-                "tests": [
-                    {
-                        "type": "null",
-                        "message": "Please enter your birth  day..!"
-                    }
-                ]
-            }, 
-            "birth_day": {
-                "required": true,
-                "tests": [
-                    {
-                        "type": "null",
-                        "message": "Please enter your birth  day..!"
-                    }
-                ]
-            },  
-            "birth-year": {
-                "required": true,
-                "tests": [
-                    {
-                        "type": "null",
-                        "message": "Please enter your birth year ..!"
-                    }
-                ]
-            }, "batch": {
-                "required": true,
-                "tests": [
-                    {
-                        "type": "null",
-                        "message": "Please enter your batch..!"
-                    }
-                ]
             }
         }
     });
@@ -104,7 +60,7 @@ $(document).ready(function () {
                 contentType: false,
                 processData: false,
                 dataType: "JSON",
-                success: function (result) { 
+                success: function (result) {
                     window.location.replace("index.php");
                 }
             });
