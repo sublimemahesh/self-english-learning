@@ -2113,16 +2113,16 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color: #e7e7ec;
+    color: #8d7d9b;
     opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
-    color: #e7e7ec
+    color: #8d7d9b
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #e7e7ec
+    color: #8d7d9b
 }
 
 .form-control::-ms-expand {

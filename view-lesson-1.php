@@ -60,7 +60,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="one" class="panel-collapse collapse">
+                                        <div id="one" class="panel-collapse collapse in">
                                             <div class="panel-body  " style="padding: 25px;">
                                                Read the given paragraph and answer the questions.                                        </div>
                                         </div> 
@@ -73,22 +73,10 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="four" class="panel-collapse collapse in">
+                                        <div id="four" class="panel-collapse collapse">
                                             <div class="panel-body" style="padding: 10px;">
                                                 <img src="img/ins.jpg" class="img-responsive"/>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <!-- end of panel -->
-                                    <div class="panel">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#" href="#two">
-                                                    Description
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="two" class="panel-collapse collapse">
                                             <div class="panel-body text-justify" style="padding: 25px;">
                                                 <p>Televisions show sounds and pictures. They get data from cables, discs, or over-the-air signals. They turn this data into sounds and images. People watch news and shows on them. You probably call them TVs. 
                                                     John Baird made the first TV in 1925. It had one color. It could only show 30 lines. This was just enough room for a face. It didn't work well, but it was a start.
@@ -103,20 +91,20 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             </div> 
                                         </div>
                                     </div>
-                                    <!-- end of panel -->
+
 
                                     <div class="panel">
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#" href="#three">
-                                                    Check your understanding
+                                                   Exercise
                                                 </a>
                                             </h4>
                                         </div>
                                         <div id="three" class="panel-collapse collapse">
                                             <div class="panel-body" style="padding: 10px;">
 
-                                                <p class="text-danger"><u><b>Read the given paragraph and given the answers.</u></p>
+                                                <p class="text-danger"><u><b>Read the given paragraph and provide answers.</u></p>
 
 
                                                 <strong>  1. When did TVs come out?  </strong> <br>
@@ -259,6 +247,25 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             </div>
                                         </div>
                                     </div> 
+                                                                       
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#" href="#two">
+                                                    Check your understanding
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="two" class="panel-collapse collapse">
+                                            <div class="" style="padding: 17px;">
+                                                <p>
+                                                  You should complete the exam in order to unlock next lesson
+                                                </p>
+                                                 <button class="btn btn-outline-primary" type="button">Examination on this Lesson</button>
+                                            </div>
+                                         
+                                        </div>
+                                    </div>
                                 </div> 
                             </div>
                             <div class="col-md-3 col-sm-3">
