@@ -22,7 +22,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <link rel="stylesheet" href="css/elephant.min.css">
         <link rel="stylesheet" href="css/application.min.css">
         <link href="css/sweetalert.css" rel="stylesheet" type="text/css"/>
-     
+
     </head>
     <body class="layout layout-header-fixed layout-sidebar-fixed">
 
@@ -38,70 +38,63 @@ include_once(dirname(__FILE__) . '/auth.php');
 
             <div class="layout-content">
                 <div class="layout-content-body">
-                    <div class="row gutter-xs panel">
-
+                    <div class="row gutter-xs panel"> 
                         <div class="col-xs-12 col-md-12">
                             <div class="card">
-                                <div class="col-md-3"  >
-
+                                <div class="col-md-3"  > 
                                     <div class="tab-content">
                                         <div class="tab-pane fade active in home-1"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Writing</h3>
+                                            <h3 class="text-center tab-padding"  >Writing</h3>
                                             <p class="text-justify">     Writing is a medium of human communication that represents language and emotion with signs and symbols. Learning to write English can be a frustratingly slow process.  I think to improve your writing you really need to write something in English more or less every day. </p>
-
                                         </div>
                                         <div class="tab-pane fade home-2"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Reading</h3>
+                                            <h3 class="text-center tab-padding"  >Reading</h3>
                                             <p class="text-justify">    Reading in English is useful in many ways. It is a great way to get an idea of the different styles of writing and see how to use words appropriately. This will help you improve your vocabulary, grammar, sentence structure, and show you there are many different ways to communicate ideas. </p>
                                         </div>
                                         <div class="tab-pane fade home-3"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Listening</h3>
+                                            <h3 class="text-center tab-padding"  >Listening</h3>
                                             <p class="text-justify">       Listening is the one skill that you use the most in everyday life. Listening comprehension is the basis for your speaking, writing and reading skills. To train your listening skills, it is important to listen actively, which means to actively pay attention to what you are listening to.</p>
                                         </div>
                                         <div class="tab-pane fade home-4"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Speaking</h3>
+                                            <h3 class="text-center tab-padding"  >Speaking</h3>
                                             <p class="text-justify">  Being able to speak English language is the most important skill for a language learner. Speaking is a productive skill that requires constant practice. Develop and improve your speaking skill at the same time as empowering your writing, reading and listening skills.</p>
                                         </div>
                                         <div class="tab-pane fade home-5"  >
-                                            <h3 class="text-center" style="padding-bottom: 15px;">Grammar & Vocabulary</h3>
+                                            <h3 class="text-center tab-padding"  >Grammar & Vocabulary</h3>
                                             <p class="text-justify">  When starts learning English, you first need to know some basic rules of the language. Developing a solid foundation in English grammar will not only help you create your own sentences correctly but will also make it easier to improve your communication skills in both spoken and written English.</p>
-                                        </div>
-
-                                    </div>
-
-
+                                        </div> 
+                                    </div> 
                                 </div>
-                                <div class="col-md-7" style="padding-left: 0px;"> 
-                                    <div class="tab-content" style="padding-left: 0px; padding-right: 0px;">
+                                <div class="col-md-7 tab-padding-col"  > 
+                                    <div class="tab-content tab-padding-col-zero"  >
                                         <div class="tab-pane fade active in home-1"  >
-                                            <img src="img/img/writing.jpg" alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;"/>
+                                            <img src="img/img/writing.jpg" alt="" class="img-responsive tab-padding-col-zero" width="100%"  />
                                         </div>
                                         <div class="tab-pane fade home-2"  >
-                                            <img src="img/img/reading.jpg " alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;"/>
+                                            <img src="img/img/reading.jpg " alt="" class="img-responsive tab-padding-col-zero" width="100%"  />
                                         </div>
 
                                         <div class="tab-pane fade home-3"  >
-                                            <img src="img/img/listening.jpg" alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;" />
+                                            <img src="img/img/listening.jpg" alt="" class="img-responsive tab-padding-col-zero" width="100%"   />
                                         </div>
                                         <div class="tab-pane fade home-4"  >
-                                            <img src="img/img/speaking.jpg" alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;" />
+                                            <img src="img/img/speaking.jpg" alt="" class="img-responsive tab-padding-col-zero" width="100%"  />
                                         </div>
                                         <div class="tab-pane fade home-5"  >
-                                            <img src="img/img/grammer.jpg" alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;"/>
+                                            <img src="img/img/grammer.jpg" alt="" class="img-responsive tab-padding-col-zero" width="100%"  />
                                         </div>
-                                    </div> 
-
+                                    </div>  
                                 </div>
 
-                                <div class="col-md-2 text-center" style="padding-left: 0px;" > 
-                                    <div class="  m-b-lg" style="margin-top: 40px;">
+                                <div class="col-md-2 text-center tab-padding-col"  > 
+                                    <div class=" tab-padding-col-top m-b-lg"  >
                                         <div class="tabs-right">
                                             <ul class="nav nav-tabs">
-                                                <li class="active" ><a href=".home-1" data-toggle="tab"  style="padding: 15px 13px;">Writing</a></li>
-                                                <li><a href=".home-2" data-toggle="tab" style="padding: 15px 13px;"  style="background-color: #f90;">Reading</a></li>
-                                                <li><a href=".home-3" data-toggle="tab" style="padding: 15px 13px;">Listening</a></li>
-                                                <li><a href=".home-4" data-toggle="tab" style="padding: 15px 13px;">Speaking</a></li>
-                                                <li><a href=".home-5" data-toggle="tab" style="padding: 15px 13px;">Grammar & Vocabulary</a></li>
+                                                <li class="active" ><a href=".home-1" data-toggle="tab"  class="tab-content-title" >Writing</a></li>
+                                                <li><a href=".home-2" data-toggle="tab" class="tab-content-title"  >Reading</a></li>
+                                                <li><a href=".home-3" data-toggle="tab" class="tab-content-title">Listening</a></li>
+                                                <li><a href=".home-4" data-toggle="tab" class="tab-content-title">Speaking</a></li>
+                                                <li><a href=".home-5" data-toggle="tab" class="tab-content-title">Grammar & Vocabulary</a></li>
                                             </ul>
                                         </div>
                                     </div> 
@@ -142,10 +135,9 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <a class="link-muted" href="#"> Getting started</a><br> 
                                                 </h5>
                                                 Do you want to improve your English? Find out how to get the most out of our free website.
-
                                             </div>
                                         </li>
-                                        <hr style="margin: 5px;">
+                                        <hr id="hr-marging">
                                         <li class="media">
                                             <div class="media-middle media-left">
                                                 <a href="#">
@@ -159,7 +151,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 Take our free online English test and start learning now!
                                             </div>
                                         </li>
-                                        <hr style="margin: 5px;">
+                                       <hr id="hr-marging">
                                         <li class="media">
                                             <div class="media-middle media-left">
                                                 <a href="#">
@@ -173,7 +165,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                 Have you ever had a party without telling your parents?
                                             </div>
                                         </li>
-                                        <hr style="margin: 5px;">
+                                       <hr id="hr-marging">
                                     </ul>
                                 </div>
                             </div>
@@ -194,9 +186,9 @@ include_once(dirname(__FILE__) . '/auth.php');
                 </div>
             </div>
             <div class="layout-footer">
-               <div class="layout-footer-body">
+                <div class="layout-footer-body">
                     <small class="version">Version 1.4.0</small>
-                  <small class="copyright"><?php echo date('Y') ?>&copy;  <a href="#">Synotect Private Limited.</a></small>
+                    <small class="copyright"><?php echo date('Y') ?>&copy;  <a href="#">Synotect Private Limited.</a></small>
                 </div>
             </div>
         </div>
@@ -207,7 +199,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <script src="js/application.min.js"></script>
         <script src="js/sweetalert.min.js" type="text/javascript"></script>
         <script src="ajax/js/check-login.js" type="text/javascript"></script>
-        
+
         <script>
             var tabChange = function () {
                 var tabs = $('.nav-tabs > li');

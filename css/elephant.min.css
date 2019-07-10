@@ -4554,7 +4554,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .breadcrumb {
     padding: 8px 15px;
-   
+
     list-style: none;
     background-color: transparent;
     border-radius: 4px
@@ -5298,8 +5298,8 @@ button.list-group-item {
 .list-group-item.active:hover {
     z-index: 2;
     color: #fff;
-/*    background-color: #f7a033;
-    border-color: #f7a033*/
+    /*    background-color: #f7a033;
+        border-color: #f7a033*/
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -15619,13 +15619,13 @@ a.bg-dribbble:hover {
     color: #7d7d8e;
 }
 #lesson .card{
-        background-color: #fff;
-        border: none;
-        border-radius: 4px;
-        display: block;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        position: relative;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
 }
 .inner-content{
     border: 1px solid #f1f1f1;
@@ -15758,4 +15758,29 @@ a:active {
 #accordion .panel-heading.active a:before {
     transform: rotate(0deg);
     transition: all 0.5s;
+}
+.tab-padding{
+    padding-bottom: 15px;
+}
+.tab-padding-col{
+    padding-left: 0px;
+}
+.tab-padding-col-zero{
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+.tab-content-title{
+    padding: 15px 13px; 
+}
+.tab-padding-col-top{
+    margin-top: 40px;
+}
+#hr-marging{
+    margin: 5px; 
+}
+.hr-size{
+    height: 0px;
+}
+.text-padd-btm{
+    padding-bottom: 15px;
 }

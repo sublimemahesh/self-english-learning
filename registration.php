@@ -48,8 +48,8 @@
                                 </div>
                             </div>
                         </div>
-            
- <div class="row gutter-xs">
+
+                        <div class="row gutter-xs">
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for="batch">Batch</label>
@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                         </div>  
-                      
+
 
                         <div class="row gutter-xs">
                             <div class="col-xs-12">
@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                         </div>
-                                    <div class="row gutter-xs">
+                        <div class="row gutter-xs">
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label for="student_id">Student ID</label>
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                          <div class="row gutter-xs"> 
+                        <div class="row gutter-xs"> 
 
                             <div class="col-sm-12">
                                 <div class="form-group">
@@ -136,16 +136,16 @@
                                 </div>
                             </div> 
                         </div>
-                       
+
                         <button class="btn btn-primary btn-block" type="submit"  >Sign up</button> 
                     </form> 
                 </div>
-                
-                 <div class="signup-footer">
-                Already have an account? <a href="login.php">Log in</a>
+
+                <div class="signup-footer">
+                    Already have an account? <a href="login.php">Log in</a>
+                </div>
             </div>
-            </div>
-           
+
         </div>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/vendor.min.js"></script>

@@ -38,8 +38,7 @@ include_once(dirname(__FILE__) . '/auth.php');
             <div id="lesson">
                 <div class="layout-content">
                     <div class="layout-content-body">
-                        <div class="row gutter-xs panel">
-
+                        <div class="row gutter-xs panel"> 
                             <div class="col-xs-12 col-md-12">
                                 <div class="card">
                                     <div class="breadcrumb">
@@ -52,13 +51,13 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <div class="col-md-4"  >
                                         <div class="tab-content">
                                             <div class="tab-pane fade active in home-1"  >
-                                                <h3 class="text-center" style="padding-bottom: 15px;">Writing</h3>
+                                                <h3 class="text-center text-padd-btm" >Writing</h3>
                                                 <p class="text-justify">  Writing is a medium of human communication that represents language and emotion with signs and symbols. Learning to write English can be a frustratingly slow process.  I think to improve your writing you really need to write something in English more or less every day. .</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-8" style="padding-left: 0px;"> 
-                                        <div class="tab-content" style="padding-left: 0px; padding-right: 0px;">
+                                    <div class="col-md-8 tab-padding-col"  > 
+                                        <div class="tab-content tab-padding-col-zero"  >
                                             <div class="tab-pane fade active in home-1"  >
                                                 <img src="img/img/writing.jpg" alt="" class="img-responsive" width="100%" style="padding-left: 0px; padding-right: 0px;"/>
                                             </div>
@@ -221,8 +220,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        
+                                        </div> 
                                     </div>
                                 </div>
                             </div> 
