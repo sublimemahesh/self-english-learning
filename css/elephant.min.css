@@ -15784,3 +15784,11 @@ a:active {
 .text-padd-btm{
     padding-bottom: 15px;
 }
+.tab-top-padd{
+    margin-top: 30px;   
+    line-height: 17pt; 
+    margin-bottom: 20px; 
+}
+.tab-ul{
+    line-height: 30pt;
+}

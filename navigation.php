@@ -23,7 +23,7 @@
                         <li class="list-group-item"><a href="#">Elementary A1 reading <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Elementary A2 reading <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Advanced C1 reading <span class="icon1 icon-lock"></span></a></li>
-                        <li class="list-group-item"><a href="#">Assessment<span class="icon1 icon-lock"></span></a></li>
+                        <li class="list-group-item"><a href="assesment.php">Assessment<span class="icon1 icon-lock"></span></a></li>
 
                     </ul>
                 </li>
