@@ -23,7 +23,7 @@
                         <li class="list-group-item"><a href="#">Elementary A1 reading <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Elementary A2 reading <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Advanced C1 reading <span class="icon1 icon-lock"></span></a></li>
-                        <li class="list-group-item"><a href="#">Assessment<span class="icon1 icon-lock"></span></a></li>
+                        <li class="list-group-item"><a href="assesment.php">Assessment<span class="icon1 icon-lock"></span></a></li>
 
                     </ul>
                 </li>
@@ -49,7 +49,7 @@
                         <li class="list-group-item"><a href="#">Intermediate B1 writing<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Upper intermediate B2 writing<span class="icon1 icon-lock"></span></a></li> 
                         <li class="list-group-item"><a href="#">Advanced C1 writing<span class="icon1 icon-lock"></span></a></li> 
-                        <li class="list-group-item"><a href="#">Assessment<span class="icon1 icon-lock"></span></a></li>
+                        <li class="list-group-item"><a href="assesment.php">Assessment<span class="icon1 icon-lock"></span></a></li>
 
                     </ul>
                 </li>
@@ -73,7 +73,7 @@
                         <li class="list-group-item"><a href="#">Elementary A2 speaking<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Intermediate B1 speaking <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Upper intermediate B2 speaking <span class="icon1 icon-lock"></span></a></li>
-                        <li class="list-group-item"><a href="#">Assessment<span class="icon1 icon-lock"></span></a></li>
+                        <li class="list-group-item"><a href="assesment.php">Assessment<span class="icon1 icon-lock"></span></a></li>
 
                     </ul>
                 </li>
@@ -97,7 +97,7 @@
                         <li class="list-group-item"><a href="#">Elementary A2 speaking<span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Intermediate B1 speaking <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Upper intermediate B2 speaking <span class="icon1 icon-lock"></span></a></li>
-                        <li class="list-group-item"><a href="#">Assessment<span class="icon1 icon-lock"></span></a></li>
+                        <li class="list-group-item"><a href="assesment.php">Assessment<span class="icon1 icon-lock"></span></a></li>
 
                     </ul>
                 </li> 
@@ -124,7 +124,7 @@
                         <li class="list-group-item"><a href="#">Nouns <span class="icon1 icon-lock"></span></a></li>
                         <li class="list-group-item"><a href="#">Conditionals<span class="icon1 icon-lock"></span></a></li> 
                         <li class="list-group-item"><a href="#">Modals of deduction<span class="icon1 icon-lock"></span></a></li> 
-                        <li class="list-group-item"><a href="#">Assessment<span class="icon1 icon-lock"></span></a></li>
+                        <li class="list-group-item"><a href="assesment.php">Assessment<span class="icon1 icon-lock"></span></a></li>
 
                     </ul>
                 </li>
