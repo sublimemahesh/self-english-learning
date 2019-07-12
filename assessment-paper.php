@@ -41,8 +41,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                 <div class="layout-content-body">
                     <div class="card"> 
                         <form id="form-data" method="POST"> 
-                            <div class="card-body">
-
+                            <div class="card-body"> 
                                 <div class="row"> 
                                     <div id="countdown" class="pull-right" style="margin-right: 20px"></div>
                                 </div>
@@ -65,143 +64,207 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <div class="col-md-1">
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12 m-y" style="padding: 50px 0px 0px 50px;"> 
-                                        <div class="panel-body" style="padding: 10px;">
-                                            <strong>  1. When did TVs come out?  </strong> <br>
-                                            <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="1">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">1925</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">1953</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">1939</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">1965</span>
-                                                </label>
-                                            </div> 
-                                            <p>
-                                                <strong>  2. Which was not true about the first TV?  </strong> <br> 
-                                            <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="1">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">It could only show one color.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">It only had 30 lines.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">It did not have sound.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">It did not work well.</span>
-                                                </label>
 
-                                            </div>  
 
-                                            </p>
-                                            <p>
-                                                <strong>   3. Why did the first TV station only show Felix the Cat for two hours a day? </strong>  <br>
-                                            <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="1">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">They were running tests.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">Felix the Cat was really popular.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">Felix the Cat had been a big radio star.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">Felix the Cat was the only show that they had.</span>
-                                                </label>
-                                            </div> 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong> 4. Which of these events slowed the spread of TV?</strong> <br>
-                                            <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="1">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">The World's Fair of 1939.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">The Civil War.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">The election of the U.S. President.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">World War II.</span>
-                                                </label>
-                                            </div>
-                                            </p>
-                                            
-                                            <p>
-                                                <strong>  5. What is the author's main purpose in writing this? </strong> 
-                                                <br>
-                                            <div class="custom-controls-stacked m-t" style="margin-bottom: 25px;">
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="1">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">He is trying to explain how a TV works.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label"> He is telling readers how TVs became popular.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">He is describing the history of the TV.</span>
-                                                </label>
-                                                <label class="custom-control custom-control-default custom-radio">
-                                                    <input class="custom-control-input" name="que_1" type="radio" value="0">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-label">He is trying to get people to watch more TV.</span>
-                                                </label>
-                                            </div> 
-                                            </p>
-                                            <div class="col-md-3  pull-left">
-                                                <button type="submit" class="btn btn-primary btn-block" id="create">Submit</button>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-12 m-y" style="padding: 50px 0px 0px 50px;">
+                                            <li class="ticket-list-separator">
+                                                <div class="ticket-list-count">
+                                                </div>
+                                                <div class="ticket-list-heading"><h4> 1. When did TVs come out? </h4> </div>
+                                            </li>
+                                            <div class="form-group">
+
+                                                <div class="col-sm-9">
+                                                    <div class="custom-controls-stacked m-t">
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_1" type="radio" value="1">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">1925</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">1953</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">1939</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_1" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">1965</span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div> 
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-12 m-y" style="    padding: 15px 0px 0px 50px;">
+
+                                            <li class="ticket-list-separator">
+                                                <div class="ticket-list-count">
+                                                </div>
+                                                <div class="ticket-list-heading"><h4>2. Which was not true about the first TV? </h4> </div>
+                                            </li>
+                                            <div class="form-group">
+
+                                                <div class="col-sm-9">
+                                                    <div class="custom-controls-stacked m-t">
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_2" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">It could only show one color.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_2" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">It only had 30 lines.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_2" type="radio" value="1">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">It did not have sound.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_2" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">It did not work well</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
+                                            <li class="ticket-list-separator">
+                                                <div class="ticket-list-count">
+                                                </div>
+                                                <div class="ticket-list-heading"><h4>3. Why did the first TV station only show Felix the Cat for two hours a day?</h4> </div>
+                                            </li>
+                                            <div class="form-group">
+
+                                                <div class="col-sm-9">
+                                                    <div class="custom-controls-stacked m-t">
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_3" type="radio" value="1">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">They were running tests.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_3" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">Felix the Cat was really popular.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_3" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">Felix the Cat had been a big radio star.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_3" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">Felix the Cat was the only show that they had.</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
+                                            <li class="ticket-list-separator">
+                                                <div class="ticket-list-count">
+                                                </div>
+                                                <div class="ticket-list-heading"><h4>4. Which of these events slowed the spread of TV?</h4> </div>
+                                            </li>
+                                            <div class="form-group">
+
+                                                <div class="col-sm-9">
+                                                    <div class="custom-controls-stacked m-t">
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_4" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">The World's Fair of 1939.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_4" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">The Civil War</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_4" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">The election of the U.S. President.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_4" type="radio" value="1">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">World War II.</span>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-12 m-y" style="padding: 15px 0px 0px 50px;">
+                                            <li class="ticket-list-separator">
+                                                <div class="ticket-list-count">
+                                                </div>
+                                                <div class="ticket-list-heading"><h4> 5. What is the author's main purpose in writing this? </h4> </div>
+                                            </li>
+                                            <div class="form-group"> 
+                                                <div class="col-sm-9">
+                                                    <div class="custom-controls-stacked m-t">
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_5" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">He is trying to explain how a TV works.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_5" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">He is telling readers how TVs became popular.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_5" type="radio" value="1">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">He is describing the history of the TV.</span>
+                                                        </label>
+                                                        <label class="custom-control custom-control-default custom-radio">
+                                                            <input class="custom-control-input" name="que_5" type="radio" value="0">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-label">He is trying to get people to watch more TV.</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-2  pull-left "  style="padding: 0px 0px 15px 55px;"> 
+
+                                            <input type="hidden" name="action" value="ASSESSMENT_LEVEL"/> 
+
+                                            <button type="submit" class="btn btn-primary btn-block" id="asseessment">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </form>
                     </div>
@@ -224,12 +287,15 @@ include_once(dirname(__FILE__) . '/auth.php');
         <script src="js/jquery.time-to.min.js" type="text/javascript"></script>
         <script>
             $(document).ready(function () {
-                $('#countdown').timeTo(3600, function () {
+                $('#countdown').timeTo(900, function () {
                     swal({
-                        title: "Your time  is over..!",
+                        title: "Oops..!",
+                        text: "Your time is over..! try again..",
                         type: "warning"
+                    }, function () {
+                        window.location = "assessment-paper.php";
                     });
-                }); 
+                });
             });
         </script> 
     </body>

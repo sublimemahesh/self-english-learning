@@ -47,7 +47,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                 <span class="delimiter">»</span>
                                 <span class="inline odd last"><a href="" title="">Lesson 1</a></span>
                                 <span class="delimiter">»</span>
-                                <span class="inline odd last"><a href="" title="">Television</a></span>
+                                <span class="inline odd last"><a href="" title="">Assessment</a></span>
                             </div>
                             <div class="row">  
                                 <div class="signup-form tab-top-padd"  >
