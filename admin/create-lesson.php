@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Create Lesson</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
+        <meta property="og:url" content="http://demo.madebytilde.com/elephant">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="The fastest way to build Modern Admin APPS for any platform, browser, or device.">
+        <meta property="og:description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
+        <meta property="og:image" content="../../elephant.html">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@madebytilde">
+        <meta name="twitter:creator" content="@madebytilde">
+        <meta name="twitter:title" content="The fastest way to build Modern Admin APPS for any platform, browser, or device.">
+        <meta name="twitter:description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
+        <meta name="twitter:image" content="../../elephant.html">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#f7a033">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700">
+        <link rel="stylesheet" href="css/vendor.min.css">
+        <link rel="stylesheet" href="css/elephant.min.css">
+        <link rel="stylesheet" href="css/application.min.css">
+        <link rel="stylesheet" href="css/compose.min.css">
+    </head>
+    <body class="layout layout-header-fixed">
+        <div class="layout-header">
+            <div class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a class="navbar-brand navbar-brand-center" href="index-2.html">
+                        <img class="navbar-brand-logo" src="./../img/logo.png" alt="Elephant">
+                    </a>
+                    <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#sidenav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="bars">
+                            <span class="bar-line bar-line-1 out"></span>
+                            <span class="bar-line bar-line-2 out"></span>
+                            <span class="bar-line bar-line-3 out"></span>
+                        </span>
+                        <span class="bars bars-x">
+                            <span class="bar-line bar-line-4"></span>
+                            <span class="bar-line bar-line-5"></span>
+                        </span>
+                    </button>
+                    <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="arrow-up"></span>
+                        <span class="ellipsis ellipsis-vertical">
+                            <img class="ellipsis-object" width="32" height="32" src="img/0180441436.jpg" alt="Teddy Wilson">
+                        </span>
+                    </button>
+                </div>
+                <div class="navbar-toggleable">
+                    <nav id="navbar" class="navbar-collapse collapse">
+                        <button class="sidenav-toggler hidden-xs" title="Collapse sidenav ( [ )" aria-expanded="true" type="button">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="bars">
+                                <span class="bar-line bar-line-1 out"></span>
+                                <span class="bar-line bar-line-2 out"></span>
+                                <span class="bar-line bar-line-3 out"></span>
+                                <span class="bar-line bar-line-4 in"></span>
+                                <span class="bar-line bar-line-5 in"></span>
+                                <span class="bar-line bar-line-6 in"></span>
+                            </span>
+                        </button>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="visible-xs-block">
+                                <h4 class="navbar-text text-center">Hi, Teddy Wilson</h4>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true">
+                                    <span class="icon-with-child hidden-xs">
+                                        <span class="icon icon-envelope-o icon-lg"></span>
+                                        <span class="badge badge-primary badge-above right">8</span>
+                                    </span>
+                                    <span class="visible-xs-block">
+                                        <span class="icon icon-envelope icon-lg icon-fw"></span>
+                                        <span class="badge badge-primary pull-right">8</span>
+                                        Messages
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                                    <div class="dropdown-header">
+                                        <a class="dropdown-link" href="compose.html">New Message</a>
+                                        <h5 class="dropdown-heading">Recent messages</h5>
+                                    </div>
+                                    <div class="dropdown-body">
+                                        <div class="list-group list-group-divided custom-scrollbar">
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0299419341.jpg" alt="Harry Jones">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">16 min</small>
+                                                        <h5 class="notification-heading">Harry Jones</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Hi Teddy, Just wanted to let you know we got the project! We should be starting the planning next week. Harry</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">2 hr</small>
+                                                        <h5 class="notification-heading">Daniel Taylor</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Teddy Boyyyy, label text isn't vertically aligned with value text in grid forms when using .form-control... DT</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0460697039.jpg" alt="Charlotte Harrison">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">Sep 20</small>
+                                                        <h5 class="notification-heading">Charlotte Harrison</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Dear Teddy, Can we discuss the benefits of this approach during our Monday meeting? Best regards Charlotte Harrison</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0531871454.jpg" alt="Ethan Walker">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">Sep 19</small>
+                                                        <h5 class="notification-heading">Ethan Walker</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">If you need any further assistance, please feel free to contact us. We are always happy to assist you. Regards, Ethan</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0601274412.jpg" alt="Sophia Evans">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">Sep 18</small>
+                                                        <h5 class="notification-heading">Sophia Evans</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Teddy, Please call me when you finish your work! I have many things to discuss. Don't forget call me !! Sophia</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0777931269.jpg" alt="Harry Walker">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">Sep 17</small>
+                                                        <h5 class="notification-heading">Harry Walker</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Thank you for your message. I am currently out of the office, with no email access. I will be returning on 20 Jun.</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0872116906.jpg" alt="Emma Lewis">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">Sep 15</small>
+                                                        <h5 class="notification-heading">Emma Lewis</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Teddy, Please find the attached report. I am truly sorry and very embarrassed about not finishing the report by the deadline.</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0980726243.jpg" alt="Eliot Morgan">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">Sep 15</small>
+                                                        <h5 class="notification-heading">Eliot Morgan</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Dear Teddy, Please accept this message as notification that I was unable to work yesterday, due to personal illness.m</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-footer">
+                                        <a class="dropdown-btn" href="#">See All</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true">
+                                    <span class="icon-with-child hidden-xs">
+                                        <span class="icon icon-bell-o icon-lg"></span>
+                                        <span class="badge badge-primary badge-above right">7</span>
+                                    </span>
+                                    <span class="visible-xs-block">
+                                        <span class="icon icon-bell icon-lg icon-fw"></span>
+                                        <span class="badge badge-primary pull-right">7</span>
+                                        Notifications
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                                    <div class="dropdown-header">
+                                        <a class="dropdown-link" href="#">Mark all as read</a>
+                                        <h5 class="dropdown-heading">Recent Notifications</h5>
+                                    </div>
+                                    <div class="dropdown-body">
+                                        <div class="list-group list-group-divided custom-scrollbar">
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <span class="icon icon-exclamation-triangle bg-warning circle sq-40"></span>
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">35 min</small>
+                                                        <h5 class="notification-heading">Update Status</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Failed to get available update data. To ensure the proper functioning of your application, update now.</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <span class="icon icon-flag bg-success circle sq-40"></span>
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">43 min</small>
+                                                        <h5 class="notification-heading">Account Contact Change</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">A contact detail associated with your account teddy.wilson, has recently changed.</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <span class="icon icon-exclamation-triangle bg-warning circle sq-40"></span>
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">1 hr</small>
+                                                        <h5 class="notification-heading">Failed Login Warning</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">There was a failed login attempt from "192.98.19.164" into the account teddy.wilson.</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">4 hr</small>
+                                                        <h5 class="notification-heading">Daniel Taylor</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0872116906.jpg" alt="Emma Lewis">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">8 hr</small>
+                                                        <h5 class="notification-heading">Emma Lewis</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0601274412.jpg" alt="Sophia Evans">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">8 hr</small>
+                                                        <h5 class="notification-heading">Sophia Evans</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item" href="#">
+                                                <div class="notification">
+                                                    <div class="notification-media">
+                                                        <img class="circle" width="40" height="40" src="img/0180441436.jpg" alt="Teddy Wilson">
+                                                    </div>
+                                                    <div class="notification-content">
+                                                        <small class="notification-timestamp">9 hr</small>
+                                                        <h5 class="notification-heading">Teddy Wilson</h5>
+                                                        <p class="notification-text">
+                                                            <small class="truncate">Published a new post: "Everything you know about Bootstrap is wrong".</small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-footer">
+                                        <a class="dropdown-btn" href="#">See All</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown hidden-xs">
+                                <button class="navbar-account-btn" data-toggle="dropdown" aria-haspopup="true">
+                                    <img class="circle" width="36" height="36" src="img/0180441436.jpg" alt="Teddy Wilson"> Teddy Wilson
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="upgrade.html">
+                                            <h5 class="navbar-upgrade-heading">
+                                                Upgrade Now
+                                                <small class="navbar-upgrade-notification">You have 15 days left in your trial.</small>
+                                            </h5>
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li class="navbar-upgrade-version">Version: 1.0.0</li>
+                                    <li class="divider"></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                    <li><a href="profile.html">Profile</a></li>
+                                    <li><a href="login-1.html">Sign out</a></li>
+                                </ul>
+                            </li>
+                            <li class="visible-xs-block">
+                                <a href="contacts.html">
+                                    <span class="icon icon-users icon-lg icon-fw"></span>
+                                    Contacts
+                                </a>
+                            </li>
+                            <li class="visible-xs-block">
+                                <a href="profile.html">
+                                    <span class="icon icon-user icon-lg icon-fw"></span>
+                                    Profile
+                                </a>
+                            </li>
+                            <li class="visible-xs-block">
+                                <a href="login-1.html">
+                                    <span class="icon icon-power-off icon-lg icon-fw"></span>
+                                    Sign out
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="title-bar">
+                            <h1 class="title-bar-title">
+                                <span class="d-ib">Create Lesson</span>
+                                <span class="d-ib">
+                                    <a class="title-bar-shortcut" href="#" title="Add to shortcut list" data-container="body" data-toggle-text="Remove from shortcut list" data-trigger="hover" data-placement="right" data-toggle="tooltip">
+                                        <span class="sr-only">Add to shortcut list</span>
+                                    </a>
+                                </span>
+                            </h1>
+                            <p class="title-bar-description">
+                                <small>You can personalize your dashboard by using <a href="widgets.html">widgets</a>.</small>
+                            </p>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="layout-main">
+            <?php
+            include 'navigation.php';
+            ?>
+            <div class="layout-content">
+                <div class="layout-content-body">
+                    <div class="compose" style="margin-top: 20px;">
+                        <div class="compose-header">
+                            <!--                            <div class="compose-field">
+                                                            <div class="compose-field-right">
+                                                                <div class="btn-group">
+                                                                    <button class="btn btn-link link-muted" title="Show Cc" data-target="#cc" data-toggle="collapse" type="button">
+                                                                        <small>Cc</small>
+                                                                    </button>
+                                                                    <button class="btn btn-link link-muted" title="Show Bcc" data-target="#bcc" data-toggle="collapse" type="button">
+                                                                        <small>Bcc</small>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="compose-field-left">
+                                                                <button class="compose-label" type="button">To</button>
+                                                            </div>
+                                                            <div class="compose-field-body">
+                                                                <input class="compose-input" type="text" name="to" autocomplete="off" spellcheck="false">
+                                                            </div>
+                                                        </div>
+                                                        <div class="compose-fields">
+                                                            <div class="collapse" id="cc">
+                                                                <div class="compose-field">
+                                                                    <div class="compose-field-left">
+                                                                        <button class="compose-label" type="button">Cc</button>
+                                                                    </div>
+                                                                    <div class="compose-field-body">
+                                                                        <input class="compose-input" type="text" name="cc" autocomplete="off" spellcheck="false">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="collapse" id="bcc">
+                                                                <div class="compose-field">
+                                                                    <div class="compose-field-left">
+                                                                        <button class="compose-label" type="button">Bcc</button>
+                                                                    </div>
+                                                                    <div class="compose-field-body">
+                                                                        <input class="compose-input" type="text" name="bcc" autocomplete="off" spellcheck="false">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>-->
+                            <div class="compose-field">
+                                <div class="compose-field-body">
+                                    <input class="compose-input" type="text" name="subject" placeholder="Title">
+                                </div>
+                            </div>
+                            <div class="compose-field">
+                                <div class="compose-field-body">
+                                    <input class="compose-input" type="file" accept="image/*" multiple="multiple">
+                                </div>
+                            </div>
+                            <div class="compose-field">
+                                <div class="compose-field-body">
+                                    <input class="compose-input" type="text" name="short_description" placeholder="Short Description">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compose-body">
+                            <label>Lesson</label>
+                            <div class="compose-message">
+                                <div class="compose-editor">
+                                </div>
+                                <div class="compose-toolbar">
+                                    <div class="btn-toolbar" data-role="editor-toolbar">
+                                        <div class="btn-group">
+                                            <div class="btn-group dropup">
+                                                <button class="btn btn-link link-muted" title="Font Size" data-toggle="dropdown" type="button">
+                                                    <span class="icon icon-text-height"></span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="fs-Five" data-edit="fontSize 5">Huge</a></li>
+                                                    <li><a class="fs-Three" data-edit="fontSize 3">Normal</a></li>
+                                                    <li><a class="fs-One" data-edit="fontSize 1">Small</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-link link-muted" title="Bold (Ctrl/Cmd+B)" data-edit="bold" type="button">
+                                                    <span class="icon icon-bold"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Italic (Ctrl/Cmd+I)" data-edit="italic" type="button">
+                                                    <span class="icon icon-italic"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Strikethrough" data-edit="strikethrough" type="button">
+                                                    <span class="icon icon-strikethrough"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Underline (Ctrl/Cmd+U)" data-edit="underline" type="button">
+                                                    <span class="icon icon-underline"></span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-link link-muted" title="Bullet list" data-edit="insertunorderedlist" type="button">
+                                                    <span class="icon icon-list-ul"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Number list" data-edit="insertorderedlist" type="button">
+                                                    <span class="icon icon-list-ol"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Reduce indent (Shift+Tab)" data-edit="outdent" type="button">
+                                                    <span class="icon icon-outdent"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Indent (Tab)" data-edit="indent" type="button">
+                                                    <span class="icon icon-indent"></span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-link link-muted" title="Align Left (Ctrl/Cmd+L)" data-edit="justifyleft" type="button">
+                                                    <span class="icon icon-align-left"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Center (Ctrl/Cmd+E)" data-edit="justifycenter" type="button">
+                                                    <span class="icon icon-align-center"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Align Right (Ctrl/Cmd+R)" data-edit="justifyright" type="button">
+                                                    <span class="icon icon-align-right"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Justify (Ctrl/Cmd+J)" data-edit="justifyfull" type="button">
+                                                    <span class="icon icon-align-justify"></span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <label class="btn btn-link link-muted file-upload-btn" title="Insert picture">
+                                                    <span class="icon icon-picture-o"></span>
+                                                    <input class="file-upload-input" type="file" name="file" data-edit="insertImage">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>Exercise</label>
+                            <div class="compose-message">
+                                <div class="compose-editor">
+                                </div>
+                                <div class="compose-toolbar">
+                                    <div class="btn-toolbar" data-role="editor-toolbar">
+                                        <div class="btn-group">
+                                            <div class="btn-group dropup">
+                                                <button class="btn btn-link link-muted" title="Font Size" data-toggle="dropdown" type="button">
+                                                    <span class="icon icon-text-height"></span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="fs-Five" data-edit="fontSize 5">Huge</a></li>
+                                                    <li><a class="fs-Three" data-edit="fontSize 3">Normal</a></li>
+                                                    <li><a class="fs-One" data-edit="fontSize 1">Small</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-link link-muted" title="Bold (Ctrl/Cmd+B)" data-edit="bold" type="button">
+                                                    <span class="icon icon-bold"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Italic (Ctrl/Cmd+I)" data-edit="italic" type="button">
+                                                    <span class="icon icon-italic"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Strikethrough" data-edit="strikethrough" type="button">
+                                                    <span class="icon icon-strikethrough"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Underline (Ctrl/Cmd+U)" data-edit="underline" type="button">
+                                                    <span class="icon icon-underline"></span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-link link-muted" title="Bullet list" data-edit="insertunorderedlist" type="button">
+                                                    <span class="icon icon-list-ul"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Number list" data-edit="insertorderedlist" type="button">
+                                                    <span class="icon icon-list-ol"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Reduce indent (Shift+Tab)" data-edit="outdent" type="button">
+                                                    <span class="icon icon-outdent"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Indent (Tab)" data-edit="indent" type="button">
+                                                    <span class="icon icon-indent"></span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-link link-muted" title="Align Left (Ctrl/Cmd+L)" data-edit="justifyleft" type="button">
+                                                    <span class="icon icon-align-left"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Center (Ctrl/Cmd+E)" data-edit="justifycenter" type="button">
+                                                    <span class="icon icon-align-center"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Align Right (Ctrl/Cmd+R)" data-edit="justifyright" type="button">
+                                                    <span class="icon icon-align-right"></span>
+                                                </button>
+                                                <button class="btn btn-link link-muted" title="Justify (Ctrl/Cmd+J)" data-edit="justifyfull" type="button">
+                                                    <span class="icon icon-align-justify"></span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <label class="btn btn-link link-muted file-upload-btn" title="Insert picture">
+                                                    <span class="icon icon-picture-o"></span>
+                                                    <input class="file-upload-input" type="file" name="file" data-edit="insertImage">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="compose-actions">
+                                <button class="btn btn-primary" type="button">Send</button>
+                                <button class="btn btn-default" type="button">Discard</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="layout-footer">
+                <div class="layout-footer-body">
+                    <small class="version">Version 1.4.0</small>
+                    <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
+                </div>
+            </div>-->
+        </div>
+        <script src="js/vendor.min.js"></script>
+        <script src="js/elephant.min.js"></script>
+        <script src="js/application.min.js"></script>
+        <script src="js/compose.min.js"></script>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '../../../www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-83990101-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
