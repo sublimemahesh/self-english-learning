@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Manage Student</title>
+        <title>Student Log History</title>
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
         <meta name="description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
         <meta property="og:url" content="http://demo.madebytilde.com/elephant">
@@ -379,8 +379,7 @@
                         </ul>
                         <div class="title-bar">
                             <h1 class="title-bar-title">
-                                <span class="d-ib">Student
-                                    <small>Details</small>
+                                <span class="d-ib">Student Login History
                                 </span>
                                 <span class="d-ib">
                                     <a class="title-bar-shortcut" href="#" title="Add to shortcut list" data-container="body" data-toggle-text="Remove from shortcut list" data-trigger="hover" data-placement="right" data-toggle="tooltip">
@@ -454,622 +453,438 @@
                                         <thead>
                                             <tr>
                                                 <th>Seq.</th>
-                                                <th>Student ID</th>
-                                                <th>Student Name</th>
-                                                <th>Email</th>
                                                 <th>User Name</th>
-                                                <th>Option</th>
+                                                <th>Email</th>
+                                                <th>No of Sessions</th>
+                                                <th>Last Seen</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
                                             <tr>
                                                 <th>Seq.</th>
-                                                <th>Student ID</th>
-                                                <th>Student Name</th>
+                                                <th>User Name</th>
                                                 <th>Email</th>
-                                                <th>User name</th>
-                                                <th>Option</th>
+                                                <th>No of Sessions</th>
+                                                <th>Last Seen</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>19ST0001</td>
-                                                <td>P.L. Udani</td>
-                                                <td>udani00@gmail.com</td>
                                                 <td>pludani</td>
+                                                <td>udani00@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>19ST0002</td>
-                                                <td>L.G.N. Kaushalya</td>
-                                                <td>kaushalya@gmail.com</td>
                                                 <td>lgnkaushalya</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>kaushalya@gmail.com</td>
+                                                <td>2</td>
+                                                <td>Active 1 our ago</td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
-                                                <td>19ST0003</td>
-                                                <td>Y.M Lakmal</td>
-                                                <td>lakmal@gmail.com</td>
                                                 <td>ymlakmal</td>
+                                                <td>lakmal@gmail.com</td>
+                                                <td>1</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>4</td>
-                                                <td>19ST0004</td>
-                                                <td>W.A. Kanchana</td>
-                                                <td>kanchanaWA@gmail.com</td>
                                                 <td>wakanchana</td>
+                                                <td>kanchanaWA@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>5</td>
-                                                <td>19ST0005</td>
-                                                <td>K.C.C. Gamage</td>
-                                                <td>gamage99@gmail.com</td>
                                                 <td>gamage</td>
+                                                <td>gamage99@gmail.com</td>
+                                                <td>8</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>6</td>
-                                                <td>19ST0006</td>
-                                                <td>N.C.S. Basnayake</td>
-                                                <td>nadeebasnayake@gmail.com</td>
                                                 <td>basnayakenadee</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>nadeebasnayake@gmail.com</td>
+                                                <td>6</td>
+                                                <td>Active 5 minutes ago</td>
                                             </tr>
                                             <tr>
                                                 <td>7</td>
-                                                <td>19ST0007</td>
-                                                <td>N.G. Samanthika</td>
-                                                <td>gayanisamanthika@gmail.com</td>
                                                 <td>samanthika</td>
+                                                <td>gayanisamanthika@gmail.com</td>
+                                                <td>10</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>8</td>
-                                                <td>19ST0008</td>
-                                                <td>P.L.D. Wijesinghe</td>
-                                                <td>deshan94@gmail.com</td>
                                                 <td>desh</td>
+                                                <td>deshan94@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>9</td>
-                                                <td>19ST0009</td>
-                                                <td>H.G.S. Madushika</td>
-                                                <td>madushika33@gmail.com</td>
                                                 <td>hgsmadu</td>
+                                                <td>madushika33@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>10</td>
-                                                <td>19ST0010</td>
-                                                <td>K.M. Perera</td>
-                                                <td>kusalperera@gmail.com</td>
                                                 <td>kusal</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>kusalperera@gmail.com</td>
+                                                <td>4</td>
+                                                <td>Active 5 ours ago</td>
                                             </tr>
                                             <tr>
                                                 <td>11</td>
-                                                <td>19ST0011</td>
-                                                <td>T.M Edirisinghe</td>
-                                                <td>edirisinghe11@gmail.com</td>
                                                 <td>tmedirisighe</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>edirisinghe11@gmail.com</td>
+                                                <td>3</td>
+                                                <td>Active 1 our ago</td>
                                             </tr>
                                             <tr>
                                                 <td>12</td>
-                                                <td>19ST0012</td>
-                                                <td>K.H.U. Prithika</td>
-                                                <td>khu.prithika@gmail.com</td>
                                                 <td>prithika</td>
+                                                <td>khu.prithika@gmail.com</td>
+                                                <td>1</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>13</td>
-                                                <td>19ST0013</td>
-                                                <td>C.N.E. Kodithuwakku</td>
-                                                <td>kodithuwakku@gmail.com</td>
                                                 <td>kodithuwakku</td>
+                                                <td>kodithuwakku@gmail.com</td>
+                                                <td>6</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>14</td>
-                                                <td>19ST0014</td>
-                                                <td>N.T.T. Madushika</td>
-                                                <td>mail.madu@gmail.com</td>
                                                 <td>madushika</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>mail.madu@gmail.com</td>
+                                                <td>11</td>
+                                                <td>Active yesterday</td>
                                             </tr>
                                             <tr>
                                                 <td>15</td>
-                                                <td>19ST0015</td>
-                                                <td>M.A. Madusanjaya</td>
-                                                <td>madusanjayaMA@gmail.com</td>
                                                 <td>madusanjaya</td>
+                                                <td>madusanjayaMA@gmail.com</td>
+                                                <td>4</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>16</td>
-                                                <td>19ST0016</td>
-                                                <td>G.G.C. Nayananjali</td>
-                                                <td>nayananjali50@gmail.com</td>
                                                 <td>nayananjali</td>
+                                                <td>nayananjali50@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>17</td>
-                                                <td>19ST0017</td>
-                                                <td>K.P. Wijewardhana</td>
-                                                <td>pathumwijewardhana@gmail.com</td>
                                                 <td>pathum</td>
+                                                <td>pathumwijewardhana@gmail.com</td>
+                                                <td>2</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>18</td>
-                                                <td>19ST0018</td>
-                                                <td>M.L.T. Vindya</td>
-                                                <td>vindyamail@gmail.com</td>
                                                 <td>vindi</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>vindyamail@gmail.com</td>
+                                                <td>2</td>
+                                                <td>Active 15 minutes ago</td>
                                             </tr>
                                             <tr>
                                                 <td>19</td>
-                                                <td>19ST0019</td>
-                                                <td>G. Samith</td>
-                                                <td>gayansamith@gmail.com</td>
                                                 <td>samith</td>
+                                                <td>gayansamith@gmail.com</td>
+                                                <td>9</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>20</td>
-                                                <td>19ST0020</td>
-                                                <td>M.K.W. Lakmal</td>
-                                                <td>Lakmalwaruna@gmail.com</td>
                                                 <td>waruna</td>
+                                                <td>Lakmalwaruna@gmail.com</td>
+                                                <td>1</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>21</td>
-                                                <td>19ST0021</td>
-                                                <td>N.W. Prabhashani</td>
-                                                <td>25prabhashani@gmail.com</td>
                                                 <td>nwprabha</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>25prabhashani@gmail.com</td>
+                                                <td>10</td>
+                                                <td>Active 5 days ago</td>
                                             </tr>
                                             <tr>
                                                 <td>22</td>
-                                                <td>19ST0022</td>
-                                                <td>S.K.S. Dewapriya</td>
-                                                <td>dewapriyasaveen@gmail.com</td>
                                                 <td>sksaveen</td>
+                                                <td>dewapriyasaveen@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>23</td>
-                                                <td>19ST0023</td>
-                                                <td>S.S. Hegoda</td>
-                                                <td>ShegodaS@gmail.com</td>
                                                 <td>sshegoda</td>
+                                                <td>ShegodaS@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>24</td>
-                                                <td>19ST0024</td>
-                                                <td>H.K.R.S. Haloluwa</td>
-                                                <td>ridmishanika202@gmail.com</td>
                                                 <td>shanika</td>
+                                                <td>ridmishanika202@gmail.com</td>
+                                                <td>7</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>25</td>
-                                                <td>19ST0025</td>
-                                                <td>E.W.H. Hansika</td>
-                                                <td>hansi.mail@gmail.com</td>
                                                 <td>hiruhansi</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>hansi.mail@gmail.com</td>
+                                                <td>4</td>
+                                                <td>Active 2 ours ago</td>
                                             </tr>
                                             <tr>
                                                 <td>26</td>
-                                                <td>19ST0026</td>
-                                                <td>S.R.Sandamali</td>
-                                                <td>sandamaliSR@gmail.com</td>
                                                 <td>sandamali</td>
+                                                <td>sandamaliSR@gmail.com</td>
+                                                <td>8</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>27</td>
-                                                <td>19ST0027</td>
-                                                <td>A.G.H. Bhagya</td>
-                                                <td>bhagyaharshi@gmail.com</td>
                                                 <td>bhagya</td>
+                                                <td>bhagyaharshi@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>28</td>
-                                                <td>19ST0028</td>
-                                                <td>R.J. Munasinghe</td>
-                                                <td>jayanimunasinghe@gmail.com</td>
                                                 <td>jayani</td>
+                                                <td>jayanimunasinghe@gmail.com</td>
+                                                <td>1</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>29</td>
-                                                <td>19ST0029</td>
-                                                <td>R.J. Munasinghe</td>
-                                                <td>jayanimunasinghe@gmail.com</td>
                                                 <td>jayani</td>
+                                                <td>jayanimunasinghe@gmail.com</td>
+                                                <td>2</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>30</td>
-                                                <td>19ST0030</td>
-                                                <td>W.P. Lakshan</td>
-                                                <td>pahanlakshan119@gmail.com</td>
                                                 <td>lakshan</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>pahanlakshan119@gmail.com</td>
+                                                <td>3</td>
+                                                <td>Active 50 minutes ago</td>
                                             </tr>
                                             <tr>
                                                 <td>31</td>
-                                                <td>19ST0031</td>
-                                                <td>N.T.M Dilmini</td>
-                                                <td>madudilmini@gmail.com</td>
                                                 <td>dilmini</td>
+                                                <td>madudilmini@gmail.com</td>
+                                                <td>6</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>32</td>
-                                                <td>19ST0031</td>
-                                                <td>G.H.S. Sampath</td>
-                                                <td>sumudusampath@gmail.com</td>
                                                 <td>sampath</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>sumudusampath@gmail.com</td>
+                                                <td>5</td>
+                                                <td>Active 1 our ago</td>
                                             </tr>
                                             <tr>
                                                 <td>33</td>
-                                                <td>19ST0033</td>
-                                                <td>P.M.M. Wickramasekara</td>
-                                                <td>madushikawickramasekara@gmail.com</td>
                                                 <td>madushika</td>
+                                                <td>madushikawickramasekara@gmail.com</td>
+                                                <td>3</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>34</td>
-                                                <td>19ST0034</td>
-                                                <td>M.K.S.N. Prasadika</td>
-                                                <td>prasadi1997@gmail.com</td>
                                                 <td>prasadika</td>
+                                                <td>prasadi1997@gmail.com</td>
+                                                <td>3</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>35</td>
-                                                <td>19ST0035</td>
-                                                <td>T.K.S. Silva</td>
-                                                <td>sanjulakasun44@gmail.com</td>
                                                 <td>sanjula</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>sanjulakasun44@gmail.com</td>
+                                                <td>3</td>
+                                                <td>Active 5 minutes ago</td>
                                             </tr>
                                             <tr>
                                                 <td>36</td>
-                                                <td>19ST0036</td>
-                                                <td>N.W.W.G.D. Madushani</td>
-                                                <td>dinumadushani@gmail.com</td>
                                                 <td>madushani</td>
+                                                <td>dinumadushani@gmail.com</td>
+                                                <td>4</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>37</td>
-                                                <td>19ST0037</td>
-                                                <td>G.R. Lakshan</td>
-                                                <td>rayanlakshan505@gmail.com</td>
                                                 <td>shanrayan</td>
+                                                <td>rayanlakshan505@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>38</td>
-                                                <td>19ST0038</td>
-                                                <td>N.S.H. Witanachchi</td>
-                                                <td>hiruniwitanachchi@gmail.com</td>
                                                 <td>hiruni</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>hiruniwitanachchi@gmail.com</td>
+                                                <td>8</td>
+                                                <td>Active 25 minutes ago</td>
                                             </tr>
                                             <tr>
                                                 <td>39</td>
-                                                <td>19ST0039</td>
-                                                <td>A.S. Gurusinghe</td>
-                                                <td>ashanishamika@gmail.com</td>
                                                 <td>shamika</td>
+                                                <td>ashanishamika@gmail.com</td>
+                                                <td>8</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>40</td>
-                                                <td>19ST0040</td>
-                                                <td>W.G.D.C.M. Kumarasinhe</td>
-                                                <td>chathumahesh@gmail.com</td>
                                                 <td>chathuranga</td>
+                                                <td>chathumahesh@gmail.com</td>
+                                                <td>1</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>41</td>
-                                                <td>19ST0041</td>
-                                                <td>L.G.P Uththara</td>
-                                                <td>PiumiUththara@gmail.com</td>
                                                 <td>uththara</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>PiumiUththara@gmail.com</td>
+                                                <td>2</td>
+                                                <td>Active 4 ours ago</td>
                                             </tr>
                                             <tr>
                                                 <td>42</td>
-                                                <td>19ST0042</td>
-                                                <td>E.K. Rathnayake</td>
-                                                <td>erandakasun90@gmail.com</td>
                                                 <td>eranda</td>
+                                                <td>erandakasun90@gmail.com</td>
+                                                <td>9</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>43</td>
-                                                <td>19ST0043</td>
-                                                <td>N.K. Dissanayake</td>
-                                                <td>kanchanadissanayake@gmail.com</td>
                                                 <td>kanchana</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>kanchanadissanayake@gmail.com</td>
+                                                <td>10</td>
+                                                <td>Active 1 day ago</td>
                                             </tr>
                                             <tr>
                                                 <td>44</td>
-                                                <td>19ST0044</td>
-                                                <td>P.L.Mayuri</td>
-                                                <td>mailmayuri@gmail.com</td>
                                                 <td>mayuri</td>
+                                                <td>mailmayuri@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>45</td>
-                                                <td>19ST0045</td>
-                                                <td>P.L.Mayuri</td>
-                                                <td>mailmayuri@gmail.com</td>
                                                 <td>mayuri</td>
+                                                <td>mailmayuri@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>46</td>
-                                                <td>19ST0046</td>
-                                                <td>T.D.T. Saumya</td>
-                                                <td>saumyaTDT@gmail.com</td>
                                                 <td>saumya</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>saumyaTDT@gmail.com</td>
+                                                <td>5</td>
+                                                <td>Active 10 minutes ago</td>
                                             </tr>
                                             <tr>
                                                 <td>47</td>
-                                                <td>19ST0047</td>
-                                                <td>J.C. Samankumari</td>
-                                                <td>jchathukumari@gmail.com</td>
                                                 <td>samankumari</td>
+                                                <td>jchathukumari@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>48</td>
-                                                <td>19ST0048</td>
-                                                <td>D.M.G. Nalika</td>
-                                                <td>nalika1122@gmail.com</td>
                                                 <td>nalika</td>
+                                                <td>nalika1122@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>49</td>
-                                                <td>19ST0049</td>
-                                                <td>H.K.N Sandamali</td>
-                                                <td>nisansalamali@gmail.com</td>
                                                 <td>sandamali</td>
-                                                <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
-                                                </td>
+                                                <td>nisansalamali@gmail.com</td>
+                                                <td>5</td>
+                                                <td>Active 2 days ago</td>
                                             </tr>
                                             <tr>
                                                 <td>50</td>
-                                                <td>19ST0050</td>
-                                                <td>A.T. Madugalla</td>
-                                                <td>thejanmadugalla@gmail.com</td>
                                                 <td>thejan</td>
+                                                <td>thejanmadugalla@gmail.com</td>
+                                                <td>5</td>
                                                 <td> 
-                                                    <a href="#" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
-                                                    <a href="#" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a> |   
-                                                    <a href="view-student.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-eye"></i></a>
+                                                    <i class="icon icon-circle" style="color: #4faf41; margin-right: 10px;"></i>Active Now
                                                 </td>
                                             </tr>
                                         </tbody>
