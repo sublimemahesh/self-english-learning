@@ -29,6 +29,19 @@
         <link rel="stylesheet" href="css/elephant.min.css">
         <link rel="stylesheet" href="css/application.min.css">
         <link rel="stylesheet" href="css/demo.min.css">
+
+        <style>
+            .demo-form-wrapper {
+                padding-bottom: 25px;
+                padding-top: 25px;
+            }
+            .panel {
+                background-color: #f6f9fa;
+            }
+            .progress {
+                background-color: #e6e6e6;
+            }
+        </style>
     </head>
     <body class="layout layout-header-fixed">
         <div class="layout-header">
@@ -421,7 +434,6 @@
                                     <ul class="sidenav level-2 collapse">
                                         <li class="sidenav-heading">Student</li>
                                         <li><a href="manage-student.php">Manage Student</a></li>
-                                        <li><a href="student-log-history.php">Student login History</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -431,135 +443,137 @@
             </div>
             <div class="layout-content">
                 <div class="layout-content-body">
-                    <!--                    <div class="row">
-                                            <div class="col-md-12">
-                                                <p><small>In addition to the basic styling that Bootstrap offers for every element of a form, we have expanded this styling with custom <code>selects</code>, <code>checkboxes</code>, <code>radios</code>, <code>switches</code> and a few additional classes.<span class="nowrap">Please see <a href="toggles.html">Toggles page</a></span>.</small></p>
+                    <div class="card">
+                        <!--                    <div class="row">
+                                                <div class="col-md-12">
+                                                    <p><small>In addition to the basic styling that Bootstrap offers for every element of a form, we have expanded this styling with custom <code>selects</code>, <code>checkboxes</code>, <code>radios</code>, <code>switches</code> and a few additional classes.<span class="nowrap">Please see <a href="toggles.html">Toggles page</a></span>.</small></p>
+                                                </div>
+                                            </div>-->
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="demo-form-wrapper">
+                                    <form class="form form-horizontal">
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="">Student ID</label>
+                                            <div class="col-sm-9">
+                                                <input id="form-control-4" class="form-control" type="text" value="19ST0001">
                                             </div>
-                                        </div>-->
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="demo-form-wrapper">
-                                <form class="form form-horizontal">
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label" for="">Student ID</label>
-                                        <div class="col-sm-9">
-                                            <input id="form-control-4" class="form-control" type="text" value="19ST0001">
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label" for="">Student Name</label>
-                                        <div class="col-sm-9">
-                                            <input id="form-control-4" class="form-control" type="text" value="P.L. Udani">
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="">Student Name</label>
+                                            <div class="col-sm-9">
+                                                <input id="form-control-4" class="form-control" type="text" value="P.L. Udani">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label" for="">Email</label>
-                                        <div class="col-sm-9">
-                                            <input id="form-control-4" class="form-control" type="email" value="udani00@gmail.com">
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="">Email</label>
+                                            <div class="col-sm-9">
+                                                <input id="form-control-4" class="form-control" type="email" value="udani00@gmail.com">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label" for="">User Name</label>
-                                        <div class="col-sm-9">
-                                            <input id="form-control-4" class="form-control" type="text" value="pludani">
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="">User Name</label>
+                                            <div class="col-sm-9">
+                                                <input id="form-control-4" class="form-control" type="text" value="pludani">
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="demo-form-wrapper">
-                                <form class="form form-horizontal">
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label" for="">Activate</label>
-                                        <div class="col-sm-9">
-                                            <label class="switch switch-primary">
-                                                <input class="switch-input" type="checkbox" checked="checked">
-                                                <span class="switch-track"></span>
-                                                <span class="switch-thumb"></span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center m-b">
-                        <h3 class="m-b-0">Student Progress</h3>
-                        <small>Progress of student.</small>
-                    </div>
-                    <div class="row gutter-xs">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body" data-toggle="match-height">
-                                <h4>Reading</h4>
-                                <div class="m-b-sm">
-                                    <small class="pull-right">Completed 24 of 40.</small>
-                                    <small>Installed Authentication module.</small>
+                                    </form>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                        <span class="sr-only">60% Complete (success)</span>
-                                        60%
-                                    </div>
+                                <div class="demo-form-wrapper">
+                                    <form class="form form-horizontal">
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="">Activate</label>
+                                            <div class="col-sm-9">
+                                                <label class="switch switch-primary">
+                                                    <input class="switch-input" type="checkbox" checked="checked">
+                                                    <span class="switch-track"></span>
+                                                    <span class="switch-thumb"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body" data-toggle="match-height">
-                                <h4>Writing</h4>
-                                <div class="m-b-sm">
-                                    <small class="pull-right">Completed 24 of 40.</small>
-                                    <small>Installed Authentication module.</small>
+                        <div class="text-center m-b">
+                            <h3 class="m-b-0">Student Progress</h3>
+                            <small>Progress of student.</small>
+                        </div>
+                        <div class="row gutter-xs">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-body" data-toggle="match-height" style="width: 93%; margin: 10px 20px;">
+                                    <h4>Reading</h4>
+                                    <div class="m-b-sm">
+                                        <small class="pull-right">Completed 24 of 40.</small>
+                                        <small>Installed Authentication module.</small>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (success)</span>
+                                            60%
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                        <span class="sr-only">60% Complete (success)</span>
-                                        60%
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-body" data-toggle="match-height" style="width: 93%; margin: 10px 20px;">
+                                    <h4>Writing</h4>
+                                    <div class="m-b-sm">
+                                        <small class="pull-right">Completed 24 of 40.</small>
+                                        <small>Installed Authentication module.</small>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (success)</span>
+                                            60%
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row gutter-xs">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body" data-toggle="match-height">
-                                <h4>Listening</h4>
-                                <div class="m-b-sm">
-                                    <small class="pull-right">Completed 24 of 40.</small>
-                                    <small>Installed Authentication module.</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                        <span class="sr-only">60% Complete (success)</span>
-                                        60%
+                        <div class="row gutter-xs">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-body" data-toggle="match-height" style="width: 93%; margin: 10px 20px;">
+                                    <h4>Listening</h4>
+                                    <div class="m-b-sm">
+                                        <small class="pull-right">Completed 24 of 40.</small>
+                                        <small>Installed Authentication module.</small>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (success)</span>
+                                            60%
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body" data-toggle="match-height">
-                                <h4>Speaking</h4>
-                                <div class="m-b-sm">
-                                    <small class="pull-right">Completed 24 of 40.</small>
-                                    <small>Installed Authentication module.</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                        <span class="sr-only">60% Complete (success)</span>
-                                        60%
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-body" data-toggle="match-height" style="width: 93%; margin: 10px 20px;">
+                                    <h4>Speaking</h4>
+                                    <div class="m-b-sm">
+                                        <small class="pull-right">Completed 24 of 40.</small>
+                                        <small>Installed Authentication module.</small>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (success)</span>
+                                            60%
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body" data-toggle="match-height">
-                                <h4>Grammer & Vocabulary</h4>
-                                <div class="m-b-sm">
-                                    <small class="pull-right">Completed 24 of 40.</small>
-                                    <small>Installed Authentication module.</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                        <span class="sr-only">60% Complete (success)</span>
-                                        60%
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-body" data-toggle="match-height" style="width: 93%; margin: 10px 20px;">
+                                    <h4>Grammer & Vocabulary</h4>
+                                    <div class="m-b-sm">
+                                        <small class="pull-right">Completed 24 of 40.</small>
+                                        <small>Installed Authentication module.</small>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (success)</span>
+                                            60%
+                                        </div>
                                     </div>
                                 </div>
                             </div>
