@@ -35,7 +35,7 @@
             <div class="navbar navbar-default">
                 <div class="navbar-header">
                     <a class="navbar-brand navbar-brand-center" href="index-2.html">
-                        <img class="navbar-brand-logo" src="img/logo-inverse.svg" alt="Elephant">
+                        <img class="navbar-brand-logo" src="./../img/logo.png" alt="Elephant">
                     </a>
                     <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#sidenav">
                         <span class="sr-only">Toggle navigation</span>
@@ -397,40 +397,9 @@
             </div>
         </div>
         <div class="layout-main">
-            <div class="layout-sidebar">
-                <div class="layout-sidebar-backdrop"></div>
-                <div class="layout-sidebar-body">
-                    <div class="custom-scrollbar">
-                        <nav id="sidenav" class="sidenav-collapse collapse">
-                            <ul class="sidenav level-1">
-                                <li class="sidenav-search">
-                                    <form class="sidenav-form" action="http://demo.madebytilde.com/">
-                                        <div class="form-group form-group-sm">
-                                            <div class="input-with-icon">
-                                                <input class="form-control" type="text" placeholder="Search…">
-                                                <span class="icon icon-search input-icon"></span>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </li>
-                                <li class="sidenav-heading">Navigation</li>
-
-                                <li class="sidenav-item has-subnav">
-                                    <a href="#" aria-haspopup="true">
-                                        <span class="sidenav-icon icon icon-works">p</span>
-                                        <span class="sidenav-label">Student</span>
-                                    </a>
-                                    <ul class="sidenav level-2 collapse">
-                                        <li class="sidenav-heading">Student</li>
-                                        <li><a href="manage-student.php">Manage Student</a></li>
-                                        <li><a href="student-log-history.php">Student login History</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+            <?php
+            include 'navigation.php';
+            ?>
             <div class="layout-content">
                 <div class="layout-content-body">
                     <div class="row gutter-xs">
@@ -1080,12 +1049,12 @@
                     </div>
                 </div>
             </div>
-            <div class="layout-footer">
+<!--            <div class="layout-footer">
                 <div class="layout-footer-body">
                     <small class="version">Version 1.4.0</small>
                     <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
                 </div>
-            </div>
+            </div>-->
         </div>
         <script src="js/vendor.min.js"></script>
         <script src="js/elephant.min.js"></script>
