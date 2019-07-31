@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Manage Modules</title>
+        <title>Manage Lesson</title>
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
         <meta name="description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
         <meta property="og:url" content="http://demo.madebytilde.com/elephant">
@@ -35,7 +35,7 @@
             <div class="navbar navbar-default">
                 <div class="navbar-header">
                     <a class="navbar-brand navbar-brand-center" href="index-2.html">
-                        <img class="navbar-brand-logo" src="./../img/logo.png" alt="Elephant">
+                        <img class="navbar-brand-logo" src="../img/logo.png" alt="Elephant">
                     </a>
                     <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#sidenav">
                         <span class="sr-only">Toggle navigation</span>
@@ -379,7 +379,7 @@
                         </ul>
                         <div class="title-bar">
                             <h1 class="title-bar-title">
-                                <span class="d-ib">Manage Modules</span>
+                                <span class="d-ib">Manage Lesson</span>
                                 <span class="d-ib">
                                     <a class="title-bar-shortcut" href="#" title="Add to shortcut list" data-container="body" data-toggle-text="Remove from shortcut list" data-trigger="hover" data-placement="right" data-toggle="tooltip">
                                         <span class="sr-only">Add to shortcut list</span>
@@ -387,7 +387,7 @@
                                 </span>
                             </h1>
                             <p class="title-bar-description">
-                                <small>You can personalize your dashboard by using <a href="widgets.html">widgets</a>.</small>
+                                <small>You can personalize your dashboard by using widgets.</small>
                             </p>
                         </div>
                     </nav>
@@ -398,71 +398,107 @@
             <?php
             include 'navigation.php';
             ?>
-            <div class="layout-content">
+            <div class="layout-content" style="margin-top: 25px;">
                 <div class="layout-content-body">
                     <div class="row gutter-xs">
-                        <div class="col-xs-12" style="margin-top: 10px;">
-                            <p><small>The arrow shown below is an element that can be injected onto almost any other element.</small></p>
+                        <div class="col-xs-12">
+                            <p><small>All widgets presented below are created by composing the components along with the utility classes. JavaScript was not used for their implementation.</small></p>
                         </div>
                     </div>
                     <div class="row gutter-xs">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body text-center" style="height: 70px;">
-                                <div class="col-md-6">
-                                    <p>Beginner A1 reading</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="create-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-plus"></i></a>  |  
-                                    <a href="manage-lesson.php" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-list" data-type="cancel"></i></a> |   
-                                    <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-img overlay">
+                                    <div class="overlay-image">
+                                        <img class="img-responsive" src="./../img/lesson/television.jpg" alt="Television">
+                                    </div>
+                                    <div class="overlay-content bg-info-a75">
+                                        <div class="fh text-center">
+                                            <div class="fh-m">
+                                                <div class="card-body">
+                                                    <h2 class="card-title">Television</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <a href="edit-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
+                            <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a> |
+                            <a href="" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a>
                         </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body text-center" style="height: 70px;">
-                                <div class="col-md-6">
-                                    <p>Elementary A1 reading </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="create-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-plus"></i></a>  |  
-                                    <a href="manage-lesson.php" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-list" data-type="cancel"></i></a> |   
-                                    <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-img overlay">
+                                    <div class="overlay-image">
+                                        <img class="img-responsive" src="./../img/lesson/earth.jpg" alt="Earth">
+                                    </div>
+                                    <div class="overlay-content bg-info-a75">
+                                        <div class="fh text-center">
+                                            <div class="fh-m">
+                                                <div class="card-body">
+                                                    <h2 class="card-title">About the Earth</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <a href="edit-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
+                            <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a> |
+                            <a href="" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a>
                         </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body text-center" style="height: 70px;">
-                                <div class="col-md-6">
-                                    <p>Elementary A2 reading</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="create-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-plus"></i></a>  |  
-                                    <a href="manage-lesson.php" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-list" data-type="cancel"></i></a> |   
-                                    <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-img overlay">
+                                    <div class="overlay-image">
+                                        <img class="img-responsive" src="./../img/lesson/city.jpg" alt="City">
+                                    </div>
+                                    <div class="overlay-content bg-info-a75">
+                                        <div class="fh text-center">
+                                            <div class="fh-m">
+                                                <div class="card-body">
+                                                    <h2 class="card-title">My City</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <a href="edit-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
+                            <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a> |
+                            <a href="" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a>
                         </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel panel-body text-center" style="height: 70px;">
-                                <div class="col-md-6">
-                                    <p>Advanced C1 reading</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="create-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-plus"></i></a>  |  
-                                    <a href="manage-lesson.php" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-list" data-type="cancel"></i></a> |   
-                                    <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-img overlay">
+                                    <div class="overlay-image">
+                                        <img class="img-responsive" src="./../img/lesson/telephone.jpg" alt="Telephone">
+                                    </div>
+                                    <div class="overlay-content bg-info-a75">
+                                        <div class="fh text-center">
+                                            <div class="fh-m">
+                                                <div class="card-body">
+                                                    <h2 class="card-title">Telephone</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <a href="edit-lesson.php" class="op-link btn btn-sm btn-info"><i class="icon icon-pencil"></i></a>  |  
+                            <a href="arrange-lesson.php" class="op-link btn btn-sm btn-primary"><i class="icon icon-random"></i></a> |
+                            <a href="" class="delete-pages btn btn-sm btn-danger" data-id=""><i class="waves-effect icon icon-trash" data-type="cancel"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-<!--            <div class="layout-footer">
-                <div class="layout-footer-body">
-                    <small class="version">Version 1.4.0</small>
-                    <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
-                </div>
-            </div>-->
+            <!--      <div class="layout-footer">
+                    <div class="layout-footer-body">
+                      <small class="version">Version 1.4.0</small>
+                      <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
+                    </div>
+                  </div>-->
         </div>
         <div class="theme">
             <div class="theme-panel theme-panel-collapsed">
