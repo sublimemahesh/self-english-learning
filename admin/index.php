@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Mirrored from demo.madebytilde.com/elephant-v1.4.0/theme-5/password-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Jul 2019 07:45:02 GMT -->
+ 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Reset your password &middot; Elephant Template &middot; The fastest way to build Modern Admin APPS for any platform, browser, or device.</title>
+    <title>Admin Login</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
     <meta property="og:url" content="http://demo.madebytilde.com/elephant">
@@ -33,32 +32,51 @@
   <body>
     <div class="login">
       <div class="login-body">
-        <a class="login-brand" href="index-2.html">
-          <img class="img-responsive" src="img/logo.svg" alt="Elephant">
+        <a class="login-brand" href="#">
+            <img class="img-responsive" src="../img/logo.png" alt="Elephant">
         </a>
-        <h3 class="login-heading">Reset Your Password</h3>
+        <h3 class="login-heading">Admin</h3>
         <div class="login-form">
-          <form data-toggle="validator">
+           
+         
             <div class="form-group">
-              <label for="username">Username</label>
+              <label for="username" class="control-label">Username</label>
               <input id="username" class="form-control" type="text" name="username" spellcheck="false" autocomplete="off" data-msg-required="Please enter your username." required>
             </div>
             <div class="form-group">
-              <button class="btn btn-primary btn-block" type="submit">Send password reset email</button>
+              <label for="password" class="control-label">Password</label>
+              <input id="password" class="form-control" type="password" name="password" minlength="6" data-msg-minlength="Password must be 6 characters or more." data-msg-required="Please enter your password." required>
+            </div>
+            <div class="form-group">
+                            <div class="pull-left text-danger btn-padding font-size-new" id="message"></div>
+                        </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-block" type="submit">Sign in</button>
             </div>
             <div class="form-group">
               <ul class="list-inline">
                 <li>
-                  <small>If you've forgotten your password, we'll send you an email to reset your password.</small>
+                  <label class="custom-control custom-control-primary custom-checkbox">
+                    <input class="custom-control-input" type="checkbox">
+                    <span class="custom-control-indicator"></span>
+                    <span class="custom-control-label">Keep me signed in</span>
+                  </label>
                 </li>
               </ul>
+              <ul class="list-inline">
+                <li><a href="#">Forgot username?</a></li>
+                <li>
+                  <span aria-hidden="true"> · </span>
+                </li>
+                <li><a href="#">Forgot password?</a></li>
+              </ul>
             </div>
-          </form>
+          
         </div>
       </div>
       <div class="login-footer">
         <ul class="list-inline">
-          <li><a class="link-muted" href="signup-1.html">Sign up</a></li>
+          <li><a class="link-muted" href="#">Sign up</a></li>
           <li>|</li>
           <li><a class="link-muted" href="#">Privacy Policy</a></li>
           <li>|</li>
@@ -66,12 +84,14 @@
           <li>|</li>
           <li><a class="link-muted" href="#">Cookie Policy</a></li>
           <li>|</li>
-          <li>© Elephant 2017</li>
+          <li>© Synotec 2019</li>
         </ul>
       </div>
     </div>
-    <script src="js/vendor.min.js"></script>
-    <script src="js/elephant.min.js"></script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.formValid.js" type="text/javascript"></script>
+    <script src="js/login.js" type="text/javascript"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -81,6 +101,4 @@
       ga('send', 'pageview');
     </script>
   </body>
-
-<!-- Mirrored from demo.madebytilde.com/elephant-v1.4.0/theme-5/password-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Jul 2019 07:45:02 GMT -->
 </html>
