@@ -18,7 +18,7 @@
         <meta name="twitter:title" content="The fastest way to build Modern Admin APPS for any platform, browser, or device.">
         <meta name="twitter:description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
         <meta name="twitter:image" content="../../elephant.html">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-iconaa.png">
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="manifest.json">
