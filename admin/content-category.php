@@ -592,12 +592,12 @@
                 <div class="modal-dialog modal-sm">
                     <div class="modal-content">
                         <div class="modal-header bg-info">
-                            <h4 class="modal-title">Add New Lesson</h4>
+                            <h4 class="modal-title">Add New Module</h4>
                         </div>
                         <div class="modal-body">
                             <form>
                                 <div class="form-group">
-                                    <label class="control-label">Lesson Name</label>
+                                    <label class="control-label">Module Name</label>
                                     <input class="form-control" type="text" name="name">
                                 </div>
                                 <button class="btn btn-info btn-block btn-next" type="button">Create</button>
