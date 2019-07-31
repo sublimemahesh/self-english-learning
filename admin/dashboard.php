@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Manage Student</title>
+        <title>Self English Learning</title>
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
         <meta name="description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
         <meta property="og:url" content="http://demo.madebytilde.com/elephant">
@@ -18,7 +18,7 @@
         <meta name="twitter:title" content="The fastest way to build Modern Admin APPS for any platform, browser, or device.">
         <meta name="twitter:description" content="Elephant is an admin template that helps you build modern Admin Applications, professionally fast! Built on top of Bootstrap, it includes a large collection of HTML, CSS and JS components that are simple to use and easy to customize.">
         <meta name="twitter:image" content="../../elephant.html">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-iconaa.png">
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="manifest.json">
@@ -34,7 +34,7 @@
         <div class="layout-header">
             <div class="navbar navbar-default">
                 <div class="navbar-header">
-                    <a class="navbar-brand navbar-brand-center" href="index-2.html">
+                    <a class="navbar-brand navbar-brand-center" href="dashboard.php">
                         <img class="navbar-brand-logo" src="./../img/logo.png" alt="Elephant">
                     </a>
                     <button class="navbar-toggler visible-xs-block collapsed" type="button" data-toggle="collapse" data-target="#sidenav">
@@ -70,313 +70,7 @@
                                 <span class="bar-line bar-line-6 in"></span>
                             </span>
                         </button>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="visible-xs-block">
-                                <h4 class="navbar-text text-center">Hi, Teddy Wilson</h4>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true">
-                                    <span class="icon-with-child hidden-xs">
-                                        <span class="icon icon-envelope-o icon-lg"></span>
-                                        <span class="badge badge-primary badge-above right">8</span>
-                                    </span>
-                                    <span class="visible-xs-block">
-                                        <span class="icon icon-envelope icon-lg icon-fw"></span>
-                                        <span class="badge badge-primary pull-right">8</span>
-                                        Messages
-                                    </span>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
-                                    <div class="dropdown-header">
-                                        <a class="dropdown-link" href="compose.html">New Message</a>
-                                        <h5 class="dropdown-heading">Recent messages</h5>
-                                    </div>
-                                    <div class="dropdown-body">
-                                        <div class="list-group list-group-divided custom-scrollbar">
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0299419341.jpg" alt="Harry Jones">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">16 min</small>
-                                                        <h5 class="notification-heading">Harry Jones</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Hi Teddy, Just wanted to let you know we got the project! We should be starting the planning next week. Harry</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">2 hr</small>
-                                                        <h5 class="notification-heading">Daniel Taylor</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Teddy Boyyyy, label text isn't vertically aligned with value text in grid forms when using .form-control... DT</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0460697039.jpg" alt="Charlotte Harrison">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">Sep 20</small>
-                                                        <h5 class="notification-heading">Charlotte Harrison</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Dear Teddy, Can we discuss the benefits of this approach during our Monday meeting? Best regards Charlotte Harrison</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0531871454.jpg" alt="Ethan Walker">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">Sep 19</small>
-                                                        <h5 class="notification-heading">Ethan Walker</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">If you need any further assistance, please feel free to contact us. We are always happy to assist you. Regards, Ethan</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0601274412.jpg" alt="Sophia Evans">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">Sep 18</small>
-                                                        <h5 class="notification-heading">Sophia Evans</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Teddy, Please call me when you finish your work! I have many things to discuss. Don't forget call me !! Sophia</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0777931269.jpg" alt="Harry Walker">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">Sep 17</small>
-                                                        <h5 class="notification-heading">Harry Walker</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Thank you for your message. I am currently out of the office, with no email access. I will be returning on 20 Jun.</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0872116906.jpg" alt="Emma Lewis">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">Sep 15</small>
-                                                        <h5 class="notification-heading">Emma Lewis</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Teddy, Please find the attached report. I am truly sorry and very embarrassed about not finishing the report by the deadline.</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0980726243.jpg" alt="Eliot Morgan">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">Sep 15</small>
-                                                        <h5 class="notification-heading">Eliot Morgan</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Dear Teddy, Please accept this message as notification that I was unable to work yesterday, due to personal illness.m</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-footer">
-                                        <a class="dropdown-btn" href="#">See All</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true">
-                                    <span class="icon-with-child hidden-xs">
-                                        <span class="icon icon-bell-o icon-lg"></span>
-                                        <span class="badge badge-primary badge-above right">7</span>
-                                    </span>
-                                    <span class="visible-xs-block">
-                                        <span class="icon icon-bell icon-lg icon-fw"></span>
-                                        <span class="badge badge-primary pull-right">7</span>
-                                        Notifications
-                                    </span>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
-                                    <div class="dropdown-header">
-                                        <a class="dropdown-link" href="#">Mark all as read</a>
-                                        <h5 class="dropdown-heading">Recent Notifications</h5>
-                                    </div>
-                                    <div class="dropdown-body">
-                                        <div class="list-group list-group-divided custom-scrollbar">
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <span class="icon icon-exclamation-triangle bg-warning circle sq-40"></span>
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">35 min</small>
-                                                        <h5 class="notification-heading">Update Status</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Failed to get available update data. To ensure the proper functioning of your application, update now.</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <span class="icon icon-flag bg-success circle sq-40"></span>
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">43 min</small>
-                                                        <h5 class="notification-heading">Account Contact Change</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">A contact detail associated with your account teddy.wilson, has recently changed.</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <span class="icon icon-exclamation-triangle bg-warning circle sq-40"></span>
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">1 hr</small>
-                                                        <h5 class="notification-heading">Failed Login Warning</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">There was a failed login attempt from "192.98.19.164" into the account teddy.wilson.</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">4 hr</small>
-                                                        <h5 class="notification-heading">Daniel Taylor</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0872116906.jpg" alt="Emma Lewis">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">8 hr</small>
-                                                        <h5 class="notification-heading">Emma Lewis</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0601274412.jpg" alt="Sophia Evans">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">8 hr</small>
-                                                        <h5 class="notification-heading">Sophia Evans</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Like your post: "Everything you know about Bootstrap is wrong".</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="list-group-item" href="#">
-                                                <div class="notification">
-                                                    <div class="notification-media">
-                                                        <img class="circle" width="40" height="40" src="img/0180441436.jpg" alt="Teddy Wilson">
-                                                    </div>
-                                                    <div class="notification-content">
-                                                        <small class="notification-timestamp">9 hr</small>
-                                                        <h5 class="notification-heading">Teddy Wilson</h5>
-                                                        <p class="notification-text">
-                                                            <small class="truncate">Published a new post: "Everything you know about Bootstrap is wrong".</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-footer">
-                                        <a class="dropdown-btn" href="#">See All</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="dropdown hidden-xs">
-                                <button class="navbar-account-btn" data-toggle="dropdown" aria-haspopup="true">
-                                    <img class="circle" width="36" height="36" src="img/0180441436.jpg" alt="Teddy Wilson"> Teddy Wilson
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-right">
-                                    <li>
-                                        <a href="upgrade.html">
-                                            <h5 class="navbar-upgrade-heading">
-                                                Upgrade Now
-                                                <small class="navbar-upgrade-notification">You have 15 days left in your trial.</small>
-                                            </h5>
-                                        </a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li class="navbar-upgrade-version">Version: 1.0.0</li>
-                                    <li class="divider"></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="profile.html">Profile</a></li>
-                                    <li><a href="login-1.html">Sign out</a></li>
-                                </ul>
-                            </li>
-                            <li class="visible-xs-block">
-                                <a href="contacts.html">
-                                    <span class="icon icon-users icon-lg icon-fw"></span>
-                                    Contacts
-                                </a>
-                            </li>
-                            <li class="visible-xs-block">
-                                <a href="profile.html">
-                                    <span class="icon icon-user icon-lg icon-fw"></span>
-                                    Profile
-                                </a>
-                            </li>
-                            <li class="visible-xs-block">
-                                <a href="login-1.html">
-                                    <span class="icon icon-power-off icon-lg icon-fw"></span>
-                                    Sign out
-                                </a>
-                            </li>
-                        </ul>
+                  <?php include './head-nav-right.php';?>
                         <div class="title-bar">
                             <h1 class="title-bar-title">
                                 <span class="d-ib">Dashboard
@@ -403,25 +97,437 @@
             <div class="layout-content">
                 <div class="layout-content-body">
                     <div class="row gutter-xs">
-                        <div class="col-xs-12">
-<!--                            <p><small>The tables presented below use <a href="https://datatables.net/extensions/colreorder/" target="_blank">DataTables ColReorder Extension</a>, the styling of which is completely rewritten in SASS, without modifying however anything in JavaScript.</small></p>-->
+                        <div class="col-xs-6 col-md-3">
+                            <div class="card">
+                                <div class="card-values">
+                                    <div class="p-x">
+                                        <small>Visitors</small>
+                                        <h3 class="card-title fw-l">185,118</h3>
+                                    </div>
+                                </div>
+                                <div class="card-chart">
+                                    <canvas data-chart="line" data-animation="false" data-labels='["Jun 21", "Jun 20", "Jun 19", "Jun 18", "Jun 17", "Jun 16", "Jun 15"]' data-values='[{"colorStop1": "#feeeda", "colorStop2": "#ffffff", "y0": 0, "y1": 36, "borderColor": "#f7a033", "data": [25250, 23370, 25568, 28961, 26762, 30072, 25135]}]' data-scales='{"yAxes": [{ "ticks": {"max": 31072}}]}' data-hide='["legend", "points", "scalesX", "scalesY", "tooltips"]' height="50"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="card">
+                                <div class="card-values">
+                                    <div class="p-x">
+                                        <small>New visitors</small>
+                                        <h3 class="card-title fw-l">68,494</h3>
+                                    </div>
+                                </div>
+                                <div class="card-chart">
+                                    <canvas data-chart="line" data-animation="false" data-labels='["Jun 21", "Jun 20", "Jun 19", "Jun 18", "Jun 17", "Jun 16", "Jun 15"]' data-values='[{"colorStop1": "#feeeda", "colorStop2": "#ffffff", "y0": 0, "y1": 36,"borderColor": "#f7a033", "data": [8796, 11317, 8678, 9452, 8453, 11853, 9945]}]' data-scales='{"yAxes": [{ "ticks": {"max": 12853}}]}' data-hide='["legend", "points", "scalesX", "scalesY", "tooltips"]' height="50"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="card">
+                                <div class="card-values">
+                                    <div class="p-x">
+                                        <small>Pageviews</small>
+                                        <h3 class="card-title fw-l">925,590</h3>
+                                    </div>
+                                </div>
+                                <div class="card-chart">
+                                    <canvas data-chart="line" data-animation="false" data-labels='["Jun 21", "Jun 20", "Jun 19", "Jun 18", "Jun 17", "Jun 16", "Jun 15"]' data-values='[{"colorStop1": "#feeeda", "colorStop2": "#ffffff", "y0": 0, "y1": 36,"borderColor": "#f7a033", "data": [116196, 145160, 124419, 147004, 134740, 120846, 137225]}]' data-scales='{"yAxes": [{ "ticks": {"max": 157004}}]}' data-hide='["legend", "points", "scalesX", "scalesY", "tooltips"]' height="50"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="card">
+                                <div class="card-values">
+                                    <div class="p-x">
+                                        <small>Average duration</small>
+                                        <h3 class="card-title fw-l">00:07:56</h3>
+                                    </div>
+                                </div>
+                                <div class="card-chart">
+                                    <canvas data-chart="line" data-animation="false" data-labels='["Jun 21", "Jun 20", "Jun 19", "Jun 18", "Jun 17", "Jun 16", "Jun 15"]' data-values='[{"colorStop1": "#feeeda", "colorStop2": "#ffffff", "y0": 0, "y1": 36,"borderColor": "#f7a033", "data": [13590442, 12362934, 13639564, 13055677, 12915203, 11009940, 11542408]}]' data-scales='{"yAxes": [{ "ticks": {"max": 14662531}}]}' data-hide='["legend", "points", "scalesX", "scalesY", "tooltips"]' height="50"></canvas>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row gutter-xs">
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 col-md-6">
                             <div class="card">
-                            
+                                <div class="card-body">
+                                    <div class="pull-left">
+                                        <h4 class="card-title">Audience Overview</h4>
+                                    </div>
+                                    <div class="pull-right" data-toggle="buttons">
+                                        <label class="btn btn-outline-primary btn-xs btn-pill active">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked="checked"> Past 24hr
+                                        </label>
+                                        <label class="btn btn-outline-primary btn-xs btn-pill">
+                                            <input type="radio" name="options" id="option2" autocomplete="off"> Past 7 days
+                                        </label>
+                                        <label class="btn btn-outline-primary btn-xs btn-pill">
+                                            <input type="radio" name="options" id="option3" autocomplete="off"> Past 30 days
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-chart">
+                                        <canvas data-chart="line" data-animation="false" data-labels='["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]' data-values='[{"label": "This week", "backgroundColor": "#f7a033", "borderColor": "#f7a033", "data": [5022, 11017, 12230, 8801, 14102, 21512, 9932]}, {"label": "Last week", "backgroundColor": "#ed4882", "borderColor": "#ed4882", "data": [5012, 7203, 10204, 15052, 14820, 21805, 13203]}]' data-tooltips='{"mode": "label"}' data-hide='["gridLinesX", "legend", "points"]' data-scales='{"yAxes": [{"gridLines": {"color": "#f5f5f5"}, "ticks": {"fontColor": "#bcc1c6", "maxTicksLimit": 5}}], "xAxes": [{ "gridLines": {"color": "#f5f5f5"}, "ticks": {"fontColor": "#bcc1c6"}} ]}' height="128"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">229 Signups</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-chart">
+                                        <canvas data-chart="bar" data-animation="false" data-labels='["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]' data-values='[{"label": "This week", "backgroundColor": "#f7a033", "borderColor": "#f7a033", "data": [23167, 15991, 13905, 17447, 24558, 22594, 23067]}, {"label": "Last week", "backgroundColor": "#ed4882", "borderColor": "#ed4882", "data": [7374, 16740, 22929, 16788, 12103, 16459, 24058]}]' data-tooltips='{"mode": "label"}' data-hide='["gridLinesX", "legend", "points"]' data-scales='{"yAxes": [{"gridLines": {"color": "#f5f5f5"}, "ticks": {"fontColor": "#bcc1c6", "maxTicksLimit": 5}}], "xAxes": [{ "gridLines": {"color": "#f5f5f5"}, "ticks": {"fontColor": "#bcc1c6"}} ]}' height="128"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gutter-xs">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="media-middle media-left">
+                                            <span class="bg-gray sq-64 circle">
+                                                <span class="icon-works">&#228;</span>
+                                            </span>
+                                        </div>
+                                        <div class="media-middle media-body">
+                                            <h3 class="media-heading">
+                                                <span class="fw-l">1,256 Issues</span>
+                                                <span class="fw-b fz-sm text-danger">
+                                                    <span class="icon icon-caret-up"></span>
+                                                    15%
+                                                </span>
+                                            </h3>
+                                            <small>6 issues are unassigned</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="media-middle media-left">
+                                            <div class="media-chart">
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#f7a033", "#667589"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="media-middle media-body">
+                                            <h2 class="media-heading">
+                                                <span class="fw-l">879</span>
+                                                <small>Resolved</small>
+                                            </h2>
+                                            <small>More than 70% resolved issues</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="media-middle media-left">
+                                            <div class="media-chart">
+                                                <canvas data-chart="doughnut" data-animation="false" data-labels='["Resolved", "Unresolved"]' data-values='[{"backgroundColor": ["#667589", "#f7a033"], "data": [879, 377]}]' data-hide='["legend", "scalesX", "scalesY", "tooltips"]' height="64" width="64"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="media-middle media-body">
+                                            <h2 class="media-heading">
+                                                <span class="fw-l">377</span>
+                                                <small>Unresolved</small>
+                                            </h2>
+                                            <small>Less than 30% unresolved issues</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gutter-xs">
+                        <div class="col-md-8 col-md-push-4">
+                            <div class="row gutter-xs">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="card-actions">
+                                                <button type="button" class="card-action card-toggler" title="Collapse"></button>
+                                                <button type="button" class="card-action card-reload" title="Reload"></button>
+                                                <button type="button" class="card-action card-remove" title="Remove"></button>
+                                            </div>
+                                            <strong>Traffic Source</strong>
+                                        </div>
+                                        <div class="card-body" data-toggle="match-height">
+                                            <ul class="list-group list-group-divided">
+                                                <li class="list-group-item">
+                                                    <div class="media">
+                                                        <div class="media-middle media-body">
+                                                            <h6 class="media-heading">
+                                                                <span>Direct</span>
+                                                            </h6>
+                                                            <h4 class="media-heading">67%
+                                                                <small>124,029</small>
+                                                            </h4>
+                                                        </div>
+                                                        <div class="media-middle media-right">
+                                                            <span class="bg-primary circle sq-40">
+                                                                <span class="icon-works">&#52;</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="media">
+                                                        <div class="media-middle media-body">
+                                                            <h6 class="media-heading">
+                                                                <span>Referrals</span>
+                                                            </h6>
+                                                            <h4 class="media-heading">21%
+                                                                <small>38,875</small>
+                                                            </h4>
+                                                        </div>
+                                                        <div class="media-middle media-right">
+                                                            <span class="bg-primary circle sq-40">
+                                                                <span class="icon-works">&#57;</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="media">
+                                                        <div class="media-middle media-body">
+                                                            <h6 class="media-heading">
+                                                                <span>Search Engines</span>
+                                                            </h6>
+                                                            <h4 class="media-heading">12%
+                                                                <small>22,214</small>
+                                                            </h4>
+                                                        </div>
+                                                        <div class="media-middle media-right">
+                                                            <span class="bg-primary circle sq-40">
+                                                                <span class="icon-works">&#75;</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="card-actions">
+                                                <button type="button" class="card-action card-toggler" title="Collapse"></button>
+                                                <button type="button" class="card-action card-reload" title="Reload"></button>
+                                                <button type="button" class="card-action card-remove" title="Remove"></button>
+                                            </div>
+                                            <strong>Top Active Pages</strong>
+                                        </div>
+                                        <div class="card-body" data-toggle="match-height">
+                                            <table class="table table-borderless table-middle">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="col-xs-1">1.</td>
+                                                        <td class="col-xs-6">
+                                                            <a class="link-muted" href="#">/getting-started</a>
+                                                        </td>
+                                                        <td class="col-xs-2">
+                                                            <div class="text-right">185,118</div>
+                                                        </td>
+                                                        <td class="col-xs-3">
+                                                            <div class="progress progress-sm m-y-0">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                                                    <span class="sr-only">100% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="col-xs-1">2.</td>
+                                                        <td class="col-xs-6">
+                                                            <a class="link-muted" href="#">/pricing</a>
+                                                        </td>
+                                                        <td class="col-xs-2">
+                                                            <div class="text-right">185,118</div>
+                                                        </td>
+                                                        <td class="col-xs-3">
+                                                            <div class="progress progress-sm m-y-0">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                                                    <span class="sr-only">100% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="col-xs-1">3.</td>
+                                                        <td class="col-xs-6">
+                                                            <a class="link-muted" href="#">/blog</a>
+                                                        </td>
+                                                        <td class="col-xs-2">
+                                                            <div class="text-right">138,839</div>
+                                                        </td>
+                                                        <td class="col-xs-3">
+                                                            <div class="progress progress-sm m-y-0">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                                                    <span class="sr-only">75% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="col-xs-1">4.</td>
+                                                        <td class="col-xs-6">
+                                                            <a class="link-muted" href="#">/support</a>
+                                                        </td>
+                                                        <td class="col-xs-2">
+                                                            <div class="text-right">138,220</div>
+                                                        </td>
+                                                        <td class="col-xs-3">
+                                                            <div class="progress progress-sm m-y-0">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                                                    <span class="sr-only">75% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="col-xs-1">5.</td>
+                                                        <td class="col-xs-6">
+                                                            <a class="link-muted" href="#">/about-us</a>
+                                                        </td>
+                                                        <td class="col-xs-2">
+                                                            <div class="text-right">17,385</div>
+                                                        </td>
+                                                        <td class="col-xs-3">
+                                                            <div class="progress progress-sm m-y-0">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="15000" style="width: 50%">
+                                                                    <span class="sr-only">50% Complete</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>s
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-pull-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-actions">
+                                        <button type="button" class="card-action card-toggler" title="Collapse"></button>
+                                        <button type="button" class="card-action card-reload" title="Reload"></button>
+                                        <button type="button" class="card-action card-remove" title="Remove"></button>
+                                    </div>
+                                    <strong>Activity Log</strong>
+                                </div>
+                                <div class="card-body">
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <div class="timeline-segment">
+                                                <span class="timeline-divider"></span>
+                                            </div>
+                                            <div class="timeline-content"></div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-segment">
+                                                <img class="timeline-media img-circle" width="40" height="40" src="img/0299419341.jpg" alt="Harry Jones">
+                                            </div>
+                                            <div class="timeline-content">
+                                                <div class="timeline-row">
+                                                    <a href="#">Harry Jones</a>
+                                                    <small>5 min ago</small>
+                                                </div>
+                                                <div class="timeline-row">
+                                                    A user accepted a request to receive a transferred repository.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-segment">
+                                                <img class="timeline-media img-circle" width="40" height="40" src="img/0180441436.jpg" alt="Teddy Wilson">
+                                            </div>
+                                            <div class="timeline-content">
+                                                <div class="timeline-row">
+                                                    <a href="#">Teddy Wilson</a>
+                                                    <small>5 min ago</small>
+                                                </div>
+                                                <div class="timeline-row">
+                                                    A user sent a request to transfer a repository to another user or organization.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-segment">
+                                                <img class="timeline-media img-circle" width="40" height="40" src="img/0310728269.jpg" alt="Daniel Taylor">
+                                            </div>
+                                            <div class="timeline-content">
+                                                <div class="timeline-row">
+                                                    <a href="#">Daniel Taylor</a>
+                                                    <small>7 min ago</small>
+                                                </div>
+                                                <div class="timeline-row">
+                                                    A collaborator was added to a repository.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-segment">
+                                                <img class="timeline-media img-circle" width="40" height="40" src="img/0299419341.jpg" alt="Harry Jones">
+                                            </div>
+                                            <div class="timeline-content">
+                                                <div class="timeline-row">
+                                                    <a href="#">Harry Jones</a>
+                                                    <small>9 min ago</small>
+                                                </div>
+                                                <div class="timeline-row">
+                                                    A collaborator was added to a repository.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-segment">
+                                                <img class="timeline-media img-circle" width="40" height="40" src="img/0180441436.jpg" alt="Teddy Wilson">
+                                            </div>
+                                            <div class="timeline-content">
+                                                <div class="timeline-row">
+                                                    <a href="#">Teddy Wilson</a>
+                                                    <small>11 min ago</small>
+                                                </div>
+                                                <div class="timeline-row">
+                                                    A repository <a href="#">elephant</a> was created.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-sm btn-block" type="button">See all</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-<!--            <div class="layout-footer">
-                <div class="layout-footer-body">
-                    <small class="version">Version 1.4.0</small>
-                    <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
-                </div>
-            </div>-->
+            <!--            <div class="layout-footer">
+                            <div class="layout-footer-body">
+                                <small class="version">Version 1.4.0</small>
+                                <small class="copyright">2017 &copy; Elephant <a href="http://madebytilde.com/">Made by Tilde</a></small>
+                            </div>
+                        </div>-->
         </div>
         <script src="js/vendor.min.js"></script>
         <script src="js/elephant.min.js"></script>
